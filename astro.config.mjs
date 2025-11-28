@@ -6,6 +6,6 @@ import react from "@astrojs/react";
 // https://astro.build/config
 export default defineConfig({
   integrations: [react()],
-  site: 'https://sltmutualaid.github.io',
-  base: '/jobboard',
+  site: 'https://slt-mutual-aid.github.io',
+  base: '/job-board',
 });

@@ -1,0 +1,55 @@
+import type { Job } from "../lib/db";
+
+interface JobModalProps {
+  job: Job | null;
+  onClose: () => void;
+}
+
+export default function JobModal({ job, onClose }: JobModalProps) {
+  if (!job) return null;
+
+  return (
+    <div className="modal-overlay" onClick={onClose}>
+      <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+        <button
+          className="modal-close"
+          onClick={onClose}
+          aria-label="Close modal"
+        >
+          ×
+        </button>
+        <h2>{job.title}</h2>
+        <div className="job-details-header">
+          <p className="company">{job.company}</p>
+          <p className="location">{job.location}</p>
+        </div>
+        {job.salary_range && (
+          <p className="salary-range">
+            <strong>Salary:</strong> {job.salary_range}
+          </p>
+        )}
+        {job.job_type && (
+          <p className="job-type-detail">
+            <strong>Type:</strong> {job.job_type}
+          </p>
+        )}
+        <p className="posted-date">
+          <strong>Posted:</strong>{" "}
+          {new Date(job.posted_date).toLocaleDateString()}
+        </p>
+        <div className="job-description">
+          <h3>Description</h3>
+          <p>{job.description}</p>
+        </div>
+        <a
+          href={job.apply_link}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="apply-button"
+        >
+          Apply Now
+        </a>
+      </div>
+    </div>
+  );
+}

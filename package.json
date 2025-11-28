@@ -1,0 +1,33 @@
+{
+  "name": "webapp",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "test": "vitest",
+    "test:ui": "vitest --ui"
+  },
+  "dependencies": {
+    "@astrojs/node": "^9.5.1",
+    "@astrojs/react": "^4.4.2",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "astro": "^5.16.2",
+    "better-sqlite3": "^12.4.6",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "^14.6.1",
+    "@types/better-sqlite3": "^7.6.13",
+    "@vitest/ui": "^4.0.14",
+    "jsdom": "^27.2.0",
+    "prettier": "^3.7.1",
+    "vitest": "^4.0.14"
+  }
+}

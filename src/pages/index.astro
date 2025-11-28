@@ -1,0 +1,409 @@
+---
+import JobBoard from '../components/JobBoard';
+import { getAllJobs } from '../lib/db';
+
+const jobs = getAllJobs();
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="generator" content={Astro.generator} />
+		<title>Job Board</title>
+	</head>
+	<body>
+		<main>
+			<h1>Job Board</h1>
+			<JobBoard client:load jobs={jobs} />
+		</main>
+	</body>
+</html>
+
+<style>
+	:global(html) {
+		font-family: system-ui, sans-serif;
+		line-height: 1.5;
+		color-scheme: dark;
+	}
+
+	:global(body) {
+		margin: 0;
+		padding: 0;
+		background-color: #1a1a1a;
+		color: #e0e0e0;
+	}
+
+	main {
+		max-width: 1200px;
+		margin: 0 auto;
+		padding: 1.5rem;
+		min-height: 100vh;
+	}
+
+	h1 {
+		text-align: center;
+		color: #ffffff;
+		margin-bottom: 2rem;
+		font-size: 2rem;
+		font-weight: 700;
+	}
+
+	:global(.job-board) {
+		display: flex;
+		flex-direction: column;
+		gap: 2rem;
+	}
+
+	:global(.search-and-filters) {
+		display: flex;
+		flex-direction: column;
+		gap: 1rem;
+		background: #2a2a2a;
+		padding: 1.5rem;
+		border-radius: 12px;
+		box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+		border: 1px solid #3a3a3a;
+	}
+
+	:global(.search-box) {
+		width: 100%;
+	}
+
+	:global(.search-input) {
+		width: 100%;
+		padding: 0.875rem 1rem;
+		font-size: 1rem;
+		border: 1px solid #4a4a4a;
+		border-radius: 8px;
+		box-sizing: border-box;
+		background: #1f1f1f;
+		color: #e0e0e0;
+		transition: border-color 0.2s, box-shadow 0.2s;
+	}
+
+	:global(.search-input:focus) {
+		outline: none;
+		border-color: #5a9de8;
+		box-shadow: 0 0 0 3px rgba(90, 157, 232, 0.1);
+	}
+
+	:global(.search-input::placeholder) {
+		color: #888;
+	}
+
+	:global(.filters) {
+		display: flex;
+		gap: 1rem;
+		flex-wrap: wrap;
+	}
+
+	:global(.filter-select) {
+		padding: 0.875rem 1rem;
+		font-size: 1rem;
+		border: 1px solid #4a4a4a;
+		border-radius: 8px;
+		background: #1f1f1f;
+		color: #e0e0e0;
+		cursor: pointer;
+		min-width: 200px;
+		transition: border-color 0.2s, box-shadow 0.2s;
+	}
+
+	:global(.filter-select:focus) {
+		outline: none;
+		border-color: #5a9de8;
+		box-shadow: 0 0 0 3px rgba(90, 157, 232, 0.1);
+	}
+
+	:global(.filter-select option) {
+		background: #1f1f1f;
+		color: #e0e0e0;
+	}
+
+	:global(.jobs-grid) {
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+		gap: 1.5rem;
+	}
+
+	:global(.job-card) {
+		background: #2a2a2a;
+		padding: 1.5rem;
+		border-radius: 12px;
+		box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+		border: 1px solid #3a3a3a;
+		cursor: pointer;
+		transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+	}
+
+	:global(.job-card:hover) {
+		transform: translateY(-4px);
+		box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+		border-color: #4a4a4a;
+	}
+
+	:global(.job-card:focus) {
+		outline: none;
+		border-color: #5a9de8;
+		box-shadow: 0 0 0 3px rgba(90, 157, 232, 0.2);
+	}
+
+	:global(.job-card h3) {
+		margin: 0 0 0.5rem 0;
+		color: #ffffff;
+		font-size: 1.25rem;
+		font-weight: 600;
+	}
+
+	:global(.job-card .company) {
+		margin: 0.5rem 0;
+		font-weight: 600;
+		color: #b8b8b8;
+	}
+
+	:global(.job-card .location) {
+		margin: 0.25rem 0;
+		color: #999;
+		font-size: 0.9rem;
+	}
+
+	:global(.job-card .salary) {
+		margin: 0.5rem 0;
+		color: #5a9de8;
+		font-weight: 500;
+	}
+
+	:global(.job-card .job-type) {
+		display: inline-block;
+		padding: 0.375rem 0.875rem;
+		background: #3a4a5a;
+		color: #a8c8e8;
+		border-radius: 16px;
+		font-size: 0.85rem;
+		margin-top: 0.5rem;
+		font-weight: 500;
+	}
+
+	:global(.job-card .description-preview) {
+		margin-top: 1rem;
+		color: #b8b8b8;
+		font-size: 0.9rem;
+		line-height: 1.6;
+	}
+
+	:global(.no-jobs) {
+		grid-column: 1 / -1;
+		text-align: center;
+		padding: 3rem;
+		color: #888;
+		font-size: 1.1rem;
+	}
+
+	:global(.modal-overlay) {
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background: rgba(0, 0, 0, 0.75);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		z-index: 1000;
+		padding: 1rem;
+		backdrop-filter: blur(4px);
+	}
+
+	:global(.modal-content) {
+		background: #2a2a2a;
+		border-radius: 12px;
+		padding: 2rem;
+		max-width: 600px;
+		width: 100%;
+		max-height: 90vh;
+		overflow-y: auto;
+		position: relative;
+		box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+		border: 1px solid #3a3a3a;
+	}
+
+	:global(.modal-close) {
+		position: absolute;
+		top: 1rem;
+		right: 1rem;
+		background: none;
+		border: none;
+		font-size: 2rem;
+		cursor: pointer;
+		color: #888;
+		line-height: 1;
+		padding: 0;
+		width: 2.5rem;
+		height: 2.5rem;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-radius: 50%;
+		transition: background 0.2s, color 0.2s;
+	}
+
+	:global(.modal-close:hover) {
+		background: #3a3a3a;
+		color: #ffffff;
+	}
+
+	:global(.modal-content h2) {
+		margin: 0 0 1rem 0;
+		color: #ffffff;
+		font-size: 1.75rem;
+		font-weight: 700;
+	}
+
+	:global(.job-details-header) {
+		display: flex;
+		gap: 1rem;
+		margin-bottom: 1rem;
+		flex-wrap: wrap;
+	}
+
+	:global(.job-details-header .company) {
+		font-weight: 600;
+		color: #b8b8b8;
+		margin: 0;
+	}
+
+	:global(.job-details-header .location) {
+		color: #999;
+		margin: 0;
+	}
+
+	:global(.salary-range),
+	:global(.job-type-detail),
+	:global(.posted-date) {
+		margin: 0.5rem 0;
+		color: #b8b8b8;
+	}
+
+	:global(.salary-range strong),
+	:global(.job-type-detail strong),
+	:global(.posted-date strong) {
+		color: #e0e0e0;
+	}
+
+	:global(.job-description) {
+		margin-top: 1.5rem;
+	}
+
+	:global(.job-description h3) {
+		margin: 0 0 0.5rem 0;
+		color: #ffffff;
+		font-size: 1.25rem;
+		font-weight: 600;
+	}
+
+	:global(.job-description p) {
+		color: #b8b8b8;
+		line-height: 1.7;
+		white-space: pre-wrap;
+	}
+
+	:global(.apply-button) {
+		display: inline-block;
+		margin-top: 1.5rem;
+		padding: 0.875rem 2rem;
+		background: #5a9de8;
+		color: white;
+		text-decoration: none;
+		border-radius: 8px;
+		font-weight: 600;
+		transition: background 0.2s, transform 0.2s;
+		text-align: center;
+	}
+
+	:global(.apply-button:hover) {
+		background: #4a8dd8;
+		transform: translateY(-1px);
+	}
+
+	:global(.apply-button:active) {
+		transform: translateY(0);
+	}
+
+	@media (max-width: 768px) {
+		main {
+			padding: 1rem;
+		}
+
+		h1 {
+			font-size: 1.75rem;
+			margin-bottom: 1.5rem;
+		}
+
+		:global(.search-and-filters) {
+			padding: 1.25rem;
+		}
+
+		:global(.jobs-grid) {
+			grid-template-columns: 1fr;
+			gap: 1.25rem;
+		}
+
+		:global(.job-card) {
+			padding: 1.25rem;
+		}
+
+		:global(.filters) {
+			flex-direction: column;
+		}
+
+		:global(.filter-select) {
+			width: 100%;
+			min-width: unset;
+		}
+
+		:global(.modal-content) {
+			padding: 1.5rem;
+			margin: 0.5rem;
+			max-height: 95vh;
+		}
+
+		:global(.modal-content h2) {
+			font-size: 1.5rem;
+			padding-right: 2.5rem;
+		}
+
+		:global(.apply-button) {
+			width: 100%;
+			padding: 1rem;
+		}
+	}
+
+	@media (max-width: 480px) {
+		main {
+			padding: 0.75rem;
+		}
+
+		h1 {
+			font-size: 1.5rem;
+			margin-bottom: 1.25rem;
+		}
+
+		:global(.search-and-filters) {
+			padding: 1rem;
+		}
+
+		:global(.job-card) {
+			padding: 1rem;
+		}
+
+		:global(.job-card h3) {
+			font-size: 1.125rem;
+		}
+
+		:global(.modal-content) {
+			padding: 1.25rem;
+		}
+	}
+</style>

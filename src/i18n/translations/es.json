@@ -1,0 +1,21 @@
+{
+  "jobBoard": "Bolsa de Trabajo",
+  "searchPlaceholder": "Buscar trabajos por título, empresa o descripción...",
+  "allJobTypes": "Todos los Tipos de Trabajo",
+  "noJobsFound": "No se encontraron trabajos que coincidan con sus criterios.",
+  "closeModal": "Cerrar modal",
+  "hourlyRate": "Tarifa por Hora:",
+  "salary": "Salario:",
+  "type": "Tipo:",
+  "posted": "Publicado:",
+  "description": "Descripción",
+  "viewFullDescription": "Ver Descripción Completa del Trabajo",
+  "contact": "Contacto",
+  "phone": "Teléfono:",
+  "email": "Correo Electrónico:",
+  "applyNow": "Aplicar Ahora",
+  "perHour": "/hora",
+  "language": "Idioma",
+  "english": "Inglés",
+  "spanish": "Español"
+}

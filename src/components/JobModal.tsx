@@ -1,4 +1,5 @@
 import type { Job } from "../lib/db";
+import { useI18n } from "../i18n/context";
 
 interface JobModalProps {
   job: Job | null;
@@ -6,7 +7,17 @@ interface JobModalProps {
 }
 
 export default function JobModal({ job, onClose }: JobModalProps) {
+  const { t, locale } = useI18n();
+
   if (!job) return null;
+
+  const translateSalaryRange = (salaryRange: string): string => {
+    return salaryRange.replace(/\/hour/gi, t("perHour"));
+  };
+
+  const translateHourlyRate = (hourlyRate: string): string => {
+    return hourlyRate.replace(/\/hour/gi, t("perHour"));
+  };
 
   return (
     <div className="modal-overlay" onClick={onClose}>
@@ -14,7 +25,7 @@ export default function JobModal({ job, onClose }: JobModalProps) {
         <button
           className="modal-close"
           onClick={onClose}
-          aria-label="Close modal"
+          aria-label={t("closeModal")}
         >
           ×
         </button>
@@ -24,25 +35,27 @@ export default function JobModal({ job, onClose }: JobModalProps) {
         </div>
         {job.hourly_rate && (
           <p className="hourly-rate">
-            <strong>Hourly Rate:</strong> {job.hourly_rate}
+            <strong>{t("hourlyRate")}</strong>{" "}
+            {translateHourlyRate(job.hourly_rate)}
           </p>
         )}
         {job.salary_range && (
           <p className="salary-range">
-            <strong>Salary:</strong> {job.salary_range}
+            <strong>{t("salary")}</strong>{" "}
+            {translateSalaryRange(job.salary_range)}
           </p>
         )}
         {job.job_type && (
           <p className="job-type-detail">
-            <strong>Type:</strong> {job.job_type}
+            <strong>{t("type")}</strong> {job.job_type}
           </p>
         )}
         <p className="posted-date">
-          <strong>Posted:</strong>{" "}
-          {new Date(job.posted_date).toLocaleDateString()}
+          <strong>{t("posted")}</strong>{" "}
+          {new Date(job.posted_date).toLocaleDateString(locale)}
         </p>
         <div className="job-description">
-          <h3>Description</h3>
+          <h3>{t("description")}</h3>
           <p>{job.description}</p>
           {job.description_url && (
             <a
@@ -51,22 +64,22 @@ export default function JobModal({ job, onClose }: JobModalProps) {
               rel="noopener noreferrer"
               className="description-link"
             >
-              View Full Job Description
+              {t("viewFullDescription")}
             </a>
           )}
         </div>
         {(job.contact_phone || job.contact_email) && (
           <div className="contact-info">
-            <h3>Contact</h3>
+            <h3>{t("contact")}</h3>
             {job.contact_phone && (
               <p>
-                <strong>Phone:</strong>{" "}
+                <strong>{t("phone")}</strong>{" "}
                 <a href={`tel:${job.contact_phone}`}>{job.contact_phone}</a>
               </p>
             )}
             {job.contact_email && (
               <p>
-                <strong>Email:</strong>{" "}
+                <strong>{t("email")}</strong>{" "}
                 <a href={`mailto:${job.contact_email}`}>{job.contact_email}</a>
               </p>
             )}
@@ -79,7 +92,7 @@ export default function JobModal({ job, onClose }: JobModalProps) {
             rel="noopener noreferrer"
             className="apply-button"
           >
-            Apply Now
+            {t("applyNow")}
           </a>
         )}
       </div>

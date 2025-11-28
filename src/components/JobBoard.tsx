@@ -3,6 +3,7 @@ import type { Job } from "../lib/db";
 import JobCard from "./JobCard";
 import JobModal from "./JobModal";
 import SearchAndFilters from "./SearchAndFilters";
+import { useI18n } from "../i18n/context";
 
 interface JobBoardProps {
   jobs: Job[];
@@ -12,6 +13,7 @@ export default function JobBoard({ jobs }: JobBoardProps) {
   const [searchQuery, setSearchQuery] = useState("");
   const [jobTypeFilter, setJobTypeFilter] = useState("");
   const [selectedJob, setSelectedJob] = useState<Job | null>(null);
+  const { t } = useI18n();
 
   const availableJobTypes = useMemo(() => {
     const types = new Set(
@@ -45,7 +47,7 @@ export default function JobBoard({ jobs }: JobBoardProps) {
       />
       <div className="jobs-grid">
         {filteredJobs.length === 0 ? (
-          <p className="no-jobs">No jobs found matching your criteria.</p>
+          <p className="no-jobs">{t("noJobsFound")}</p>
         ) : (
           filteredJobs.map((job) => (
             <JobCard

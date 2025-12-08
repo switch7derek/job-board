@@ -1,5 +1,4 @@
 import type { Job } from "../lib/db";
-import { useI18n } from "../i18n/context";
 
 interface JobCardProps {
   job: Job;
@@ -7,12 +6,6 @@ interface JobCardProps {
 }
 
 export default function JobCard({ job, onClick }: JobCardProps) {
-  const { t } = useI18n();
-
-  const translateSalaryRange = (salaryRange: string): string => {
-    return salaryRange.replace(/\/hour/gi, t("perHour"));
-  };
-
   return (
     <div
       onClick={onClick}
@@ -29,9 +22,7 @@ export default function JobCard({ job, onClick }: JobCardProps) {
       <h3>{job.title}</h3>
       <p className="company">{job.company}</p>
       <p className="location">{job.location}</p>
-      {job.salary_range && (
-        <p className="salary">{translateSalaryRange(job.salary_range)}</p>
-      )}
+      {job.salary_range && <p className="salary">{job.salary_range}</p>}
       {job.job_type && <span className="job-type">{job.job_type}</span>}
       <p className="description-preview">
         {job.description.substring(0, 150)}

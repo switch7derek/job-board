@@ -6,12 +6,12 @@ A job board website built with Astro and React for browsing, searching, and filt
 
 1. Install dependencies:
    ```bash
-   npm install
+   yarn install
    ```
 
 2. Run the development server:
    ```bash
-   npm run dev
+   yarn dev
    ```
 
 3. Open [http://localhost:4321](http://localhost:4321) in your browser.
@@ -20,26 +20,32 @@ A job board website built with Astro and React for browsing, searching, and filt
 
 Run tests:
 ```bash
-npm test
+yarn test
 ```
 
 Run tests with UI:
 ```bash
-npm test:ui
+yarn test:ui
 ```
 
 ## Database
 
-The application uses SQLite with seed data. The database file (`jobboard.db`) is created automatically on first run in the project root directory.
+The application uses SQLite. The database file (`jobboard.db`) is populated from `slt-jobs.csv`. To import the CSV data into the database, run:
+
+```bash
+yarn import-csv
+```
+
+This will clear any existing jobs and import all jobs from the CSV file.
 
 ## Build
 
 Build for production:
 ```bash
-npm run build
+yarn build
 ```
 
 Preview production build:
 ```bash
-npm run preview
+yarn preview
 ```

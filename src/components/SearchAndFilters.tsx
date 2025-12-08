@@ -1,5 +1,3 @@
-import { useI18n } from "../i18n/context";
-
 interface SearchAndFiltersProps {
   searchQuery: string;
   onSearchChange: (query: string) => void;
@@ -15,14 +13,12 @@ export default function SearchAndFilters({
   onJobTypeChange,
   availableJobTypes,
 }: SearchAndFiltersProps) {
-  const { t } = useI18n();
-
   return (
     <div className="search-and-filters">
       <div className="search-box">
         <input
           type="text"
-          placeholder={t("searchPlaceholder")}
+          placeholder="Search jobs by title, company, or description..."
           value={searchQuery}
           onChange={(e) => onSearchChange(e.target.value)}
           className="search-input"
@@ -34,7 +30,7 @@ export default function SearchAndFilters({
           onChange={(e) => onJobTypeChange(e.target.value)}
           className="filter-select"
         >
-          <option value="">{t("allJobTypes")}</option>
+          <option value="">All Job Types</option>
           {availableJobTypes.map((type) => (
             <option key={type} value={type}>
               {type}

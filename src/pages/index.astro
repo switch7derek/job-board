@@ -1,32 +1,22 @@
 ---
-import JobBoardApp from '../components/JobBoardApp';
+import JobBoard from '../components/JobBoard';
 import { getAllJobs } from '../lib/db';
-import { defaultLocale, type Locale } from '../i18n/index';
-import { t } from '../i18n/index';
 
 const jobs = getAllJobs();
-
-// Get locale from URL or default
-const url = Astro.url;
-const pathLocale = url.pathname.split('/')[1] as Locale | undefined;
-const locale: Locale = (pathLocale === 'en' || pathLocale === 'es') ? pathLocale : defaultLocale;
-
-// Set HTML lang attribute
-const siteTitle = `South Lake Tahoe ${t('jobBoard', locale)}`;
 ---
 
-<html lang={locale}>
+<html lang="en">
 	<head>
 		<meta charset="utf-8" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta name="generator" content={Astro.generator} />
-		<title>{siteTitle}</title>
+		<title>Job Board</title>
 	</head>
 	<body>
 		<main>
-			<h1>{siteTitle}</h1>
-			<JobBoardApp client:load jobs={jobs} initialLocale={locale} />
+			<h1>Job Board</h1>
+			<JobBoard client:load jobs={jobs} />
 		</main>
 	</body>
 </html>
@@ -50,14 +40,12 @@ const siteTitle = `South Lake Tahoe ${t('jobBoard', locale)}`;
 		margin: 0 auto;
 		padding: 1.5rem;
 		min-height: 100vh;
-		position: relative;
 	}
 
 	h1 {
 		text-align: center;
 		color: #ffffff;
 		margin-bottom: 2rem;
-		margin-top: 3rem;
 		font-size: 2rem;
 		font-weight: 700;
 	}
@@ -343,43 +331,6 @@ const siteTitle = `South Lake Tahoe ${t('jobBoard', locale)}`;
 		transform: translateY(0);
 	}
 
-	:global(.language-switcher) {
-		position: absolute;
-		top: 1.5rem;
-		right: 1.5rem;
-		display: flex;
-		align-items: center;
-		gap: 0.5rem;
-		z-index: 10;
-	}
-
-	:global(.language-label) {
-		color: #b8b8b8;
-		font-size: 0.9rem;
-	}
-
-	:global(.language-select) {
-		padding: 0.5rem 0.75rem;
-		font-size: 0.9rem;
-		border: 1px solid #4a4a4a;
-		border-radius: 6px;
-		background: #1f1f1f;
-		color: #e0e0e0;
-		cursor: pointer;
-		transition: border-color 0.2s, box-shadow 0.2s;
-	}
-
-	:global(.language-select:focus) {
-		outline: none;
-		border-color: #5a9de8;
-		box-shadow: 0 0 0 3px rgba(90, 157, 232, 0.1);
-	}
-
-	:global(.language-select option) {
-		background: #1f1f1f;
-		color: #e0e0e0;
-	}
-
 	@media (max-width: 768px) {
 		main {
 			padding: 1rem;
@@ -388,12 +339,6 @@ const siteTitle = `South Lake Tahoe ${t('jobBoard', locale)}`;
 		h1 {
 			font-size: 1.75rem;
 			margin-bottom: 1.5rem;
-			margin-top: 2.5rem;
-		}
-
-		:global(.language-switcher) {
-			top: 1rem;
-			right: 1rem;
 		}
 
 		:global(.search-and-filters) {
@@ -443,21 +388,6 @@ const siteTitle = `South Lake Tahoe ${t('jobBoard', locale)}`;
 		h1 {
 			font-size: 1.5rem;
 			margin-bottom: 1.25rem;
-			margin-top: 2rem;
-		}
-
-		:global(.language-switcher) {
-			top: 0.75rem;
-			right: 0.75rem;
-		}
-
-		:global(.language-label) {
-			font-size: 0.8rem;
-		}
-
-		:global(.language-select) {
-			font-size: 0.8rem;
-			padding: 0.4rem 0.6rem;
 		}
 
 		:global(.search-and-filters) {

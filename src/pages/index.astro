@@ -169,7 +169,7 @@ const jobs = getAllJobs();
 		font-size: 0.9rem;
 	}
 
-	:global(.job-card .salary) {
+	:global(.job-card .hourly-rate) {
 		margin: 0.5rem 0;
 		color: #5a9de8;
 		font-weight: 500;
@@ -279,14 +279,19 @@ const jobs = getAllJobs();
 		margin: 0;
 	}
 
-	:global(.salary-range),
+	:global(.job-details-header .separator) {
+		color: #999;
+		margin: 0;
+	}
+
+	:global(.hourly-rate),
 	:global(.job-type-detail),
 	:global(.posted-date) {
 		margin: 0.5rem 0;
 		color: #b8b8b8;
 	}
 
-	:global(.salary-range strong),
+	:global(.hourly-rate strong),
 	:global(.job-type-detail strong),
 	:global(.posted-date strong) {
 		color: #e0e0e0;

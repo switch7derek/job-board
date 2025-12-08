@@ -4,6 +4,9 @@ import { join } from "path";
 // Use process.cwd() for JSON file path to ensure it's in the project root
 const jsonPath = join(process.cwd(), "jobboard.json");
 
+// Sentinel date for unknown posted dates (epoch: 1970-01-01T00:00:00.000Z)
+export const UNKNOWN_DATE = new Date(0).toISOString();
+
 export interface Job {
   id: number;
   title: string;
@@ -11,9 +14,14 @@ export interface Job {
   location: string;
   description: string;
   apply_link: string;
-  salary_range?: string;
+  hourly_rate?: string;
   job_type?: string;
   posted_date: string;
+}
+
+// Check if a date string represents an unknown date.
+export function isUnknownDate(dateStr: string): boolean {
+  return dateStr === UNKNOWN_DATE;
 }
 
 function loadJobs(): Job[] {
@@ -28,8 +36,16 @@ function loadJobs(): Job[] {
 
 export function getAllJobs(): Job[] {
   const jobs = loadJobs();
-  // Sort by posted_date descending
+  // Sort by posted_date descending, with unknown dates at the end
   return jobs.sort((a, b) => {
+    const isAUnknown = isUnknownDate(a.posted_date);
+    const isBUnknown = isUnknownDate(b.posted_date);
+
+    // Unknown dates go to the end
+    if (isAUnknown && !isBUnknown) return 1;
+    if (!isAUnknown && isBUnknown) return -1;
+    if (isAUnknown && isBUnknown) return 0;
+
     const dateA = new Date(a.posted_date).getTime();
     const dateB = new Date(b.posted_date).getTime();
     return dateB - dateA;
@@ -72,8 +88,16 @@ export function searchJobs(
     filtered = filtered.filter((job) => job.job_type === filters.jobType);
   }
 
-  // Sort by posted_date descending
+  // Sort by posted_date descending, with unknown dates at the end
   return filtered.sort((a, b) => {
+    const isAUnknown = isUnknownDate(a.posted_date);
+    const isBUnknown = isUnknownDate(b.posted_date);
+
+    // Unknown dates go to the end
+    if (isAUnknown && !isBUnknown) return 1;
+    if (!isAUnknown && isBUnknown) return -1;
+    if (isAUnknown && isBUnknown) return 0;
+
     const dateA = new Date(a.posted_date).getTime();
     const dateB = new Date(b.posted_date).getTime();
     return dateB - dateA;

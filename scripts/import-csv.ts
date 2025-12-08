@@ -6,10 +6,18 @@ import type { Job } from "../src/lib/db";
 const jsonPath = join(process.cwd(), "jobboard.json");
 const csvPath = join(process.cwd(), "slt-jobs.csv");
 
+// Sentinel date for unknown posted dates (epoch: 1970-01-01T00:00:00.000Z)
+const UNKNOWN_DATE = new Date(0).toISOString();
+
 // Parse date from MM/DD/YYYY format to ISO string
 function parseDate(dateStr: string | undefined): string {
   if (!dateStr || dateStr.trim() === "") {
     return new Date().toISOString();
+  }
+
+  // Check for "Unknown" (case-insensitive)
+  if (dateStr.trim().toLowerCase() === "unknown") {
+    return UNKNOWN_DATE;
   }
 
   const parts = dateStr.trim().split("/");
@@ -49,8 +57,8 @@ function importCsvToJson() {
   console.log(`Found ${records.length} job records`);
 
   // Map CSV records to Job format and filter out invalid records
-  const jobsWithoutIds: Omit<Job, "id">[] = records
-    .map((record) => {
+  const jobsWithoutIds = records
+    .map((record): Omit<Job, "id"> | null => {
       const title = record["Job Title"]?.trim() || "";
       const company = record.Company?.trim() || "";
       const location = record.Location?.trim() || "";
@@ -68,7 +76,7 @@ function importCsvToJson() {
         location,
         description,
         apply_link,
-        salary_range: record["Hourly Rate"]?.trim() || undefined,
+        hourly_rate: record["Hourly Rate"]?.trim() || undefined,
         job_type: record["Type of work"]?.trim() || undefined,
         posted_date: parseDate(record["Date Posted"]),
       };

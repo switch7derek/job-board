@@ -11,7 +11,7 @@ const mockJob: Job = {
   location: "San Francisco, CA",
   description: "We are looking for a software engineer to join our team.",
   apply_link: "https://example.com/apply",
-  salary_range: "$100,000 - $120,000",
+  hourly_rate: "$100,000 - $120,000",
   job_type: "Full-time",
   posted_date: new Date().toISOString(),
 };

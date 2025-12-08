@@ -22,7 +22,7 @@ export default function JobCard({ job, onClick }: JobCardProps) {
       <h3>{job.title}</h3>
       <p className="company">{job.company}</p>
       <p className="location">{job.location}</p>
-      {job.salary_range && <p className="salary">{job.salary_range}</p>}
+      {job.hourly_rate && <p className="hourly-rate">{job.hourly_rate}</p>}
       {job.job_type && <span className="job-type">{job.job_type}</span>}
       <p className="description-preview">
         {job.description.substring(0, 150)}

@@ -1,4 +1,5 @@
 import type { Job } from "../lib/db";
+import { isUnknownDate } from "../lib/db";
 
 interface JobModalProps {
   job: Job | null;
@@ -21,11 +22,12 @@ export default function JobModal({ job, onClose }: JobModalProps) {
         <h2>{job.title}</h2>
         <div className="job-details-header">
           <p className="company">{job.company}</p>
+          <span className="separator">-</span>
           <p className="location">{job.location}</p>
         </div>
-        {job.salary_range && (
-          <p className="salary-range">
-            <strong>Salary:</strong> {job.salary_range}
+        {job.hourly_rate && (
+          <p className="hourly-rate">
+            <strong>Hourly Rate:</strong> {job.hourly_rate}
           </p>
         )}
         {job.job_type && (
@@ -35,7 +37,9 @@ export default function JobModal({ job, onClose }: JobModalProps) {
         )}
         <p className="posted-date">
           <strong>Posted:</strong>{" "}
-          {new Date(job.posted_date).toLocaleDateString()}
+          {isUnknownDate(job.posted_date)
+            ? "Unknown"
+            : new Date(job.posted_date).toLocaleDateString()}
         </p>
         <div className="job-description">
           <h3>Description</h3>

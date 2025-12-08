@@ -3,6 +3,7 @@ import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import JobModal from "./JobModal";
 import type { Job } from "../lib/db";
+import { UNKNOWN_DATE } from "../lib/db";
 
 const mockJob: Job = {
   id: 1,
@@ -11,7 +12,7 @@ const mockJob: Job = {
   location: "San Francisco, CA",
   description: "We are looking for a software engineer to join our team.",
   apply_link: "https://example.com/apply",
-  salary_range: "$100,000 - $120,000",
+  hourly_rate: "$100,000 - $120,000",
   job_type: "Full-time",
   posted_date: new Date().toISOString(),
 };
@@ -76,5 +77,17 @@ describe("JobModal", () => {
     expect(applyLink).toHaveAttribute("href", "https://example.com/apply");
     expect(applyLink).toHaveAttribute("target", "_blank");
     expect(applyLink).toHaveAttribute("rel", "noopener noreferrer");
+  });
+
+  it("displays 'Unknown' for jobs with unknown posted date", () => {
+    const jobWithUnknownDate: Job = {
+      ...mockJob,
+      posted_date: UNKNOWN_DATE,
+    };
+    render(<JobModal job={jobWithUnknownDate} onClose={vi.fn()} />);
+
+    expect(screen.getByText("Unknown")).toBeInTheDocument();
+    const postedDateElement = screen.getByText(/Posted:/).closest("p");
+    expect(postedDateElement?.textContent).toContain("Unknown");
   });
 });

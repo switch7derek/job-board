@@ -23,5 +23,4 @@ pnpm-debug.log*
 # jetbrains setting folder
 .idea/
 
-# database
-jobboard.db
+# data files (jobboard.json is committed as it's the source of truth)

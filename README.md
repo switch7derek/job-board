@@ -28,15 +28,15 @@ Run tests with UI:
 yarn test:ui
 ```
 
-## Database
+## Data
 
-The application uses SQLite. The database file (`jobboard.db`) is populated from `slt-jobs.csv`. To import the CSV data into the database, run:
+The application uses a JSON file to store job data. The JSON file (`jobboard.json`) is populated from `slt-jobs.csv`. To import the CSV data into the JSON file, run:
 
 ```bash
 yarn import-csv
 ```
 
-This will clear any existing jobs and import all jobs from the CSV file.
+This will replace any existing jobs and import all jobs from the CSV file.
 
 ## Build
 

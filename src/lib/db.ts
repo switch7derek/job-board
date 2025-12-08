@@ -1,24 +1,8 @@
-import Database from "better-sqlite3";
+import { readFileSync } from "fs";
 import { join } from "path";
 
-// Use process.cwd() for database path to ensure it's in the project root
-const dbPath = join(process.cwd(), "jobboard.db");
-const db = new Database(dbPath);
-
-// Create jobs table if it doesn't exist
-db.exec(`
-  CREATE TABLE IF NOT EXISTS jobs (
-    id INTEGER PRIMARY KEY AUTOINCREMENT,
-    title TEXT NOT NULL,
-    company TEXT NOT NULL,
-    location TEXT NOT NULL,
-    description TEXT NOT NULL,
-    apply_link TEXT NOT NULL,
-    salary_range TEXT,
-    job_type TEXT,
-    posted_date TEXT NOT NULL
-  )
-`);
+// Use process.cwd() for JSON file path to ensure it's in the project root
+const jsonPath = join(process.cwd(), "jobboard.json");
 
 export interface Job {
   id: number;
@@ -32,14 +16,29 @@ export interface Job {
   posted_date: string;
 }
 
+function loadJobs(): Job[] {
+  try {
+    const content = readFileSync(jsonPath, "utf-8");
+    return JSON.parse(content) as Job[];
+  } catch (error) {
+    // If file doesn't exist or is invalid, return empty array
+    return [];
+  }
+}
+
 export function getAllJobs(): Job[] {
-  const stmt = db.prepare("SELECT * FROM jobs ORDER BY posted_date DESC");
-  return stmt.all() as Job[];
+  const jobs = loadJobs();
+  // Sort by posted_date descending
+  return jobs.sort((a, b) => {
+    const dateA = new Date(a.posted_date).getTime();
+    const dateB = new Date(b.posted_date).getTime();
+    return dateB - dateA;
+  });
 }
 
 export function getJobById(id: number): Job | undefined {
-  const stmt = db.prepare("SELECT * FROM jobs WHERE id = ?");
-  return stmt.get(id) as Job | undefined;
+  const jobs = loadJobs();
+  return jobs.find((job) => job.id === id);
 }
 
 export function searchJobs(
@@ -49,30 +48,34 @@ export function searchJobs(
     jobType?: string;
   },
 ): Job[] {
-  let sql = "SELECT * FROM jobs WHERE 1=1";
-  const params: any[] = [];
+  const jobs = loadJobs();
+  let filtered = jobs;
 
   if (query) {
-    sql += " AND (title LIKE ? OR company LIKE ? OR description LIKE ?)";
-    const searchTerm = `%${query}%`;
-    params.push(searchTerm, searchTerm, searchTerm);
+    const searchTerm = query.toLowerCase();
+    filtered = filtered.filter(
+      (job) =>
+        job.title.toLowerCase().includes(searchTerm) ||
+        job.company.toLowerCase().includes(searchTerm) ||
+        job.description.toLowerCase().includes(searchTerm),
+    );
   }
 
   if (filters.location) {
-    sql += " AND location LIKE ?";
-    params.push(`%${filters.location}%`);
+    const locationTerm = filters.location.toLowerCase();
+    filtered = filtered.filter((job) =>
+      job.location.toLowerCase().includes(locationTerm),
+    );
   }
 
   if (filters.jobType) {
-    sql += " AND job_type = ?";
-    params.push(filters.jobType);
+    filtered = filtered.filter((job) => job.job_type === filters.jobType);
   }
 
-  sql += " ORDER BY posted_date DESC";
-
-  const stmt = db.prepare(sql);
-  return stmt.all(...params) as Job[];
+  // Sort by posted_date descending
+  return filtered.sort((a, b) => {
+    const dateA = new Date(a.posted_date).getTime();
+    const dateB = new Date(b.posted_date).getTime();
+    return dateB - dateA;
+  });
 }
-
-
-export default db;

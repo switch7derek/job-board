@@ -1,10 +1,9 @@
 import { parse } from "csv-parse/sync";
-import { readFileSync } from "fs";
+import { readFileSync, writeFileSync } from "fs";
 import { join } from "path";
-import Database from "better-sqlite3";
 import type { Job } from "../src/lib/db";
 
-const dbPath = join(process.cwd(), "jobboard.db");
+const jsonPath = join(process.cwd(), "jobboard.json");
 const csvPath = join(process.cwd(), "slt-jobs.csv");
 
 // Parse date from MM/DD/YYYY format to ISO string
@@ -25,7 +24,7 @@ function parseDate(dateStr: string | undefined): string {
   return new Date().toISOString();
 }
 
-function importCsvToDb() {
+function importCsvToJson() {
   console.log("Reading CSV file...");
   const csvContent = readFileSync(csvPath, "utf-8");
 
@@ -49,50 +48,8 @@ function importCsvToDb() {
 
   console.log(`Found ${records.length} job records`);
 
-  const db = new Database(dbPath);
-
-  // Create table if it doesn't exist
-  db.exec(`
-    CREATE TABLE IF NOT EXISTS jobs (
-      id INTEGER PRIMARY KEY AUTOINCREMENT,
-      title TEXT NOT NULL,
-      company TEXT NOT NULL,
-      location TEXT NOT NULL,
-      description TEXT NOT NULL,
-      apply_link TEXT NOT NULL,
-      salary_range TEXT,
-      job_type TEXT,
-      posted_date TEXT NOT NULL
-    )
-  `);
-
-  // Clear existing data
-  console.log("Clearing existing jobs...");
-  db.exec("DELETE FROM jobs");
-
-  // Prepare insert statement
-  const insert = db.prepare(`
-    INSERT INTO jobs (title, company, location, description, apply_link, salary_range, job_type, posted_date)
-    VALUES (?, ?, ?, ?, ?, ?, ?, ?)
-  `);
-
-  const insertMany = db.transaction((jobs: Omit<Job, "id">[]) => {
-    for (const job of jobs) {
-      insert.run(
-        job.title,
-        job.company,
-        job.location,
-        job.description,
-        job.apply_link,
-        job.salary_range || null,
-        job.job_type || null,
-        job.posted_date,
-      );
-    }
-  });
-
   // Map CSV records to Job format and filter out invalid records
-  const jobs: Omit<Job, "id">[] = records
+  const jobsWithoutIds: Omit<Job, "id">[] = records
     .map((record) => {
       const title = record["Job Title"]?.trim() || "";
       const company = record.Company?.trim() || "";
@@ -118,15 +75,17 @@ function importCsvToDb() {
     })
     .filter((job): job is Omit<Job, "id"> => job !== null);
 
-  console.log("Inserting jobs into database...");
-  insertMany(jobs);
+  // Assign sequential IDs starting from 1
+  const jobs: Job[] = jobsWithoutIds.map((job, index) => ({
+    ...job,
+    id: index + 1,
+  }));
 
-  const countStmt = db.prepare("SELECT COUNT(*) as count FROM jobs");
-  const count = (countStmt.get() as { count: number }).count;
-  console.log(`Successfully imported ${count} jobs`);
+  console.log("Writing jobs to JSON file...");
+  writeFileSync(jsonPath, JSON.stringify(jobs, null, 2), "utf-8");
 
-  db.close();
+  console.log(`Successfully imported ${jobs.length} jobs`);
 }
 
-importCsvToDb();
+importCsvToJson();
 

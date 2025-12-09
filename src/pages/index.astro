@@ -1,5 +1,6 @@
 ---
 import JobBoard from '../components/JobBoard';
+import Navigation from '../components/Navigation.astro';
 import { getAllJobs } from '../lib/db';
 
 const jobs = getAllJobs();
@@ -15,6 +16,7 @@ const jobs = getAllJobs();
 	</head>
 	<body>
 		<main>
+			<Navigation />
 			<h1>South Lake Tahoe Job Board</h1>
 			<p class="subtitle">Locals hiring locals. A community job board connecting local employers with local talent in South Lake Tahoe.</p>
 			<JobBoard client:load jobs={jobs} />

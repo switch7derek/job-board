@@ -11,11 +11,12 @@ const jobs = getAllJobs();
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Job Board</title>
+		<title>South Lake Tahoe Job Board</title>
 	</head>
 	<body>
 		<main>
-			<h1>Job Board</h1>
+			<h1>South Lake Tahoe Job Board</h1>
+			<p class="subtitle">Locals hiring locals. A community job board connecting local employers with local talent in South Lake Tahoe.</p>
 			<JobBoard client:load jobs={jobs} />
 		</main>
 	</body>
@@ -45,9 +46,18 @@ const jobs = getAllJobs();
 	h1 {
 		text-align: center;
 		color: #ffffff;
-		margin-bottom: 2rem;
+		margin-bottom: 1rem;
 		font-size: 2rem;
 		font-weight: 700;
+	}
+
+	.subtitle {
+		text-align: center;
+		color: #b8b8b8;
+		margin: 0 auto 2rem auto;
+		font-size: 1.1rem;
+		max-width: 600px;
+		line-height: 1.6;
 	}
 
 	:global(.job-board) {
@@ -343,6 +353,11 @@ const jobs = getAllJobs();
 
 		h1 {
 			font-size: 1.75rem;
+			margin-bottom: 1rem;
+		}
+
+		.subtitle {
+			font-size: 1rem;
 			margin-bottom: 1.5rem;
 		}
 
@@ -392,6 +407,11 @@ const jobs = getAllJobs();
 
 		h1 {
 			font-size: 1.5rem;
+			margin-bottom: 0.75rem;
+		}
+
+		.subtitle {
+			font-size: 0.95rem;
 			margin-bottom: 1.25rem;
 		}
 

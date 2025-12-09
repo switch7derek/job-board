@@ -12,7 +12,7 @@ const UNKNOWN_DATE = new Date(0).toISOString();
 // Parse date from MM/DD/YYYY format to ISO string
 function parseDate(dateStr: string | undefined): string {
   if (!dateStr || dateStr.trim() === "") {
-    return new Date().toISOString();
+    return UNKNOWN_DATE;
   }
 
   // Check for "Unknown" (case-insensitive)

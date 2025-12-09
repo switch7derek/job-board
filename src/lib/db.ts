@@ -20,7 +20,7 @@ export interface Job {
 }
 
 // Check if a date string represents an unknown date.
-export function isUnknownDate(dateStr: string): boolean {
+function isUnknownDate(dateStr: string): boolean {
   return dateStr === UNKNOWN_DATE;
 }
 

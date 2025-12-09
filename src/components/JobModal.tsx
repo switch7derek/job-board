@@ -1,9 +1,14 @@
 import type { Job } from "../lib/db";
-import { isUnknownDate } from "../lib/db";
 
 interface JobModalProps {
   job: Job | null;
   onClose: () => void;
+}
+
+// Sentinel date for unknown posted dates (epoch: 1970-01-01T00:00:00.000Z)
+const UNKNOWN_DATE_STRING = new Date(0).toISOString();
+function isUnknownDate(dateStr: string): boolean {
+  return dateStr === UNKNOWN_DATE_STRING;
 }
 
 export default function JobModal({ job, onClose }: JobModalProps) {

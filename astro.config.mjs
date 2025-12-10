@@ -7,5 +7,4 @@ import react from "@astrojs/react";
 export default defineConfig({
   integrations: [react()],
   site: 'https://slt-mutual-aid.github.io',
-  base: '/job-board'
 });

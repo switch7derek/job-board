@@ -1,14 +1,55 @@
 [
   {
+    "title": "Server",
+    "company": "Getaway Cafe",
+    "location": "3140 Hwy 50",
+    "description": "Are you:\r\n-Upbeat, hardworking, dependable?\r\n-Thrive working in team environments?\r\n-Want to join one of Tahoe's best restaurants?\r\n\r\nPrior experience required and reliable winter transportation a must!",
+    "application_instructions": "Apply in person or email resume to getawaycafetahoe@gmail.com",
+    "job_type": "Unknown",
+    "posted_date": "2025-12-10T08:00:00.000Z",
+    "id": 1
+  },
+  {
+    "title": "General Maintenance Tech",
+    "company": "Lake Village Homeowners Association",
+    "location": "300 Clubhouse Circle",
+    "description": "-Assist with seasonal tasks\r\n-Basic mechanical or handyman skills preferred, but wil ltrain the right candidate",
+    "application_instructions": "Apply in person 9am - 5pm",
+    "job_type": "Unknown",
+    "posted_date": "1970-01-01T00:00:00.000Z",
+    "id": 2
+  },
+  {
+    "title": "Administrative Assistant and Guest Services",
+    "company": "Lake Village Homeowners Association",
+    "location": "300 Clubhouse Circle",
+    "description": "-Proficient with financial tools: Excel, Google Sheets, accounting platforms\r\n-Analytical skills: ability to identify discrepancies",
+    "application_instructions": "Apply in person 9am - 5pm",
+    "job_type": "Unknown",
+    "posted_date": "1970-01-01T00:00:00.000Z",
+    "id": 3
+  },
+  {
+    "title": "Sandwich Artist",
+    "company": "West Coast Sourdough",
+    "location": "2014 Lake Tahoe Blvd",
+    "description": "If you love food and want others to love their food, becoming one of our sandwich artists is exactly for you!\r\nWe have flexible hours, a positive work environment and competitive pay.",
+    "apply_link": "https://www.wcsourdough.com/\r\n(Click on \"Careers\" to apply)",
+    "hourly_rate": "Competitive",
+    "job_type": "Part-time",
+    "posted_date": "1970-01-01T00:00:00.000Z",
+    "id": 4
+  },
+  {
     "title": "Morning Cook",
     "company": "Social House",
     "location": "1001 Heavenly Village Way\r\nSuite 3",
     "description": "Social House is looking for a reliable, motivated Morning Cook to join our team! If you’re passionate about good food, enjoy working in a fast-paced environment, and have a positive attitude, we want to hear from you.\r\n\r\n🔸 Schedule: 6:30/7:00 AM – 3:00/3:30 PM\r\n\r\n✨ What We’re Looking For:\r\nPrevious kitchen or line-cook experience required\r\nStrong work ethic and ability to stay organized during busy service periods\r\nAbility to follow recipes, maintain consistency, and uphold food-safety standards\r\nDependable and punctual\r\nTeam-oriented attitude with good communication skills\r\n\r\n🔧 Responsibilities Include:\r\nPreparing breakfast and lunch menu items\r\nSetting up and stocking stations before service\r\nMaintaining a clean and orderly kitchen\r\nAssisting with prep work\r\nFollowing proper food handling and sanitation procedures\r\nIf you're ready to be part of a supportive, energetic team and start your mornings with purpose, we’d love to meet you!",
-    "apply_link": "Drop resume off in person or submit here: https://socialhousetahoe.com/\r\n(Link to apply at the bottom of the homepage)",
+    "application_instructions": "Drop resume off in person or submit here: https://socialhousetahoe.com/\r\n(Link to apply at the bottom of the homepage)",
     "hourly_rate": "$17 - $19",
     "job_type": "Full-time",
     "posted_date": "2025-12-06T08:00:00.000Z",
-    "id": 1
+    "id": 5
   },
   {
     "title": "Retail Sales Associate (Temporary)",
@@ -19,7 +60,7 @@
     "hourly_rate": "$16.50 - $17.00",
     "job_type": "Part-time",
     "posted_date": "2025-12-02T08:00:00.000Z",
-    "id": 2
+    "id": 6
   },
   {
     "title": "Store Associate",
@@ -30,18 +71,18 @@
     "hourly_rate": "$16.50 - $23.50",
     "job_type": "Part-time",
     "posted_date": "2025-12-02T08:00:00.000Z",
-    "id": 3
+    "id": 7
   },
   {
     "title": "Veterinary Receptionist/Assistant",
     "company": "Blue Lake Animal Care Center",
     "location": "1154 Emerald Bay Rd",
     "description": "We are looking for a compassionate and enthusiastic veterinary receptionist to join our team in South Lake Tahoe. Working well within a team and developing strong bonds with our dedicated clients are a must. Tasks would be answering phone, checking clients in and out, client communication, ect.",
-    "apply_link": "Please drop of resume in person or email reception@bluelakevet.com",
+    "application_instructions": "Please drop of resume in person or email reception@bluelakevet.com",
     "hourly_rate": "Competitive with benefits",
     "job_type": "Full-time",
     "posted_date": "2025-12-02T08:00:00.000Z",
-    "id": 4
+    "id": 8
   },
   {
     "title": "Cookie Delivery Driver",
@@ -52,7 +93,7 @@
     "hourly_rate": "$20 + tips",
     "job_type": "Part-time",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 5
+    "id": 9
   },
   {
     "title": "Cookie Crew",
@@ -63,7 +104,7 @@
     "hourly_rate": "$20 + tips",
     "job_type": "Part-time",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 6
+    "id": 10
   },
   {
     "title": "Shift Lead",
@@ -74,7 +115,7 @@
     "hourly_rate": "$20 + tips",
     "job_type": "Part-time",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 7
+    "id": 11
   },
   {
     "title": "Shift Lead",
@@ -84,7 +125,7 @@
     "apply_link": "https://docs.google.com/forms/d/e/1FAIpQLSdfkNt_4gpkHNgHTQDoTV-qZeJm0UXCd1T4_e2xfRlMIRsR6g/viewform",
     "job_type": "Full-time",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 8
+    "id": 12
   },
   {
     "title": "Barista/Register/Back of House",
@@ -94,7 +135,7 @@
     "apply_link": "https://docs.google.com/forms/d/e/1FAIpQLSdfkNt_4gpkHNgHTQDoTV-qZeJm0UXCd1T4_e2xfRlMIRsR6g/viewform",
     "job_type": "Part-time",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 9
+    "id": 13
   },
   {
     "title": "Night Cleaner",
@@ -104,18 +145,18 @@
     "apply_link": "https://docs.google.com/forms/d/e/1FAIpQLSdfkNt_4gpkHNgHTQDoTV-qZeJm0UXCd1T4_e2xfRlMIRsR6g/viewform",
     "job_type": "Part-time",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 10
+    "id": 14
   },
   {
     "title": "Barista",
     "company": "Drink Coffee Do Stuff",
     "location": "3894 Pioneer Trail",
     "description": "RESPONSIBILITIES\r\n\r\nPOS and taking orders\r\nMaking coffee and food items on the menu\r\nPouring beautiful coffee drinks (we will train you on latte art)\r\nStocking and prep\r\nOpening, closing and mid-shift tasks\r\nMultitasking during busy days\r\nFriendly and engaging with customers — remembering names and drink orders, giving outdoor activity recommendations\r\nUp-selling retail coffee and merchandise\r\nUnderstanding the DRINK COFFEE DO STUFF brand story and consistently growing in specialty coffee knowledge",
-    "apply_link": "Email us at jobs@drinkcoffeedostuff.com with subject title \"Barista\" — please include a short introduction, indicating which shop you'd like to call home, with an updated resumé attached",
+    "application_instructions": "Email us at jobs@drinkcoffeedostuff.com with subject title \"Barista\" — please include a short introduction, indicating which shop you'd like to call home, with an updated resumé attached",
     "hourly_rate": "DOE + Tips",
     "job_type": "Full-time, Part-time",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 11
+    "id": 15
   },
   {
     "title": "Barista",
@@ -123,8 +164,9 @@
     "location": "180 Lake Parkway",
     "description": "The Barista at Edgewood Tahoe Resort will have a deep appreciation for specialty coffee, a keen eye for detail, and a commitment to outstanding customer service. The Barista ensures all beverages are prepared, presented, and served according to the resort's standards, and is dedicated to delivering an exceptional coffee experience.",
     "apply_link": "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883c689b7fbd50189c1277e00060b&id=8a7887a199cae884019a084b99756b7d&source=&lang=en",
+    "job_type": "Unknown",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 12
+    "id": 16
   },
   {
     "title": "Busser/Food Runner",
@@ -132,8 +174,9 @@
     "location": "180 Lake Parkway",
     "description": "The Busser/Food Runner is responsible for maintaining a clean and organized dining area, assisting servers with various tasks, and delivering food from the kitchen to customers. This role ensures guests receive exceptional dining experience by helping to keep the restaurant running smoothly, efficiently, and with excellent customer service.",
     "apply_link": "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883c689b7fbd50189c1277e00060b&id=8a78859f9a5b2fea019a7fb3aecf7854&source=&lang=en",
+    "job_type": "Unknown",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 13
+    "id": 17
   },
   {
     "title": "Host",
@@ -141,8 +184,9 @@
     "location": "180 Lake Parkway",
     "description": "As a Host at Edgewood Tahoe Resort, you will be responsible for greeting and seating guests in a polite, friendly, and professional manner. The Host ensures that the guest experience is pleasant from the moment guests arrive until they are seated. The Host plays an important role in managing reservations, maintaining a smooth flow of guests, and supporting the front-of-house staff.",
     "apply_link": "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883c689b7fbd50189c1277e00060b&id=8a7883ac9a31ed92019a4bf6e1bd5de7&source=&lang=en",
+    "job_type": "Unknown",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 14
+    "id": 18
   },
   {
     "title": "Retail Associate",
@@ -151,9 +195,9 @@
     "description": "The Retail Staff will be responsible for processing the sale of Tubing Hill tickets, pre packaged foods, and retail items. Staff will lead by providing outstanding customer experience through professionalism, extensive training and a friendly, welcoming demeanor.",
     "apply_link": "https://tube-tahoe.careerplug.com/jobs/3168046/apps/new",
     "hourly_rate": "$16.50 - $18.00",
-    "job_type": "Full-time, Part time",
+    "job_type": "Full-time, Part-time",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 15
+    "id": 19
   },
   {
     "title": "Tubing Hill Crew Member",
@@ -162,9 +206,9 @@
     "description": "Tubing Hill Crew Members will be responsible for assisting in the daily operations of the Snow Tubing department at Tube Tahoe.\r\nStaff will lead by providing outstanding customer experience through professionalism, extensive training and a friendly, welcoming demeanor.",
     "apply_link": "https://tube-tahoe.careerplug.com/jobs/3120376/apps/new",
     "hourly_rate": "$14.00 - $18.00",
-    "job_type": "Full-time, Part time",
+    "job_type": "Full-time, Part-time",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 16
+    "id": 20
   },
   {
     "title": "Retail Merchandise Associate",
@@ -173,8 +217,9 @@
     "description": "Responsible for delivering a highly satisfied customer experience proven by engaging and interacting with all customers, embodying customer experience principles and philosophy, and maintaining a clean and organized store environment. Adheres to all operational, merchandise, and loss prevention standards. May be cross-trained to work in multiple areas of the store in order to support the needs of the business.",
     "apply_link": "https://jobs.tjx.com/global/en/job/REQ75544/Retail-Merchandise-Associate",
     "hourly_rate": "$16.50 to $17.00",
+    "job_type": "Unknown",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 17
+    "id": 21
   },
   {
     "title": "Retail Associate",
@@ -185,7 +230,7 @@
     "hourly_rate": "$16.50",
     "job_type": "Part-time",
     "posted_date": "2025-12-02T08:00:00.000Z",
-    "id": 18
+    "id": 22
   },
   {
     "title": "Service Clerk",
@@ -194,8 +239,9 @@
     "description": "The Service Clerk reports to the Store Manager/Senior Assistant Manager and is responsible for maintaining carts, assisting customers with purchases and assistance to their cars as requested, checking prices on products, returning merchandise to store shelves, parking lot and store maintenance.",
     "apply_link": "https://chedrauiusa.csod.com/ux/ats/careersite/10/home/requisition/24993?c=chedrauiusa",
     "hourly_rate": "$16.50",
+    "job_type": "Unknown",
     "posted_date": "2025-12-02T08:00:00.000Z",
-    "id": 19
+    "id": 23
   },
   {
     "title": "Vacation Rental Cleaner",
@@ -204,9 +250,9 @@
     "description": "The house cleaner is responsible for cleaning vacation rentals throughout the service region (South Lake Tahoe). This position has the opportunity to work in the North Lake Tahoe area (Truckee/Donner) with additional pay benefits if interested.\r\n\r\n\r\n\r\nVRA has created a system which automates your schedule, houses, linen, and provides all equipment needed. We love structure, and set schedules (not changing every week). While this position is independent in nature (working solo), we take pride in our cleaning team for working together, and helping each other when in need to get the job done, stress free.",
     "apply_link": "https://vra.bamboohr.com/careers/11",
     "hourly_rate": "$25 - $30",
-    "job_type": "Part-Time",
+    "job_type": "Part-time",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 20
+    "id": 24
   },
   {
     "title": "Vacation Rental Dispatch Specialist",
@@ -215,9 +261,9 @@
     "description": "As our Dispatch Specialist, you’ll be the communication hub of our company—supporting field operations, assisting staff, clients, responding to guest needs, and ensuring that everything flows where it should. You’ll juggle calls, messages, emails, and logistics with efficiency and professionalism, solving what you can and routing the rest to the right place.  Processing service tickets, issues, ordering and processing inventory for the homes is to be expected.    This is an excellent role for someone organized, responsive, and eager to support a fast-paced team. Experience is helpful but not required—we’ll train the right person.",
     "apply_link": "https://vra.bamboohr.com/careers/27",
     "hourly_rate": "$24-$30",
-    "job_type": "Full-time, part-time",
+    "job_type": "Full-time, Part-time",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 21
+    "id": 25
   },
   {
     "title": "Grocery Clerk- Freight",
@@ -225,8 +271,9 @@
     "location": "2977 U.S. 50",
     "description": "Job Summary: Receiving, Breaking Down, Stocking, Rotating, Merchandising, Facing & Presentation Perfection in all of Grocery Department.",
     "apply_link": "https://www.paycomonline.net/v4/ats/web.php/portal/D0EAAF82D2F805FCF6412120F6BF9534/jobs/84699",
+    "job_type": "Unknown",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 22
+    "id": 26
   },
   {
     "title": "Produce Clerk",
@@ -234,8 +281,9 @@
     "location": "2977 U.S. 50",
     "description": "Job Summary: To Provide World Famous Friendly Customer Service to Customers, Team Members & Outside Vendors. Merchandising, Filling, Stocking, Breaking Down & Storing Loads, Culling Product, Rotating Product, Preparation of Product, Trimming, Crisping etc..",
     "apply_link": "https://www.paycomonline.net/v4/ats/web.php/portal/D0EAAF82D2F805FCF6412120F6BF9534/jobs/84690",
+    "job_type": "Unknown",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 23
+    "id": 27
   },
   {
     "title": "Meat Clerk",
@@ -243,8 +291,9 @@
     "location": "2977 U.S. 50",
     "description": "To Provide World Famous Friendly Customer Service to Customers, Team Members & Outside Vendors. Meat Processing, Wrapping, Pricing, Merchandising, Cleaning, Sanitation, Stocking Deli, Receiving Product, Tracking Invoicing, Maintaining Accurate Inventories.",
     "apply_link": "https://www.paycomonline.net/v4/ats/web.php/portal/D0EAAF82D2F805FCF6412120F6BF9534/jobs/84680",
+    "job_type": "Unknown",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 24
+    "id": 28
   },
   {
     "title": "Grocery Clerk",
@@ -252,8 +301,9 @@
     "location": "2977 U.S. 50",
     "description": "To Provide World Famous Friendly Customer Service to Customers, Team Members & Outside Vendors.  Merchandising, Stocking, Rotating Product, Facing, Cashier, Bagging, and Cleaning,",
     "apply_link": "https://www.paycomonline.net/v4/ats/web.php/portal/D0EAAF82D2F805FCF6412120F6BF9534/jobs/84671",
+    "job_type": "Unknown",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 25
+    "id": 29
   },
   {
     "title": "Front End Clerk",
@@ -262,9 +312,9 @@
     "description": "Job Summary:\r\nTo Provide World Famous Friendly Customer Service to Customers, Team Members & Outside Vendors. Cashier, Bagging, Cleaning, Merchandising, Stocking, Rotating Product, Facing.",
     "apply_link": "https://www.paycomonline.net/v4/ats/web.php/portal/D0EAAF82D2F805FCF6412120F6BF9534/jobs/126612",
     "hourly_rate": "$16.50 - $19.00",
-    "job_type": "Full-time, part-time",
+    "job_type": "Full-time, Part-time",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 26
+    "id": 30
   },
   {
     "title": "Yard/Warehouse Rep I",
@@ -275,7 +325,7 @@
     "hourly_rate": "$18 - $20",
     "job_type": "Full-time",
     "posted_date": "2025-11-10T08:00:00.000Z",
-    "id": 27
+    "id": 31
   },
   {
     "title": "Sales Associate",
@@ -286,6 +336,6 @@
     "hourly_rate": "$18-20",
     "job_type": "Full-time",
     "posted_date": "2025-10-28T07:00:00.000Z",
-    "id": 28
+    "id": 32
   }
 ]

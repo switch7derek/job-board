@@ -70,13 +70,40 @@ describe("JobModal", () => {
     expect(handleClose).not.toHaveBeenCalled();
   });
 
-  it("renders apply link with correct href", () => {
+  it("renders apply link with correct href when apply_link is provided", () => {
     render(<JobModal job={mockJob} onClose={vi.fn()} />);
 
     const applyLink = screen.getByText("Apply Now");
     expect(applyLink).toHaveAttribute("href", "https://example.com/apply");
     expect(applyLink).toHaveAttribute("target", "_blank");
     expect(applyLink).toHaveAttribute("rel", "noopener noreferrer");
+  });
+
+  it("renders application instructions when apply_link is not provided but application_instructions is", () => {
+    const jobWithInstructions: Job = {
+      ...mockJob,
+      apply_link: undefined,
+      application_instructions: "Drop resume off in person or submit here: https://example.com/",
+    };
+    render(<JobModal job={jobWithInstructions} onClose={vi.fn()} />);
+
+    expect(screen.queryByText("Apply Now")).not.toBeInTheDocument();
+    expect(screen.getByText("Application Instructions")).toBeInTheDocument();
+    expect(
+      screen.getByText("Drop resume off in person or submit here: https://example.com/"),
+    ).toBeInTheDocument();
+  });
+
+  it("does not render apply button or instructions when neither apply_link nor application_instructions are provided", () => {
+    const jobWithoutApplication: Job = {
+      ...mockJob,
+      apply_link: undefined,
+      application_instructions: undefined,
+    };
+    render(<JobModal job={jobWithoutApplication} onClose={vi.fn()} />);
+
+    expect(screen.queryByText("Apply Now")).not.toBeInTheDocument();
+    expect(screen.queryByText("Application Instructions")).not.toBeInTheDocument();
   });
 
   it("displays 'Unknown' for jobs with unknown posted date", () => {

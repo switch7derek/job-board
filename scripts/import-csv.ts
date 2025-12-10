@@ -32,6 +32,19 @@ function parseDate(dateStr: string | undefined): string {
   return new Date().toISOString();
 }
 
+// Check if a string is a valid URL.
+function isValidUrl(urlStr: string): boolean {
+  if (!urlStr || urlStr.trim() === "") {
+    return false;
+  }
+  try {
+    const url = new URL(urlStr.trim());
+    return url.protocol === "http:" || url.protocol === "https:";
+  } catch {
+    return false;
+  }
+}
+
 function importCsvToJson() {
   console.log("Reading CSV file...");
   const csvContent = readFileSync(csvPath, "utf-8");
@@ -63,12 +76,17 @@ function importCsvToJson() {
       const company = record.Company?.trim() || "";
       const location = record.Location?.trim() || "";
       const description = record.Description?.trim() || "";
-      const apply_link = record["Application Link"]?.trim() || "";
+      const applicationLinkValue = record["Application Link"]?.trim() || "";
 
-      // Skip records missing required fields
-      if (!title || !company || !location || !description || !apply_link) {
+      // Skip records missing required fields (apply_link or application_instructions is not required)
+      if (!title || !company || !location || !description) {
         return null;
       }
+
+      // Determine if the application link is a valid URL or should be treated as instructions.
+      const isUrl = isValidUrl(applicationLinkValue);
+      const apply_link = isUrl ? applicationLinkValue : undefined;
+      const application_instructions = isUrl ? undefined : applicationLinkValue || undefined;
 
       return {
         title,
@@ -76,6 +94,7 @@ function importCsvToJson() {
         location,
         description,
         apply_link,
+        application_instructions,
         hourly_rate: record["Hourly Rate"]?.trim() || undefined,
         job_type: record["Type of work"]?.trim() || undefined,
         posted_date: parseDate(record["Date Posted"]),

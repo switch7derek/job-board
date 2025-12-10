@@ -13,14 +13,15 @@ export interface Job {
   company: string;
   location: string;
   description: string;
-  apply_link: string;
+  apply_link?: string;
+  application_instructions?: string;
   hourly_rate?: string;
   job_type?: string;
   posted_date: string;
 }
 
 // Check if a date string represents an unknown date.
-function isUnknownDate(dateStr: string): boolean {
+export function isUnknownDate(dateStr: string): boolean {
   return dateStr === UNKNOWN_DATE;
 }
 

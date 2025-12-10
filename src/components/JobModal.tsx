@@ -50,14 +50,21 @@ export default function JobModal({ job, onClose }: JobModalProps) {
           <h3>Description</h3>
           <p>{job.description}</p>
         </div>
-        <a
-          href={job.apply_link}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="apply-button"
-        >
-          Apply Now
-        </a>
+        {job.apply_link ? (
+          <a
+            href={job.apply_link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="apply-button"
+          >
+            Apply Now
+          </a>
+        ) : job.application_instructions ? (
+          <div className="application-instructions">
+            <h3>Application Instructions</h3>
+            <p>{job.application_instructions}</p>
+          </div>
+        ) : null}
       </div>
     </div>
   );

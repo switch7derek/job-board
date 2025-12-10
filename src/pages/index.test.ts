@@ -11,6 +11,10 @@ describe("index page", () => {
     expect(jobs[0]).toHaveProperty("company");
     expect(jobs[0]).toHaveProperty("location");
     expect(jobs[0]).toHaveProperty("description");
-    expect(jobs[0]).toHaveProperty("apply_link");
+    // Jobs should have either apply_link or application_instructions
+    expect(
+      jobs[0].apply_link !== undefined ||
+        jobs[0].application_instructions !== undefined,
+    ).toBe(true);
   });
 });

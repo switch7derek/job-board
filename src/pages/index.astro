@@ -240,6 +240,7 @@ const jobs = getAllJobs();
 		box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
 		border: 1px solid #3a3a3a;
 		margin: auto;
+		box-sizing: border-box;
 	}
 
 	:global(.modal-close) {
@@ -338,6 +339,7 @@ const jobs = getAllJobs();
 		font-weight: 600;
 		transition: background 0.2s, transform 0.2s;
 		text-align: center;
+		box-sizing: border-box;
 	}
 
 	:global(.apply-button:hover) {
@@ -390,6 +392,7 @@ const jobs = getAllJobs();
 			padding: 1.5rem;
 			margin: 0.5rem;
 			max-height: calc(100vh - 4rem);
+			width: calc(100% - 1rem);
 		}
 
 		:global(.modal-content h2) {
@@ -400,6 +403,7 @@ const jobs = getAllJobs();
 		:global(.apply-button) {
 			width: 100%;
 			padding: 1rem;
+			box-sizing: border-box;
 		}
 	}
 

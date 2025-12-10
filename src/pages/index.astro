@@ -224,7 +224,7 @@ const jobs = getAllJobs();
 		align-items: center;
 		justify-content: center;
 		z-index: 1000;
-		padding: 1rem;
+		padding: 2rem 1rem;
 		backdrop-filter: blur(4px);
 	}
 
@@ -234,11 +234,12 @@ const jobs = getAllJobs();
 		padding: 2rem;
 		max-width: 600px;
 		width: 100%;
-		max-height: 90vh;
+		max-height: calc(100vh - 4rem);
 		overflow-y: auto;
 		position: relative;
 		box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
 		border: 1px solid #3a3a3a;
+		margin: auto;
 	}
 
 	:global(.modal-close) {
@@ -388,7 +389,7 @@ const jobs = getAllJobs();
 		:global(.modal-content) {
 			padding: 1.5rem;
 			margin: 0.5rem;
-			max-height: 95vh;
+			max-height: calc(100vh - 4rem);
 		}
 
 		:global(.modal-content h2) {

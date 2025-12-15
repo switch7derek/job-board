@@ -1,5 +1,59 @@
 [
   {
+    "title": "Server - Landshark",
+    "company": "Margaritaville",
+    "location": "4130 Lake Tahoe Blvd",
+    "description": "Are you a passionate and customer-focused individual with a love for hospitality? Join our team as a Server and be an integral part of creating exceptional dining experiences for our guests. With high energy and enthusiasm, you will have the opportunity to showcase your interpersonal skills and provide outstanding service that leaves a lasting impression. From recommending delectable menu items to ensuring a seamless dining journey, you will play a vital role in delivering an unforgettable culinary experience. As part of our dedicated team, you will thrive in a fast-paced environment and have the chance to build meaningful connections with our guests. If you have a genuine passion for hospitality, impeccable attention to detail, and a knack for creating memorable moments, this is your chance to shine in a rewarding and dynamic role!",
+    "apply_link": "https://careers-davidsonhospitality.icims.com/jobs/22046/server---landshark/job?hub=10&_gl=1*usepdz*_ga*MjgwNTgyOTQ1LjE3NTg5MjgzMDE.*_ga_5Y2BYGL910*czE3NjU3NDMyNzMkbzckZzAkdDE3NjU3NDMyNzQkajU5JGwwJGgw&mobile=false&width=1318&height=500&bga=true&needsRedirect=false&jan1offset=-480&jun1offset=-420",
+    "hourly_rate": "$16.50",
+    "job_type": "Part-time",
+    "posted_date": "2025-12-09T08:00:00.000Z",
+    "id": 1
+  },
+  {
+    "title": "Deli Clerk",
+    "company": "Safeway",
+    "location": "212 Elks Point Rd",
+    "description": "As a Deli Clerk, no one day is ever the same. You are someone who prides themselves on exceptional customer service and their knowledge of deli meats, cheeses, salads, sandwiches, dips, and gourmet and hot case food items.  You take great care in preparing delicious food that will keep our customers returning to the store time and time again. You will have the opportunity throughout your day to utilize various tools like our meat and cheese slicers, food scales, fryers, ovens, and/or cash registers. As a Deli Clerk, you guide, inspire, and make every guest’s visit memorable.  If you have smiles to share, we'd love to have you on our team.",
+    "apply_link": "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/jobs/preview/661612/?lastSelectedFacet=CATEGORIES&latitude=38.928384&location=El+Dorado%2C+CA%2C+United+States&longitude=-119.9734784&mode=geolocation&radius=25&radiusUnit=MI&selectedCategoriesFacet=300000034963805",
+    "job_type": "Part-time",
+    "posted_date": "2025-12-09T08:00:00.000Z",
+    "id": 2
+  },
+  {
+    "title": "Multiple Positions Available",
+    "company": "Powder House",
+    "location": "We have 5 locations in South Lake Tahoe",
+    "description": "Ski Pass Reimbursement with Full Time Commitment\r\nPro Deals from 100s of Brands\r\nExclusive Discounts with Local Partners\r\nFree Tunes and Discounted Rentals for Friends and Family\r\nBonuses based on Performance",
+    "application_instructions": "Please contact Casey Buckley with Powder House HR\r\nhumanresources4045@gmail.com",
+    "hourly_rate": "$18",
+    "job_type": "Full-time, Part-time",
+    "posted_date": "+020205-12-09T08:00:00.000Z",
+    "id": 3
+  },
+  {
+    "title": "Temporary Customer Service Representative",
+    "company": "South Lake Tahoe Public Utilities District",
+    "location": "1275 Meadow Crest Dr",
+    "description": "Under the direction of the Customer Service Supervisor, performs a variety of routine billing, accounting and financial duties related to customer accounts for water and sewer services. Also, handles residential plan review, customer relations either in person, over the phone or via written correspondence and revenue collection, along with other issues, often in emergency circumstances or with customers who are upset or distressed.",
+    "apply_link": "https://www.governmentjobs.com/careers/stpud/jobs/5166701/temporary-customer-service-representative",
+    "hourly_rate": "$25.25 - $27.84",
+    "job_type": "Full-time",
+    "posted_date": "2025-12-10T08:00:00.000Z",
+    "id": 4
+  },
+  {
+    "title": "FOH (Front of House) Server",
+    "company": "Gastromaniac",
+    "location": "3091 Harrison Ave #120",
+    "description": "Our team at Gastromaniac Pizza & Pasta prides ourselves in providing a great casual dining experience with authentic Italian homemade delicacies to our customers. Looking for motivated individuals who are passionate about customer service, and enjoy working in a fast paced, team oriented, and high volume environment.\r\n\r\nPerks include employee benefits, flexible schedule, and learning about authentic Italian cuisine & wine!\r\n\r\nRequirements/Qualifications:\r\n* Previous experience in hospitality/restaurant industry is REQUIRED\r\n* Experience and knowledge of Italian cuisine (Pasta & Pizza) is a PLUS\r\n* Experience and knowledge of Italian wines is a PLUS\r\n* +21 years old\r\n\r\n*WE ARE NOT A J1 authorized employer at this time.*",
+    "application_instructions": "Email resume to gastromaniac.llc@gmail.com",
+    "hourly_rate": "$16.50 + tips",
+    "job_type": "Part-time",
+    "posted_date": "2025-12-09T08:00:00.000Z",
+    "id": 5
+  },
+  {
     "title": "Server",
     "company": "Getaway Cafe",
     "location": "3140 Hwy 50",
@@ -7,7 +61,7 @@
     "application_instructions": "Apply in person or email resume to getawaycafetahoe@gmail.com",
     "job_type": "Unknown",
     "posted_date": "2025-12-10T08:00:00.000Z",
-    "id": 1
+    "id": 6
   },
   {
     "title": "General Maintenance Tech",
@@ -17,7 +71,7 @@
     "application_instructions": "Apply in person 9am - 5pm",
     "job_type": "Unknown",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 2
+    "id": 7
   },
   {
     "title": "Administrative Assistant and Guest Services",
@@ -27,7 +81,7 @@
     "application_instructions": "Apply in person 9am - 5pm",
     "job_type": "Unknown",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 3
+    "id": 8
   },
   {
     "title": "Sandwich Artist",
@@ -38,7 +92,7 @@
     "hourly_rate": "Competitive",
     "job_type": "Part-time",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 4
+    "id": 9
   },
   {
     "title": "Morning Cook",
@@ -49,7 +103,7 @@
     "hourly_rate": "$17 - $19",
     "job_type": "Full-time",
     "posted_date": "2025-12-06T08:00:00.000Z",
-    "id": 5
+    "id": 10
   },
   {
     "title": "Retail Sales Associate (Temporary)",
@@ -60,7 +114,7 @@
     "hourly_rate": "$16.50 - $17.00",
     "job_type": "Part-time",
     "posted_date": "2025-12-02T08:00:00.000Z",
-    "id": 6
+    "id": 11
   },
   {
     "title": "Store Associate",
@@ -71,7 +125,7 @@
     "hourly_rate": "$16.50 - $23.50",
     "job_type": "Part-time",
     "posted_date": "2025-12-02T08:00:00.000Z",
-    "id": 7
+    "id": 12
   },
   {
     "title": "Veterinary Receptionist/Assistant",
@@ -82,7 +136,7 @@
     "hourly_rate": "Competitive with benefits",
     "job_type": "Full-time",
     "posted_date": "2025-12-02T08:00:00.000Z",
-    "id": 8
+    "id": 13
   },
   {
     "title": "Cookie Delivery Driver",
@@ -93,7 +147,7 @@
     "hourly_rate": "$20 + tips",
     "job_type": "Part-time",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 9
+    "id": 14
   },
   {
     "title": "Cookie Crew",
@@ -104,7 +158,7 @@
     "hourly_rate": "$20 + tips",
     "job_type": "Part-time",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 10
+    "id": 15
   },
   {
     "title": "Shift Lead",
@@ -115,7 +169,7 @@
     "hourly_rate": "$20 + tips",
     "job_type": "Part-time",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 11
+    "id": 16
   },
   {
     "title": "Shift Lead",
@@ -125,7 +179,7 @@
     "apply_link": "https://docs.google.com/forms/d/e/1FAIpQLSdfkNt_4gpkHNgHTQDoTV-qZeJm0UXCd1T4_e2xfRlMIRsR6g/viewform",
     "job_type": "Full-time",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 12
+    "id": 17
   },
   {
     "title": "Barista/Register/Back of House",
@@ -135,7 +189,7 @@
     "apply_link": "https://docs.google.com/forms/d/e/1FAIpQLSdfkNt_4gpkHNgHTQDoTV-qZeJm0UXCd1T4_e2xfRlMIRsR6g/viewform",
     "job_type": "Part-time",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 13
+    "id": 18
   },
   {
     "title": "Night Cleaner",
@@ -145,7 +199,7 @@
     "apply_link": "https://docs.google.com/forms/d/e/1FAIpQLSdfkNt_4gpkHNgHTQDoTV-qZeJm0UXCd1T4_e2xfRlMIRsR6g/viewform",
     "job_type": "Part-time",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 14
+    "id": 19
   },
   {
     "title": "Barista",
@@ -156,7 +210,7 @@
     "hourly_rate": "DOE + Tips",
     "job_type": "Full-time, Part-time",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 15
+    "id": 20
   },
   {
     "title": "Barista",
@@ -166,7 +220,7 @@
     "apply_link": "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883c689b7fbd50189c1277e00060b&id=8a7887a199cae884019a084b99756b7d&source=&lang=en",
     "job_type": "Unknown",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 16
+    "id": 21
   },
   {
     "title": "Busser/Food Runner",
@@ -176,7 +230,7 @@
     "apply_link": "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883c689b7fbd50189c1277e00060b&id=8a78859f9a5b2fea019a7fb3aecf7854&source=&lang=en",
     "job_type": "Unknown",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 17
+    "id": 22
   },
   {
     "title": "Host",
@@ -186,7 +240,7 @@
     "apply_link": "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883c689b7fbd50189c1277e00060b&id=8a7883ac9a31ed92019a4bf6e1bd5de7&source=&lang=en",
     "job_type": "Unknown",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 18
+    "id": 23
   },
   {
     "title": "Retail Associate",
@@ -197,7 +251,7 @@
     "hourly_rate": "$16.50 - $18.00",
     "job_type": "Full-time, Part-time",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 19
+    "id": 24
   },
   {
     "title": "Tubing Hill Crew Member",
@@ -208,7 +262,7 @@
     "hourly_rate": "$14.00 - $18.00",
     "job_type": "Full-time, Part-time",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 20
+    "id": 25
   },
   {
     "title": "Retail Merchandise Associate",
@@ -219,7 +273,7 @@
     "hourly_rate": "$16.50 to $17.00",
     "job_type": "Unknown",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 21
+    "id": 26
   },
   {
     "title": "Retail Associate",
@@ -230,7 +284,7 @@
     "hourly_rate": "$16.50",
     "job_type": "Part-time",
     "posted_date": "2025-12-02T08:00:00.000Z",
-    "id": 22
+    "id": 27
   },
   {
     "title": "Service Clerk",
@@ -241,7 +295,7 @@
     "hourly_rate": "$16.50",
     "job_type": "Unknown",
     "posted_date": "2025-12-02T08:00:00.000Z",
-    "id": 23
+    "id": 28
   },
   {
     "title": "Vacation Rental Cleaner",
@@ -252,7 +306,7 @@
     "hourly_rate": "$25 - $30",
     "job_type": "Part-time",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 24
+    "id": 29
   },
   {
     "title": "Vacation Rental Dispatch Specialist",
@@ -263,7 +317,7 @@
     "hourly_rate": "$24-$30",
     "job_type": "Full-time, Part-time",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 25
+    "id": 30
   },
   {
     "title": "Grocery Clerk- Freight",
@@ -273,7 +327,7 @@
     "apply_link": "https://www.paycomonline.net/v4/ats/web.php/portal/D0EAAF82D2F805FCF6412120F6BF9534/jobs/84699",
     "job_type": "Unknown",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 26
+    "id": 31
   },
   {
     "title": "Produce Clerk",
@@ -283,7 +337,7 @@
     "apply_link": "https://www.paycomonline.net/v4/ats/web.php/portal/D0EAAF82D2F805FCF6412120F6BF9534/jobs/84690",
     "job_type": "Unknown",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 27
+    "id": 32
   },
   {
     "title": "Meat Clerk",
@@ -293,7 +347,7 @@
     "apply_link": "https://www.paycomonline.net/v4/ats/web.php/portal/D0EAAF82D2F805FCF6412120F6BF9534/jobs/84680",
     "job_type": "Unknown",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 28
+    "id": 33
   },
   {
     "title": "Grocery Clerk",
@@ -303,7 +357,7 @@
     "apply_link": "https://www.paycomonline.net/v4/ats/web.php/portal/D0EAAF82D2F805FCF6412120F6BF9534/jobs/84671",
     "job_type": "Unknown",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 29
+    "id": 34
   },
   {
     "title": "Front End Clerk",
@@ -314,7 +368,7 @@
     "hourly_rate": "$16.50 - $19.00",
     "job_type": "Full-time, Part-time",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 30
+    "id": 35
   },
   {
     "title": "Yard/Warehouse Rep I",
@@ -325,7 +379,7 @@
     "hourly_rate": "$18 - $20",
     "job_type": "Full-time",
     "posted_date": "2025-11-10T08:00:00.000Z",
-    "id": 31
+    "id": 36
   },
   {
     "title": "Sales Associate",
@@ -336,6 +390,6 @@
     "hourly_rate": "$18-20",
     "job_type": "Full-time",
     "posted_date": "2025-10-28T07:00:00.000Z",
-    "id": 32
+    "id": 37
   }
 ]

@@ -1,5 +1,58 @@
 [
   {
+    "title": "Banquet Cook III",
+    "company": "Golden Nugget",
+    "location": "50 Hwy 50",
+    "description": "It is the responsibility of the Cook to prepare all food items according to menu, recipes, plate specifications, and guest requests. It is also the responsibility of this role to assure food preparation and service is of the highest quality and according to specified prep times.",
+    "apply_link": "https://careers.goldennugget.com/golden-nugget-careers/jobs/36284?lang=en-us&previousLocale=en-US",
+    "hourly_rate": "$19 - $22",
+    "job_type": "Unknown",
+    "posted_date": "1970-01-01T00:00:00.000Z",
+    "id": 1
+  },
+  {
+    "title": "Housekeeper",
+    "company": "Heavenly Valley Townhouses Association",
+    "location": "1455 Keller Rd",
+    "description": "Competitive hourly wage; must be detail oriented and fit to handle stairs. 2 days per week. Saturdays are required. To apply, attach your resume.",
+    "apply_link": "https://www.sierratahoejobs.com/company/heavenly-valley-townhouses-association-340717/job/housekeeper-in-south-lake-tahoe-ca-oyn1mnv67hg4hw0084vuc7ov9fwljc/?sid=2065570934",
+    "hourly_rate": "$20 - $21",
+    "job_type": "Part-time",
+    "posted_date": "2025-12-02T08:00:00.000Z",
+    "id": 2
+  },
+  {
+    "title": "Customer Service Rep & Office Assistant",
+    "company": "Greater Sierra Insurance Services",
+    "location": "1233 Ski Run Blvd Suite 1",
+    "description": "*Busy local insurance office is looking for a friendly, organized, and dependable Customer Service Representative & Office Assistant. This is a great opportunity to join a professional team and grow with a stable company.*\r\n\r\nJob Duties include: Answering phones and assisting clients in person, processing payments and basic policy service. scheduling appointments, data entry and file management, general office support\r\n\r\nRequirements:customer service or office experience preferred, must be detail-oriented and able to multitask, good communication and computer skills, insurance experience a plus (not required), bilingual (English/Spanish) a plus\r\n\r\nM–Thurs 9am–5pm & Fri 9am-4pm",
+    "application_instructions": "Please send your resume to nikki@greatersierrainsurance.com and a short message about your experience and availability. You can also apply in person.",
+    "hourly_rate": "$18 - $20 + benefits",
+    "job_type": "Full-time",
+    "posted_date": "2025-12-17T08:00:00.000Z",
+    "id": 3
+  },
+  {
+    "title": "Beverage Shift Supervisor - Graveyeard",
+    "company": "Harrah's",
+    "location": "18 Highway 50",
+    "description": "The incumbent in this position is responsible for developing an environment that creates excitement for guests and Team Members, promoting and retaining a highly skilled work force.  Provides leadership and direction to assigned beverage service personnel to achieve maximum operating results, revenue tracking, and cost of sales control.",
+    "apply_link": "https://edmn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs/preview/77424/?lastSelectedFacet=POSTING_DATES&location=Stateline%2C+NV%2C+United+States&locationId=300000002323814&locationLevel=city&mode=location&radius=25&radiusUnit=MI&selectedPostingDatesFacet=7",
+    "job_type": "Unknown",
+    "posted_date": "2025-12-19T08:00:00.000Z",
+    "id": 4
+  },
+  {
+    "title": "Waitperson",
+    "company": "El Jefe",
+    "location": "18 Highway 50",
+    "description": "Provides prompt, courteous food service to Harrah’s and Caesars Republic guests in accordance with established procedures",
+    "apply_link": "https://edmn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs/preview/77423/?lastSelectedFacet=POSTING_DATES&location=Stateline%2C+NV%2C+United+States&locationId=300000002323814&locationLevel=city&mode=location&radius=25&radiusUnit=MI&selectedPostingDatesFacet=7",
+    "job_type": "Unknown",
+    "posted_date": "2025-12-19T08:00:00.000Z",
+    "id": 5
+  },
+  {
     "title": "Server - Landshark",
     "company": "Margaritaville",
     "location": "4130 Lake Tahoe Blvd",
@@ -8,7 +61,7 @@
     "hourly_rate": "$16.50",
     "job_type": "Part-time",
     "posted_date": "2025-12-09T08:00:00.000Z",
-    "id": 1
+    "id": 6
   },
   {
     "title": "Deli Clerk",
@@ -18,7 +71,7 @@
     "apply_link": "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/jobs/preview/661612/?lastSelectedFacet=CATEGORIES&latitude=38.928384&location=El+Dorado%2C+CA%2C+United+States&longitude=-119.9734784&mode=geolocation&radius=25&radiusUnit=MI&selectedCategoriesFacet=300000034963805",
     "job_type": "Part-time",
     "posted_date": "2025-12-09T08:00:00.000Z",
-    "id": 2
+    "id": 7
   },
   {
     "title": "Multiple Positions Available",
@@ -29,7 +82,7 @@
     "hourly_rate": "$18",
     "job_type": "Full-time, Part-time",
     "posted_date": "+020205-12-09T08:00:00.000Z",
-    "id": 3
+    "id": 8
   },
   {
     "title": "Temporary Customer Service Representative",
@@ -40,7 +93,7 @@
     "hourly_rate": "$25.25 - $27.84",
     "job_type": "Full-time",
     "posted_date": "2025-12-10T08:00:00.000Z",
-    "id": 4
+    "id": 9
   },
   {
     "title": "FOH (Front of House) Server",
@@ -51,7 +104,7 @@
     "hourly_rate": "$16.50 + tips",
     "job_type": "Part-time",
     "posted_date": "2025-12-09T08:00:00.000Z",
-    "id": 5
+    "id": 10
   },
   {
     "title": "Server",
@@ -61,7 +114,7 @@
     "application_instructions": "Apply in person or email resume to getawaycafetahoe@gmail.com",
     "job_type": "Unknown",
     "posted_date": "2025-12-10T08:00:00.000Z",
-    "id": 6
+    "id": 11
   },
   {
     "title": "General Maintenance Tech",
@@ -71,7 +124,7 @@
     "application_instructions": "Apply in person 9am - 5pm",
     "job_type": "Unknown",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 7
+    "id": 12
   },
   {
     "title": "Administrative Assistant and Guest Services",
@@ -81,7 +134,7 @@
     "application_instructions": "Apply in person 9am - 5pm",
     "job_type": "Unknown",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 8
+    "id": 13
   },
   {
     "title": "Sandwich Artist",
@@ -92,7 +145,7 @@
     "hourly_rate": "Competitive",
     "job_type": "Part-time",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 9
+    "id": 14
   },
   {
     "title": "Morning Cook",
@@ -103,7 +156,7 @@
     "hourly_rate": "$17 - $19",
     "job_type": "Full-time",
     "posted_date": "2025-12-06T08:00:00.000Z",
-    "id": 10
+    "id": 15
   },
   {
     "title": "Retail Sales Associate (Temporary)",
@@ -114,7 +167,7 @@
     "hourly_rate": "$16.50 - $17.00",
     "job_type": "Part-time",
     "posted_date": "2025-12-02T08:00:00.000Z",
-    "id": 11
+    "id": 16
   },
   {
     "title": "Store Associate",
@@ -125,7 +178,7 @@
     "hourly_rate": "$16.50 - $23.50",
     "job_type": "Part-time",
     "posted_date": "2025-12-02T08:00:00.000Z",
-    "id": 12
+    "id": 17
   },
   {
     "title": "Veterinary Receptionist/Assistant",
@@ -136,7 +189,7 @@
     "hourly_rate": "Competitive with benefits",
     "job_type": "Full-time",
     "posted_date": "2025-12-02T08:00:00.000Z",
-    "id": 13
+    "id": 18
   },
   {
     "title": "Cookie Delivery Driver",
@@ -147,7 +200,7 @@
     "hourly_rate": "$20 + tips",
     "job_type": "Part-time",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 14
+    "id": 19
   },
   {
     "title": "Cookie Crew",
@@ -158,7 +211,7 @@
     "hourly_rate": "$20 + tips",
     "job_type": "Part-time",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 15
+    "id": 20
   },
   {
     "title": "Shift Lead",
@@ -169,7 +222,7 @@
     "hourly_rate": "$20 + tips",
     "job_type": "Part-time",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 16
+    "id": 21
   },
   {
     "title": "Shift Lead",
@@ -179,7 +232,7 @@
     "apply_link": "https://docs.google.com/forms/d/e/1FAIpQLSdfkNt_4gpkHNgHTQDoTV-qZeJm0UXCd1T4_e2xfRlMIRsR6g/viewform",
     "job_type": "Full-time",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 17
+    "id": 22
   },
   {
     "title": "Barista/Register/Back of House",
@@ -189,7 +242,7 @@
     "apply_link": "https://docs.google.com/forms/d/e/1FAIpQLSdfkNt_4gpkHNgHTQDoTV-qZeJm0UXCd1T4_e2xfRlMIRsR6g/viewform",
     "job_type": "Part-time",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 18
+    "id": 23
   },
   {
     "title": "Night Cleaner",
@@ -199,7 +252,7 @@
     "apply_link": "https://docs.google.com/forms/d/e/1FAIpQLSdfkNt_4gpkHNgHTQDoTV-qZeJm0UXCd1T4_e2xfRlMIRsR6g/viewform",
     "job_type": "Part-time",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 19
+    "id": 24
   },
   {
     "title": "Barista",
@@ -210,7 +263,7 @@
     "hourly_rate": "DOE + Tips",
     "job_type": "Full-time, Part-time",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 20
+    "id": 25
   },
   {
     "title": "Barista",
@@ -220,7 +273,7 @@
     "apply_link": "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883c689b7fbd50189c1277e00060b&id=8a7887a199cae884019a084b99756b7d&source=&lang=en",
     "job_type": "Unknown",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 21
+    "id": 26
   },
   {
     "title": "Busser/Food Runner",
@@ -230,7 +283,7 @@
     "apply_link": "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883c689b7fbd50189c1277e00060b&id=8a78859f9a5b2fea019a7fb3aecf7854&source=&lang=en",
     "job_type": "Unknown",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 22
+    "id": 27
   },
   {
     "title": "Host",
@@ -240,7 +293,7 @@
     "apply_link": "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883c689b7fbd50189c1277e00060b&id=8a7883ac9a31ed92019a4bf6e1bd5de7&source=&lang=en",
     "job_type": "Unknown",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 23
+    "id": 28
   },
   {
     "title": "Retail Associate",
@@ -251,7 +304,7 @@
     "hourly_rate": "$16.50 - $18.00",
     "job_type": "Full-time, Part-time",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 24
+    "id": 29
   },
   {
     "title": "Tubing Hill Crew Member",
@@ -262,7 +315,7 @@
     "hourly_rate": "$14.00 - $18.00",
     "job_type": "Full-time, Part-time",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 25
+    "id": 30
   },
   {
     "title": "Retail Merchandise Associate",
@@ -273,7 +326,7 @@
     "hourly_rate": "$16.50 to $17.00",
     "job_type": "Unknown",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 26
+    "id": 31
   },
   {
     "title": "Retail Associate",
@@ -284,7 +337,7 @@
     "hourly_rate": "$16.50",
     "job_type": "Part-time",
     "posted_date": "2025-12-02T08:00:00.000Z",
-    "id": 27
+    "id": 32
   },
   {
     "title": "Service Clerk",
@@ -295,7 +348,7 @@
     "hourly_rate": "$16.50",
     "job_type": "Unknown",
     "posted_date": "2025-12-02T08:00:00.000Z",
-    "id": 28
+    "id": 33
   },
   {
     "title": "Vacation Rental Cleaner",
@@ -306,7 +359,7 @@
     "hourly_rate": "$25 - $30",
     "job_type": "Part-time",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 29
+    "id": 34
   },
   {
     "title": "Vacation Rental Dispatch Specialist",
@@ -317,7 +370,7 @@
     "hourly_rate": "$24-$30",
     "job_type": "Full-time, Part-time",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 30
+    "id": 35
   },
   {
     "title": "Grocery Clerk- Freight",
@@ -327,7 +380,7 @@
     "apply_link": "https://www.paycomonline.net/v4/ats/web.php/portal/D0EAAF82D2F805FCF6412120F6BF9534/jobs/84699",
     "job_type": "Unknown",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 31
+    "id": 36
   },
   {
     "title": "Produce Clerk",
@@ -337,7 +390,7 @@
     "apply_link": "https://www.paycomonline.net/v4/ats/web.php/portal/D0EAAF82D2F805FCF6412120F6BF9534/jobs/84690",
     "job_type": "Unknown",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 32
+    "id": 37
   },
   {
     "title": "Meat Clerk",
@@ -347,7 +400,7 @@
     "apply_link": "https://www.paycomonline.net/v4/ats/web.php/portal/D0EAAF82D2F805FCF6412120F6BF9534/jobs/84680",
     "job_type": "Unknown",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 33
+    "id": 38
   },
   {
     "title": "Grocery Clerk",
@@ -357,7 +410,7 @@
     "apply_link": "https://www.paycomonline.net/v4/ats/web.php/portal/D0EAAF82D2F805FCF6412120F6BF9534/jobs/84671",
     "job_type": "Unknown",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 34
+    "id": 39
   },
   {
     "title": "Front End Clerk",
@@ -368,7 +421,7 @@
     "hourly_rate": "$16.50 - $19.00",
     "job_type": "Full-time, Part-time",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 35
+    "id": 40
   },
   {
     "title": "Yard/Warehouse Rep I",
@@ -379,7 +432,7 @@
     "hourly_rate": "$18 - $20",
     "job_type": "Full-time",
     "posted_date": "2025-11-10T08:00:00.000Z",
-    "id": 36
+    "id": 41
   },
   {
     "title": "Sales Associate",
@@ -390,6 +443,6 @@
     "hourly_rate": "$18-20",
     "job_type": "Full-time",
     "posted_date": "2025-10-28T07:00:00.000Z",
-    "id": 37
+    "id": 42
   }
 ]

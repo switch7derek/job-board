@@ -1,5 +1,108 @@
 [
   {
+    "title": "Housekeeper",
+    "company": "Lake Tahoe Cleaning Services",
+    "location": "Unknown",
+    "description": "Lake Tahoe Cleaning services is looking for an experienced house cleaner. Position starts ASAP. Must have transportation with four-wheel-drive. Looking for someone locally, reliable and honest.",
+    "application_instructions": "Please call or text Dana at 775-221-1454 for more information.",
+    "hourly_rate": "$25 + bonuses",
+    "job_type": "Full-time",
+    "posted_date": "2026-01-02T08:00:00.000Z",
+    "id": 1
+  },
+  {
+    "title": "Housekeeper",
+    "company": "Alpine Home Services",
+    "location": "Raley's at the Y",
+    "description": "Part time housekeepers to join a team of motivated cleaners. Training and transportation provided. As long as you can make it to Raley's at the Y, we'll take care of the rest. Applicants must be reliable, trustworthy and hard working. Need to be available - Monday and Tuesday, 9am - 4pm.\r\nI'm looking for two more employees who just need a couple of extra days a week. It would be awesome if you have some housekeeping experience.\r\nStart date is January 5th, 2026\r\nThis position is for South Lake Tahoe residents only.",
+    "application_instructions": "Email: Samantha Fried at 18354d32b73d32ec8b67efa738ab2f53@job.craigslist.org",
+    "hourly_rate": "$20 for housekeeping and $16.90 for drivetime.",
+    "job_type": "Part-time",
+    "posted_date": "2025-12-30T08:00:00.000Z",
+    "id": 2
+  },
+  {
+    "title": "Food Service Worker / Line Cook",
+    "company": "LTCC College Cafe (via Pacific Dining",
+    "location": "Lake Tahoe Community College",
+    "description": "Position Responsibilities:\r\nPrepare and serve food/beverages to guests and run POS\r\nSubstitute for or assist other employees during emergencies or rush periods.\r\nMust follow all safety rules and actively prevent accidents.\r\nCommitment to excellent service and ethics!",
+    "apply_link": "https://www.pacific-dining.com/careers",
+    "hourly_rate": "$20 - $22 DOE",
+    "job_type": "Full-time",
+    "posted_date": "2025-12-29T08:00:00.000Z",
+    "id": 3
+  },
+  {
+    "title": "Valet Attendant",
+    "company": "Edgewood Tahoe Resort",
+    "location": "180 Lake Parkway",
+    "description": "The Valet Attendant plays a crucial role in ensuring seamless arrival and departure experiences for guests at Edgewood Tahoe Resort. The Valet Attendant is responsible for providing exceptional guest service by safely parking, retrieving, and handling guest vehicles. As the first and last point of contact for resort guests, the valet represents the resort's brand and must deliver a consistently warm, professional, and anticipatory service experience in a luxury environment. The ideal candidate possesses a strong commitment to guest satisfaction, operational efficiency, and team leadership.",
+    "apply_link": "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883c689b7fbd50189c1277e00060b&id=8a78859e9b137630019b7c2d79b671ad&source=&lang=en",
+    "job_type": "Unknown",
+    "posted_date": "1970-01-01T00:00:00.000Z",
+    "id": 4
+  },
+  {
+    "title": "Front Desk Agent",
+    "company": "Edgewood Tahoe Resort",
+    "location": "180 Lake Parkway",
+    "description": "As a Front Desk Agent at Edgewood Tahoe Resort, you will be the first point of contact for our guests and an integral part of creating a memorable experience. You will provide exceptional guest service, handle reservations, check-ins and check-outs, and address guest needs in a professional and courteous manner. Your goal is to ensure that each guest feels welcome, valued, and well cared for during their stay.",
+    "apply_link": "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883c689b7fbd50189c1277e00060b&id=8a78839f9abd1871019ac1a0152a11a3&source=&lang=en",
+    "job_type": "Unknown",
+    "posted_date": "1970-01-01T00:00:00.000Z",
+    "id": 5
+  },
+  {
+    "title": "Activities Ambassador",
+    "company": "Edgewood Tahoe Resort",
+    "location": "180 Lake Parkway",
+    "description": "The Activities Ambassador is a dynamic and enthusiastic member of the Edgewood Resort team, responsible for creating and promoting fun, engaging, and memorable activities for guests. The Activities Ambassador will work closely with the resort experience and guest services teams to ensure a high level of guest satisfaction through interactive entertainment, recreational programs, and wellness activities.",
+    "apply_link": "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883c689b7fbd50189c1277e00060b&id=8a7883ac9ac19e0d019af07214b71a20&source=&lang=en",
+    "job_type": "Unknown",
+    "posted_date": "1970-01-01T00:00:00.000Z",
+    "id": 6
+  },
+  {
+    "title": "Host- Bistro",
+    "company": "Edgewood Tahoe Resort",
+    "location": "180 Lake Parkway",
+    "description": "As a Host at Edgewood Tahoe Resort, you will be responsible for greeting and seating guests in a polite, friendly, and professional manner. The Host ensures that the guest experience is pleasant from the moment guests arrive until they are seated. The Host plays an important role in managing reservations, maintaining a smooth flow of guests, and supporting the front-of-house staff.",
+    "apply_link": "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883c689b7fbd50189c1277e00060b&id=8a78859e9b137630019b4da29a1146b6&source=&lang=en",
+    "job_type": "Unknown",
+    "posted_date": "1970-01-01T00:00:00.000Z",
+    "id": 7
+  },
+  {
+    "title": "Ski Ambassador - Concierge",
+    "company": "Edgewood Tahoe Resort",
+    "location": "180 Lake Parkway",
+    "description": "The Ski Ambassador/Concierge is responsible for the development and oversight of skier services for Edgewood Tahoe Resort.  Serving as the primary point of contact for all winter ski-related inquiries, this role ensures clear communication, seamless coordination, and exceptional guest experiences. The Ski Ambassador supports the Resort Experiences teams by providing guidance on ski operations and offerings and maintains a collaborative partnership with on-site ski rental and fitting providers. This position exemplifies excellence in luxury hospitality and a commitment to creating memorable guest experiences.",
+    "apply_link": "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883c689b7fbd50189c1277e00060b&id=8a78839f9b1376bd019b449817040b8a&source=&lang=en",
+    "job_type": "Unknown",
+    "posted_date": "1970-01-01T00:00:00.000Z",
+    "id": 8
+  },
+  {
+    "title": "Lead Ice Rink Attendant (Seasonal)",
+    "company": "Edgewood Tahoe Resort",
+    "location": "180 Lake Parkway",
+    "description": "As the Lead Ice Rink Attendant at Edgewood Tahoe Resort, you will be responsible for leading and coordinating the Ice Rink operations to ensure a safe, enjoyable, and luxurious skating experience for guests. This role requires a high-level of guest interactions, maintaining ice quality, and fostering a welcoming and festive atmosphere. You will serve as the primary point of contact for both staff and guests during your shift.",
+    "apply_link": "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883c689b7fbd50189c1277e00060b&id=8a78879e9b137690019b5d33e90a2496&source=&lang=en",
+    "job_type": "Unknown",
+    "posted_date": "1970-01-01T00:00:00.000Z",
+    "id": 9
+  },
+  {
+    "title": "Sales Associate",
+    "company": "Wildwood Makers Market",
+    "location": "989 Tallac Avenue",
+    "description": "Looking for retirees or anyone who has too much time on their hands, wants to get out of the house, and loves talking with people. Someone who is reliable, competent, can work a day or two on the weekend, and can keep the shop organized, clean and looking pretty!",
+    "application_instructions": "Drop off resume in person",
+    "job_type": "Part-time",
+    "posted_date": "2025-12-30T08:00:00.000Z",
+    "id": 10
+  },
+  {
     "title": "Security Officer",
     "company": "Holiday Inn Club Vacations, Tahoe Ridge Resort",
     "location": "400 Ridge Club Dr",
@@ -8,7 +111,7 @@
     "hourly_rate": "$19 - $21",
     "job_type": "Full-time",
     "posted_date": "2025-12-22T08:00:00.000Z",
-    "id": 1
+    "id": 11
   },
   {
     "title": "Security Officer (Overnight Shift)",
@@ -19,7 +122,7 @@
     "hourly_rate": "$20 - $22",
     "job_type": "Full-time",
     "posted_date": "2025-12-22T08:00:00.000Z",
-    "id": 2
+    "id": 12
   },
   {
     "title": "Resort Activities Attendant",
@@ -30,7 +133,7 @@
     "hourly_rate": "$18.50",
     "job_type": "Full-time",
     "posted_date": "2025-12-22T08:00:00.000Z",
-    "id": 3
+    "id": 13
   },
   {
     "title": "Trail Crew (Seasonal)",
@@ -41,7 +144,7 @@
     "hourly_rate": "$20 - $25",
     "job_type": "Full-time",
     "posted_date": "2025-12-20T08:00:00.000Z",
-    "id": 4
+    "id": 14
   },
   {
     "title": "Banquet Cook III",
@@ -52,18 +155,7 @@
     "hourly_rate": "$19 - $22",
     "job_type": "Unknown",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 5
-  },
-  {
-    "title": "Housekeeper",
-    "company": "Heavenly Valley Townhouses Association",
-    "location": "1455 Keller Rd",
-    "description": "Competitive hourly wage; must be detail oriented and fit to handle stairs. 2 days per week. Saturdays are required. To apply, attach your resume.",
-    "apply_link": "https://www.sierratahoejobs.com/company/heavenly-valley-townhouses-association-340717/job/housekeeper-in-south-lake-tahoe-ca-oyn1mnv67hg4hw0084vuc7ov9fwljc/?sid=2065570934",
-    "hourly_rate": "$20 - $21",
-    "job_type": "Part-time",
-    "posted_date": "2025-12-02T08:00:00.000Z",
-    "id": 6
+    "id": 15
   },
   {
     "title": "Customer Service Rep & Office Assistant",
@@ -74,7 +166,7 @@
     "hourly_rate": "$18 - $20 + benefits",
     "job_type": "Full-time",
     "posted_date": "2025-12-17T08:00:00.000Z",
-    "id": 7
+    "id": 16
   },
   {
     "title": "Beverage Shift Supervisor - Graveyeard",
@@ -84,7 +176,7 @@
     "apply_link": "https://edmn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs/preview/77424/?lastSelectedFacet=POSTING_DATES&location=Stateline%2C+NV%2C+United+States&locationId=300000002323814&locationLevel=city&mode=location&radius=25&radiusUnit=MI&selectedPostingDatesFacet=7",
     "job_type": "Unknown",
     "posted_date": "2025-12-19T08:00:00.000Z",
-    "id": 8
+    "id": 17
   },
   {
     "title": "Waitperson",
@@ -94,7 +186,7 @@
     "apply_link": "https://edmn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs/preview/77423/?lastSelectedFacet=POSTING_DATES&location=Stateline%2C+NV%2C+United+States&locationId=300000002323814&locationLevel=city&mode=location&radius=25&radiusUnit=MI&selectedPostingDatesFacet=7",
     "job_type": "Unknown",
     "posted_date": "2025-12-19T08:00:00.000Z",
-    "id": 9
+    "id": 18
   },
   {
     "title": "Server - Landshark",
@@ -105,17 +197,7 @@
     "hourly_rate": "$16.50",
     "job_type": "Part-time",
     "posted_date": "2025-12-09T08:00:00.000Z",
-    "id": 10
-  },
-  {
-    "title": "Deli Clerk",
-    "company": "Safeway",
-    "location": "212 Elks Point Rd",
-    "description": "As a Deli Clerk, no one day is ever the same. You are someone who prides themselves on exceptional customer service and their knowledge of deli meats, cheeses, salads, sandwiches, dips, and gourmet and hot case food items.  You take great care in preparing delicious food that will keep our customers returning to the store time and time again. You will have the opportunity throughout your day to utilize various tools like our meat and cheese slicers, food scales, fryers, ovens, and/or cash registers. As a Deli Clerk, you guide, inspire, and make every guest’s visit memorable.  If you have smiles to share, we'd love to have you on our team.",
-    "apply_link": "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/jobs/preview/661612/?lastSelectedFacet=CATEGORIES&latitude=38.928384&location=El+Dorado%2C+CA%2C+United+States&longitude=-119.9734784&mode=geolocation&radius=25&radiusUnit=MI&selectedCategoriesFacet=300000034963805",
-    "job_type": "Part-time",
-    "posted_date": "2025-12-09T08:00:00.000Z",
-    "id": 11
+    "id": 19
   },
   {
     "title": "Multiple Positions Available",
@@ -126,7 +208,7 @@
     "hourly_rate": "$18",
     "job_type": "Full-time, Part-time",
     "posted_date": "+020205-12-09T08:00:00.000Z",
-    "id": 12
+    "id": 20
   },
   {
     "title": "Temporary Customer Service Representative",
@@ -137,7 +219,7 @@
     "hourly_rate": "$25.25 - $27.84",
     "job_type": "Full-time",
     "posted_date": "2025-12-10T08:00:00.000Z",
-    "id": 13
+    "id": 21
   },
   {
     "title": "FOH (Front of House) Server",
@@ -148,7 +230,7 @@
     "hourly_rate": "$16.50 + tips",
     "job_type": "Part-time",
     "posted_date": "2025-12-09T08:00:00.000Z",
-    "id": 14
+    "id": 22
   },
   {
     "title": "Server",
@@ -158,7 +240,7 @@
     "application_instructions": "Apply in person or email resume to getawaycafetahoe@gmail.com",
     "job_type": "Unknown",
     "posted_date": "2025-12-10T08:00:00.000Z",
-    "id": 15
+    "id": 23
   },
   {
     "title": "General Maintenance Tech",
@@ -168,7 +250,7 @@
     "application_instructions": "Apply in person 9am - 5pm",
     "job_type": "Unknown",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 16
+    "id": 24
   },
   {
     "title": "Administrative Assistant and Guest Services",
@@ -178,7 +260,7 @@
     "application_instructions": "Apply in person 9am - 5pm",
     "job_type": "Unknown",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 17
+    "id": 25
   },
   {
     "title": "Sandwich Artist",
@@ -189,7 +271,7 @@
     "hourly_rate": "Competitive",
     "job_type": "Part-time",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 18
+    "id": 26
   },
   {
     "title": "Morning Cook",
@@ -200,7 +282,7 @@
     "hourly_rate": "$17 - $19",
     "job_type": "Full-time",
     "posted_date": "2025-12-06T08:00:00.000Z",
-    "id": 19
+    "id": 27
   },
   {
     "title": "Retail Sales Associate (Temporary)",
@@ -211,18 +293,7 @@
     "hourly_rate": "$16.50 - $17.00",
     "job_type": "Part-time",
     "posted_date": "2025-12-02T08:00:00.000Z",
-    "id": 20
-  },
-  {
-    "title": "Store Associate",
-    "company": "CVS",
-    "location": "3471 Lake Tahoe Blvd",
-    "description": "The Retail Store Associate position provides an opportunity, in a leading retail setting, to excel in a growing, high impact, customer focused role, working both independently and as a member of a team, to positively impact the lives of others.",
-    "apply_link": "https://jobs.cvshealth.com/us/en/job/R0785252/Store-Associate",
-    "hourly_rate": "$16.50 - $23.50",
-    "job_type": "Part-time",
-    "posted_date": "2025-12-02T08:00:00.000Z",
-    "id": 21
+    "id": 28
   },
   {
     "title": "Veterinary Receptionist/Assistant",
@@ -233,7 +304,29 @@
     "hourly_rate": "Competitive with benefits",
     "job_type": "Full-time",
     "posted_date": "2025-12-02T08:00:00.000Z",
-    "id": 22
+    "id": 29
+  },
+  {
+    "title": "Shift Lead",
+    "company": "Pet Supermarket",
+    "location": "960 Emerald Bay Rd",
+    "description": "No Description",
+    "application_instructions": "Please hand in your resume to the store directly",
+    "hourly_rate": "$18.50",
+    "job_type": "Full-time, Part-time",
+    "posted_date": "2025-12-01T08:00:00.000Z",
+    "id": 30
+  },
+  {
+    "title": "Assistant Manager",
+    "company": "Pet Supermarket",
+    "location": "960 Emerald Bay Rd",
+    "description": "No Description",
+    "application_instructions": "Please hand in your resume to the store directly",
+    "hourly_rate": "$22.50",
+    "job_type": "Full-time",
+    "posted_date": "2025-12-01T08:00:00.000Z",
+    "id": 31
   },
   {
     "title": "Cookie Delivery Driver",
@@ -244,7 +337,7 @@
     "hourly_rate": "$20 + tips",
     "job_type": "Part-time",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 23
+    "id": 32
   },
   {
     "title": "Cookie Crew",
@@ -255,7 +348,7 @@
     "hourly_rate": "$20 + tips",
     "job_type": "Part-time",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 24
+    "id": 33
   },
   {
     "title": "Shift Lead",
@@ -266,7 +359,18 @@
     "hourly_rate": "$20 + tips",
     "job_type": "Part-time",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 25
+    "id": 34
+  },
+  {
+    "title": "Store Manager in Training (MIT)",
+    "company": "Insomnia Cookies",
+    "location": "4125 Lake Tahoe Blvd",
+    "description": "No Description",
+    "apply_link": "https://jobs.lever.co/insomniacookies/f3469f01-74e5-4da2-ba96-207818fec340",
+    "hourly_rate": "$20 + perks",
+    "job_type": "Full-time",
+    "posted_date": "1970-01-01T00:00:00.000Z",
+    "id": 35
   },
   {
     "title": "Shift Lead",
@@ -276,7 +380,7 @@
     "apply_link": "https://docs.google.com/forms/d/e/1FAIpQLSdfkNt_4gpkHNgHTQDoTV-qZeJm0UXCd1T4_e2xfRlMIRsR6g/viewform",
     "job_type": "Full-time",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 26
+    "id": 36
   },
   {
     "title": "Barista/Register/Back of House",
@@ -286,7 +390,7 @@
     "apply_link": "https://docs.google.com/forms/d/e/1FAIpQLSdfkNt_4gpkHNgHTQDoTV-qZeJm0UXCd1T4_e2xfRlMIRsR6g/viewform",
     "job_type": "Part-time",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 27
+    "id": 37
   },
   {
     "title": "Night Cleaner",
@@ -296,7 +400,7 @@
     "apply_link": "https://docs.google.com/forms/d/e/1FAIpQLSdfkNt_4gpkHNgHTQDoTV-qZeJm0UXCd1T4_e2xfRlMIRsR6g/viewform",
     "job_type": "Part-time",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 28
+    "id": 38
   },
   {
     "title": "Barista",
@@ -307,37 +411,7 @@
     "hourly_rate": "DOE + Tips",
     "job_type": "Full-time, Part-time",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 29
-  },
-  {
-    "title": "Barista",
-    "company": "Edgewood Tahoe Resort",
-    "location": "180 Lake Parkway",
-    "description": "The Barista at Edgewood Tahoe Resort will have a deep appreciation for specialty coffee, a keen eye for detail, and a commitment to outstanding customer service. The Barista ensures all beverages are prepared, presented, and served according to the resort's standards, and is dedicated to delivering an exceptional coffee experience.",
-    "apply_link": "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883c689b7fbd50189c1277e00060b&id=8a7887a199cae884019a084b99756b7d&source=&lang=en",
-    "job_type": "Unknown",
-    "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 30
-  },
-  {
-    "title": "Busser/Food Runner",
-    "company": "Edgewood Tahoe Resort",
-    "location": "180 Lake Parkway",
-    "description": "The Busser/Food Runner is responsible for maintaining a clean and organized dining area, assisting servers with various tasks, and delivering food from the kitchen to customers. This role ensures guests receive exceptional dining experience by helping to keep the restaurant running smoothly, efficiently, and with excellent customer service.",
-    "apply_link": "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883c689b7fbd50189c1277e00060b&id=8a78859f9a5b2fea019a7fb3aecf7854&source=&lang=en",
-    "job_type": "Unknown",
-    "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 31
-  },
-  {
-    "title": "Host",
-    "company": "Edgewood Tahoe Resort",
-    "location": "180 Lake Parkway",
-    "description": "As a Host at Edgewood Tahoe Resort, you will be responsible for greeting and seating guests in a polite, friendly, and professional manner. The Host ensures that the guest experience is pleasant from the moment guests arrive until they are seated. The Host plays an important role in managing reservations, maintaining a smooth flow of guests, and supporting the front-of-house staff.",
-    "apply_link": "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883c689b7fbd50189c1277e00060b&id=8a7883ac9a31ed92019a4bf6e1bd5de7&source=&lang=en",
-    "job_type": "Unknown",
-    "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 32
+    "id": 39
   },
   {
     "title": "Retail Associate",
@@ -348,7 +422,7 @@
     "hourly_rate": "$16.50 - $18.00",
     "job_type": "Full-time, Part-time",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 33
+    "id": 40
   },
   {
     "title": "Tubing Hill Crew Member",
@@ -359,18 +433,7 @@
     "hourly_rate": "$14.00 - $18.00",
     "job_type": "Full-time, Part-time",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 34
-  },
-  {
-    "title": "Retail Merchandise Associate",
-    "company": "Sierra",
-    "location": "1052 Emerald Bay Road",
-    "description": "Responsible for delivering a highly satisfied customer experience proven by engaging and interacting with all customers, embodying customer experience principles and philosophy, and maintaining a clean and organized store environment. Adheres to all operational, merchandise, and loss prevention standards. May be cross-trained to work in multiple areas of the store in order to support the needs of the business.",
-    "apply_link": "https://jobs.tjx.com/global/en/job/REQ75544/Retail-Merchandise-Associate",
-    "hourly_rate": "$16.50 to $17.00",
-    "job_type": "Unknown",
-    "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 35
+    "id": 41
   },
   {
     "title": "Retail Associate",
@@ -381,7 +444,7 @@
     "hourly_rate": "$16.50",
     "job_type": "Part-time",
     "posted_date": "2025-12-02T08:00:00.000Z",
-    "id": 36
+    "id": 42
   },
   {
     "title": "Service Clerk",
@@ -392,7 +455,7 @@
     "hourly_rate": "$16.50",
     "job_type": "Unknown",
     "posted_date": "2025-12-02T08:00:00.000Z",
-    "id": 37
+    "id": 43
   },
   {
     "title": "Vacation Rental Cleaner",
@@ -403,7 +466,7 @@
     "hourly_rate": "$25 - $30",
     "job_type": "Part-time",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 38
+    "id": 44
   },
   {
     "title": "Vacation Rental Dispatch Specialist",
@@ -414,7 +477,7 @@
     "hourly_rate": "$24-$30",
     "job_type": "Full-time, Part-time",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 39
+    "id": 45
   },
   {
     "title": "Grocery Clerk- Freight",
@@ -424,7 +487,7 @@
     "apply_link": "https://www.paycomonline.net/v4/ats/web.php/portal/D0EAAF82D2F805FCF6412120F6BF9534/jobs/84699",
     "job_type": "Unknown",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 40
+    "id": 46
   },
   {
     "title": "Produce Clerk",
@@ -434,7 +497,7 @@
     "apply_link": "https://www.paycomonline.net/v4/ats/web.php/portal/D0EAAF82D2F805FCF6412120F6BF9534/jobs/84690",
     "job_type": "Unknown",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 41
+    "id": 47
   },
   {
     "title": "Meat Clerk",
@@ -444,7 +507,7 @@
     "apply_link": "https://www.paycomonline.net/v4/ats/web.php/portal/D0EAAF82D2F805FCF6412120F6BF9534/jobs/84680",
     "job_type": "Unknown",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 42
+    "id": 48
   },
   {
     "title": "Grocery Clerk",
@@ -454,39 +517,16 @@
     "apply_link": "https://www.paycomonline.net/v4/ats/web.php/portal/D0EAAF82D2F805FCF6412120F6BF9534/jobs/84671",
     "job_type": "Unknown",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 43
+    "id": 49
   },
   {
-    "title": "Front End Clerk",
-    "company": "Holiday Market",
-    "location": "2977 U.S. 50",
-    "description": "Job Summary:\r\nTo Provide World Famous Friendly Customer Service to Customers, Team Members & Outside Vendors. Cashier, Bagging, Cleaning, Merchandising, Stocking, Rotating Product, Facing.",
-    "apply_link": "https://www.paycomonline.net/v4/ats/web.php/portal/D0EAAF82D2F805FCF6412120F6BF9534/jobs/126612",
-    "hourly_rate": "$16.50 - $19.00",
-    "job_type": "Full-time, Part-time",
+    "title": "Crew Member",
+    "company": "Blue Dog Pizza",
+    "location": "2556 Lake Tahoe Boulevard",
+    "description": "No Description",
+    "apply_link": "https://tmt.spotapps.co/job-listings?spot_id=135071&callback_url=http%3A%2F%2Fbluedogpizzatahoe.com%2F&_gl=1%2an7rwk9%2a_ga%2aOTI4NDUxMzQ2LjE3NjQ3MTQyNTc.%2a_ga_VG24VK2VKT%2aczE3NjQ3MTQyNTYkbzEkZzAkdDE3NjQ3MTQyNTgkajU4JGwwJGgw%2a_ga_FB6MG7Y9S1%2aczE3NjQ3MTQyNTckbzEkZzAkdDE3NjQ3MTQyNTgkajU5JGwwJGgw",
+    "job_type": "Unknown",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 44
-  },
-  {
-    "title": "Yard/Warehouse Rep I",
-    "company": "Meeks Lumber",
-    "location": "2763 Lake Tahoe Blvd",
-    "description": "The Yard/Warehouse Rep I receives, stocks, ships, orders and counts inventory items. This is an entry level position that is responsible for the safe operation of a forklift in order to stock all lumber and building materials. Perform duties within the established work and safety procedures.",
-    "apply_link": "https://uslbm.wd1.myworkdayjobs.com/USLBM/job/South-Lake-Tahoe-CA/Yard-Warehouse-Rep-I_R11193-1",
-    "hourly_rate": "$18 - $20",
-    "job_type": "Full-time",
-    "posted_date": "2025-11-10T08:00:00.000Z",
-    "id": 45
-  },
-  {
-    "title": "Sales Associate",
-    "company": "Pet Station",
-    "location": "2205 Lake Tahoe Blvd",
-    "description": "Join the Pet Station Pack! We're not just a team, we're a pack dedicated to supporting each other, providing outstanding care to animals, and delivering an exceptional experience to every customer. As a Sales Associate at Pet Station, you'll be the friendly face and knowledgeable resource for our customers and their furry, scaled, or feathered friends. You'll guide customers to the perfect products, ensure their smooth checkout experience, and maintain a welcoming and organized store environment. You'll also play a vital role in caring for our in-store animals, ensuring their health and happiness. With a passion for pets and a commitment to exceptional service, you'll be a key member of our team!",
-    "apply_link": "https://tahoepetstation.isolvedhire.com/jobs/1630847",
-    "hourly_rate": "$18-20",
-    "job_type": "Full-time",
-    "posted_date": "2025-10-28T07:00:00.000Z",
-    "id": 46
+    "id": 50
   }
 ]

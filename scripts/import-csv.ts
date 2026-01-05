@@ -70,16 +70,25 @@ function importCsvToJson() {
   console.log(`Found ${records.length} job records`);
 
   // Map CSV records to Job format and filter out invalid records
+  let invalidCount = 0;
   const jobsWithoutIds = records
-    .map((record): Omit<Job, "id"> | null => {
+    .map((record, index): Omit<Job, "id"> | null => {
       const title = record["Job Title"]?.trim() || "";
       const company = record.Company?.trim() || "";
-      const location = record.Location?.trim() || "";
-      const description = record.Description?.trim() || "";
+      const location = record.Location?.trim() || "Unknown";
+      const description = record.Description?.trim() || "No Description";
       const applicationLinkValue = record["Application Link"]?.trim() || "";
 
-      // Skip records missing required fields (apply_link or application_instructions is not required)
-      if (!title || !company || !location || !description) {
+      // Skip records missing required fields (title and company are required)
+      if (!title || !company) {
+        invalidCount++;
+        const missingFields: string[] = [];
+        if (!title) missingFields.push("Job Title");
+        if (!company) missingFields.push("Company");
+        
+        console.error(
+          `Invalid record at row ${index + 2} (CSV row ${index + 2}): Missing required fields: ${missingFields.join(", ")}`
+        );
         return null;
       }
 
@@ -107,6 +116,10 @@ function importCsvToJson() {
     ...job,
     id: index + 1,
   }));
+
+  if (invalidCount > 0) {
+    console.log(`Skipped ${invalidCount} invalid record(s)`);
+  }
 
   console.log("Writing jobs to JSON file...");
   writeFileSync(jsonPath, JSON.stringify(jobs, null, 2), "utf-8");

@@ -1,5 +1,59 @@
 [
   {
+    "title": "Veterinary Receptionist/Assistant",
+    "company": "Blue Lake Animal Care Center",
+    "location": "1154 Emerald Bay Rd",
+    "description": "Busy veterinary hospital seeking friendly, reliable, enthusiastic receptionist. Good communication skills, time management and ability to learn new skills quickly a must.",
+    "application_instructions": "Please drop of resume in person or email reception@bluelakevet.com",
+    "hourly_rate": "DOE",
+    "job_type": "Full-time",
+    "posted_date": "2027-02-01T08:00:00.000Z",
+    "id": 1
+  },
+  {
+    "title": "Tow Truck Operator",
+    "company": "Welcome's Towing",
+    "location": "948 3rd Street",
+    "description": "We are a Towing company who has been operating in the Lake Tahoe area for 45 plus years. We are contracted with all of the Law Enforcement Agencies in the area both on the CA & NV side as well as with multiple road side service companies. We are a very busy company with many opportunities.\r\n-Looking for individuals who can complete tasks in a timely and efficient manner, who are committed and dependable, as well as a team player.\r\n-At least 25 years of age with a clean driving record.\r\n-Tow truck experience in roadside service/law enforcement calls preferred but not required, will train entry level D.O.E.\r\n-Must pass physical and pre-employment/random drug screening as well as have a clean background.\r\n-Maintain safe operations and clean appearance by complying with operational policies, procedures and standards, as well as state and local driving rules and regulations as well as required paperwork.\r\n-Prefer someone who lives within the Lake Tahoe area. Or relatively close depending on experience.\r\n-Good customer service skills.\r\n-We offer Health Insurance, Dental, Vision, 401k, Paid vacation.",
+    "application_instructions": "Email resume or apply in person welcomesnevada@gmail.com",
+    "job_type": "Full-time",
+    "posted_date": "2025-12-19T08:00:00.000Z",
+    "id": 2
+  },
+  {
+    "title": "Sales Associate",
+    "company": "Sunglass Hut",
+    "location": "1001 Heavenly Village Way",
+    "description": "Our Sales Associates are vital to the success of Sunglass Hut. You will bring an authentic, fun and energic experience to all customers while helping them find premium quality eyewear.",
+    "apply_link": "https://careers.essilorluxottica.com/job/South-Lake-Tahoe-Sales-Associate-CA-96150/1282692901/",
+    "hourly_rate": "$16.90 - $20-68",
+    "job_type": "Part-time",
+    "posted_date": "2026-01-13T08:00:00.000Z",
+    "id": 3
+  },
+  {
+    "title": "Front Desk Agent",
+    "company": "Marriott",
+    "location": "1001 Heavenly Village Way",
+    "description": "Are you looking for a place where meaningful moments are made together?  \r\n\r\n \r\n\r\nAt Marriott Vacations Worldwide (MVW), we make vacation dreams come true for travelers around the world in a supportive, friendly, and beautiful work environment. As a Guest Services Agent at MVW, you will assist in providing our Owners/guests with experiences and events to make memorable vacation memories, where meaningful moments are made together.",
+    "apply_link": "https://mymvw.wd5.myworkdayjobs.com/MVW/job/Marriott-Grand-Residence-Club-Lake-Tahoe/Front-Desk-Agent_JR87058?source=Indeed",
+    "hourly_rate": "$22.30",
+    "job_type": "Full-time",
+    "posted_date": "2026-01-13T08:00:00.000Z",
+    "id": 4
+  },
+  {
+    "title": "Snowmobile Guide - Lake Tahoe Adventures",
+    "company": "Aramark",
+    "location": "Unknown",
+    "description": "The Recreation Guide III will act as a lead in personal interpretation of cultural, historical, and natural resources while providing support to guests in an outdoor environment. Responsibilities of the position may vary by Aramark location based on client requirements and business needs.",
+    "apply_link": "https://careers.aramark.com/job/?req_id=628866&utm_source=Indeed&utm_medium=AppFeeder&ccuid=68191420176&_ccid=1756757889416ddavmpbw7",
+    "hourly_rate": "$17.75",
+    "job_type": "Unknown",
+    "posted_date": "2026-11-01T07:00:00.000Z",
+    "id": 5
+  },
+  {
     "title": "Housekeeper",
     "company": "Lake Tahoe Cleaning Services",
     "location": "Unknown",
@@ -8,18 +62,7 @@
     "hourly_rate": "$25 + bonuses",
     "job_type": "Full-time",
     "posted_date": "2026-01-02T08:00:00.000Z",
-    "id": 1
-  },
-  {
-    "title": "Housekeeper",
-    "company": "Alpine Home Services",
-    "location": "Raley's at the Y",
-    "description": "Part time housekeepers to join a team of motivated cleaners. Training and transportation provided. As long as you can make it to Raley's at the Y, we'll take care of the rest. Applicants must be reliable, trustworthy and hard working. Need to be available - Monday and Tuesday, 9am - 4pm.\r\nI'm looking for two more employees who just need a couple of extra days a week. It would be awesome if you have some housekeeping experience.\r\nStart date is January 5th, 2026\r\nThis position is for South Lake Tahoe residents only.",
-    "application_instructions": "Email: Samantha Fried at 18354d32b73d32ec8b67efa738ab2f53@job.craigslist.org",
-    "hourly_rate": "$20 for housekeeping and $16.90 for drivetime.",
-    "job_type": "Part-time",
-    "posted_date": "2025-12-30T08:00:00.000Z",
-    "id": 2
+    "id": 6
   },
   {
     "title": "Food Service Worker / Line Cook",
@@ -30,7 +73,7 @@
     "hourly_rate": "$20 - $22 DOE",
     "job_type": "Full-time",
     "posted_date": "2025-12-29T08:00:00.000Z",
-    "id": 3
+    "id": 7
   },
   {
     "title": "Valet Attendant",
@@ -40,7 +83,7 @@
     "apply_link": "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883c689b7fbd50189c1277e00060b&id=8a78859e9b137630019b7c2d79b671ad&source=&lang=en",
     "job_type": "Unknown",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 4
+    "id": 8
   },
   {
     "title": "Front Desk Agent",
@@ -50,7 +93,7 @@
     "apply_link": "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883c689b7fbd50189c1277e00060b&id=8a78839f9abd1871019ac1a0152a11a3&source=&lang=en",
     "job_type": "Unknown",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 5
+    "id": 9
   },
   {
     "title": "Activities Ambassador",
@@ -60,7 +103,7 @@
     "apply_link": "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883c689b7fbd50189c1277e00060b&id=8a7883ac9ac19e0d019af07214b71a20&source=&lang=en",
     "job_type": "Unknown",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 6
+    "id": 10
   },
   {
     "title": "Host- Bistro",
@@ -70,7 +113,7 @@
     "apply_link": "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883c689b7fbd50189c1277e00060b&id=8a78859e9b137630019b4da29a1146b6&source=&lang=en",
     "job_type": "Unknown",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 7
+    "id": 11
   },
   {
     "title": "Ski Ambassador - Concierge",
@@ -80,7 +123,7 @@
     "apply_link": "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883c689b7fbd50189c1277e00060b&id=8a78839f9b1376bd019b449817040b8a&source=&lang=en",
     "job_type": "Unknown",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 8
+    "id": 12
   },
   {
     "title": "Lead Ice Rink Attendant (Seasonal)",
@@ -90,7 +133,7 @@
     "apply_link": "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883c689b7fbd50189c1277e00060b&id=8a78879e9b137690019b5d33e90a2496&source=&lang=en",
     "job_type": "Unknown",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 9
+    "id": 13
   },
   {
     "title": "Sales Associate",
@@ -100,40 +143,7 @@
     "application_instructions": "Drop off resume in person",
     "job_type": "Part-time",
     "posted_date": "2025-12-30T08:00:00.000Z",
-    "id": 10
-  },
-  {
-    "title": "Security Officer",
-    "company": "Holiday Inn Club Vacations, Tahoe Ridge Resort",
-    "location": "400 Ridge Club Dr",
-    "description": "This position will be responsible for performing duties to ensure the safety and security of guests and employees, protect Holiday Inn Club Vacations, and maximize the amount of safety and security provided for guests and employees, while serving as a deterrent to crime and violations of company policy. Security Officers serve as first responders to any guest or employee injury and/or accident and play an integral role in curtailing workplace injuries. This high-guest contact position requires an approachable, friendly, and polished demeanor with a guest-focused mindset.",
-    "apply_link": "https://recruiting.ultipro.com/ORA1000OLCC/JobBoard/17560d62-b19a-4c09-9909-fe2b9c713df3/OpportunityDetail?opportunityId=0ed3e471-0e91-4590-b89c-cd65267b44de",
-    "hourly_rate": "$19 - $21",
-    "job_type": "Full-time",
-    "posted_date": "2025-12-22T08:00:00.000Z",
-    "id": 11
-  },
-  {
-    "title": "Security Officer (Overnight Shift)",
-    "company": "Holiday Inn Club Vacations, Tahoe Ridge Resort",
-    "location": "400 Ridge Club Dr",
-    "description": "This position will be responsible for performing duties to ensure the safety and security of guests and employees, protect Holiday Inn Club Vacations, and maximize the amount of safety and security provided for guests and employees while serving as a deterrent to crime and violations of company policy. Security Officers serve as first responders to any guest or employee injury and/or accident and play an integral role in curtailing workplace injuries. This high-guest-contact position requires an approachable, friendly, and polished demeanor with a guest-focused mindset.",
-    "apply_link": "https://recruiting.ultipro.com/ORA1000OLCC/JobBoard/17560d62-b19a-4c09-9909-fe2b9c713df3/OpportunityDetail?opportunityId=b4501835-8fa0-45ff-ae8d-961a216d16d8",
-    "hourly_rate": "$20 - $22",
-    "job_type": "Full-time",
-    "posted_date": "2025-12-22T08:00:00.000Z",
-    "id": 12
-  },
-  {
-    "title": "Resort Activities Attendant",
-    "company": "Holiday Inn Club Vacations, Tahoe Ridge Resort",
-    "location": "400 Ridge Club Dr",
-    "description": "This position will be responsible for the successful execution of activities and events by consistently monitoring resort activity programs, special events, and entertainment. Provides activity updates to all resort staff and all related employees and/or 3rd party vendors. This individual will assist with internal and external communication to drive marketing value to all resort sales and marketing channels.",
-    "apply_link": "https://recruiting.ultipro.com/ORA1000OLCC/JobBoard/17560d62-b19a-4c09-9909-fe2b9c713df3/OpportunityDetail?opportunityId=564ea471-b1d1-4df3-9c96-dc987e949887",
-    "hourly_rate": "$18.50",
-    "job_type": "Full-time",
-    "posted_date": "2025-12-22T08:00:00.000Z",
-    "id": 13
+    "id": 14
   },
   {
     "title": "Trail Crew (Seasonal)",
@@ -144,7 +154,7 @@
     "hourly_rate": "$20 - $25",
     "job_type": "Full-time",
     "posted_date": "2025-12-20T08:00:00.000Z",
-    "id": 14
+    "id": 15
   },
   {
     "title": "Banquet Cook III",
@@ -155,7 +165,7 @@
     "hourly_rate": "$19 - $22",
     "job_type": "Unknown",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 15
+    "id": 16
   },
   {
     "title": "Customer Service Rep & Office Assistant",
@@ -166,7 +176,7 @@
     "hourly_rate": "$18 - $20 + benefits",
     "job_type": "Full-time",
     "posted_date": "2025-12-17T08:00:00.000Z",
-    "id": 16
+    "id": 17
   },
   {
     "title": "Beverage Shift Supervisor - Graveyeard",
@@ -176,7 +186,7 @@
     "apply_link": "https://edmn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs/preview/77424/?lastSelectedFacet=POSTING_DATES&location=Stateline%2C+NV%2C+United+States&locationId=300000002323814&locationLevel=city&mode=location&radius=25&radiusUnit=MI&selectedPostingDatesFacet=7",
     "job_type": "Unknown",
     "posted_date": "2025-12-19T08:00:00.000Z",
-    "id": 17
+    "id": 18
   },
   {
     "title": "Waitperson",
@@ -186,7 +196,7 @@
     "apply_link": "https://edmn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs/preview/77423/?lastSelectedFacet=POSTING_DATES&location=Stateline%2C+NV%2C+United+States&locationId=300000002323814&locationLevel=city&mode=location&radius=25&radiusUnit=MI&selectedPostingDatesFacet=7",
     "job_type": "Unknown",
     "posted_date": "2025-12-19T08:00:00.000Z",
-    "id": 18
+    "id": 19
   },
   {
     "title": "Server - Landshark",
@@ -197,7 +207,7 @@
     "hourly_rate": "$16.50",
     "job_type": "Part-time",
     "posted_date": "2025-12-09T08:00:00.000Z",
-    "id": 19
+    "id": 20
   },
   {
     "title": "Multiple Positions Available",
@@ -208,24 +218,13 @@
     "hourly_rate": "$18",
     "job_type": "Full-time, Part-time",
     "posted_date": "+020205-12-09T08:00:00.000Z",
-    "id": 20
-  },
-  {
-    "title": "Temporary Customer Service Representative",
-    "company": "South Lake Tahoe Public Utilities District",
-    "location": "1275 Meadow Crest Dr",
-    "description": "Under the direction of the Customer Service Supervisor, performs a variety of routine billing, accounting and financial duties related to customer accounts for water and sewer services. Also, handles residential plan review, customer relations either in person, over the phone or via written correspondence and revenue collection, along with other issues, often in emergency circumstances or with customers who are upset or distressed.",
-    "apply_link": "https://www.governmentjobs.com/careers/stpud/jobs/5166701/temporary-customer-service-representative",
-    "hourly_rate": "$25.25 - $27.84",
-    "job_type": "Full-time",
-    "posted_date": "2025-12-10T08:00:00.000Z",
     "id": 21
   },
   {
     "title": "FOH (Front of House) Server",
     "company": "Gastromaniac",
     "location": "3091 Harrison Ave #120",
-    "description": "Our team at Gastromaniac Pizza & Pasta prides ourselves in providing a great casual dining experience with authentic Italian homemade delicacies to our customers. Looking for motivated individuals who are passionate about customer service, and enjoy working in a fast paced, team oriented, and high volume environment.\r\n\r\nPerks include employee benefits, flexible schedule, and learning about authentic Italian cuisine & wine!\r\n\r\nRequirements/Qualifications:\r\n* Previous experience in hospitality/restaurant industry is REQUIRED\r\n* Experience and knowledge of Italian cuisine (Pasta & Pizza) is a PLUS\r\n* Experience and knowledge of Italian wines is a PLUS\r\n* +21 years old\r\n\r\n*WE ARE NOT A J1 authorized employer at this time.*",
+    "description": "Our team at Gastromaniac Pizza & Pasta prides ourselves in providing a great casual dining experience with authentic Italian homemade delicacies to our customers. Looking for motivated individuals who are passionate about customer service, and enjoy working in a fast paced, team oriented, and high volume environment.\r\n\r\nPerks include employee benefits, flexible schedule, and learning about authentic Italian cuisine & wine!\n\nRequirements/Qualifications:\r\n* Previous experience in hospitality/restaurant industry is REQUIRED\r\n* Experience and knowledge of Italian cuisine (Pasta & Pizza) is a PLUS\r\n* Experience and knowledge of Italian wines is a PLUS\r\n* +21 years old\r\n\r\n*WE ARE NOT A J1 authorized employer at this time.*",
     "application_instructions": "Email resume to gastromaniac.llc@gmail.com",
     "hourly_rate": "$16.50 + tips",
     "job_type": "Part-time",
@@ -236,7 +235,7 @@
     "title": "Server",
     "company": "Getaway Cafe",
     "location": "3140 Hwy 50",
-    "description": "Are you:\r\n-Upbeat, hardworking, dependable?\r\n-Thrive working in team environments?\r\n-Want to join one of Tahoe's best restaurants?\r\n\r\nPrior experience required and reliable winter transportation a must!",
+    "description": "Are you:\n-Upbeat, hardworking, dependable?\n-Thrive working in team environments?\n-Want to join one of Tahoe's best restaurants?\n\nPrior experience required and reliable winter transportation a must!",
     "application_instructions": "Apply in person or email resume to getawaycafetahoe@gmail.com",
     "job_type": "Unknown",
     "posted_date": "2025-12-10T08:00:00.000Z",
@@ -246,7 +245,7 @@
     "title": "General Maintenance Tech",
     "company": "Lake Village Homeowners Association",
     "location": "300 Clubhouse Circle",
-    "description": "-Assist with seasonal tasks\r\n-Basic mechanical or handyman skills preferred, but wil ltrain the right candidate",
+    "description": "-Assist with seasonal tasks\n-Basic mechanical or handyman skills preferred, but wil ltrain the right candidate",
     "application_instructions": "Apply in person 9am - 5pm",
     "job_type": "Unknown",
     "posted_date": "1970-01-01T00:00:00.000Z",
@@ -256,7 +255,7 @@
     "title": "Administrative Assistant and Guest Services",
     "company": "Lake Village Homeowners Association",
     "location": "300 Clubhouse Circle",
-    "description": "-Proficient with financial tools: Excel, Google Sheets, accounting platforms\r\n-Analytical skills: ability to identify discrepancies",
+    "description": "-Proficient with financial tools: Excel, Google Sheets, accounting platforms\n-Analytical skills: ability to identify discrepancies",
     "application_instructions": "Apply in person 9am - 5pm",
     "job_type": "Unknown",
     "posted_date": "1970-01-01T00:00:00.000Z",
@@ -267,7 +266,7 @@
     "company": "West Coast Sourdough",
     "location": "2014 Lake Tahoe Blvd",
     "description": "If you love food and want others to love their food, becoming one of our sandwich artists is exactly for you!\r\nWe have flexible hours, a positive work environment and competitive pay.",
-    "apply_link": "https://www.wcsourdough.com/\r\n(Click on \"Careers\" to apply)",
+    "apply_link": "https://www.wcsourdough.com/\n(Click on \"Careers\" to apply)",
     "hourly_rate": "Competitive",
     "job_type": "Part-time",
     "posted_date": "1970-01-01T00:00:00.000Z",
@@ -276,9 +275,9 @@
   {
     "title": "Morning Cook",
     "company": "Social House",
-    "location": "1001 Heavenly Village Way\r\nSuite 3",
-    "description": "Social House is looking for a reliable, motivated Morning Cook to join our team! If you’re passionate about good food, enjoy working in a fast-paced environment, and have a positive attitude, we want to hear from you.\r\n\r\n🔸 Schedule: 6:30/7:00 AM – 3:00/3:30 PM\r\n\r\n✨ What We’re Looking For:\r\nPrevious kitchen or line-cook experience required\r\nStrong work ethic and ability to stay organized during busy service periods\r\nAbility to follow recipes, maintain consistency, and uphold food-safety standards\r\nDependable and punctual\r\nTeam-oriented attitude with good communication skills\r\n\r\n🔧 Responsibilities Include:\r\nPreparing breakfast and lunch menu items\r\nSetting up and stocking stations before service\r\nMaintaining a clean and orderly kitchen\r\nAssisting with prep work\r\nFollowing proper food handling and sanitation procedures\r\nIf you're ready to be part of a supportive, energetic team and start your mornings with purpose, we’d love to meet you!",
-    "application_instructions": "Drop resume off in person or submit here: https://socialhousetahoe.com/\r\n(Link to apply at the bottom of the homepage)",
+    "location": "1001 Heavenly Village Way\nSuite 3",
+    "description": "Social House is looking for a reliable, motivated Morning Cook to join our team! If you’re passionate about good food, enjoy working in a fast-paced environment, and have a positive attitude, we want to hear from you.\n\n🔸 Schedule: 6:30/7:00 AM – 3:00/3:30 PM\n\n✨ What We’re Looking For:\nPrevious kitchen or line-cook experience required\nStrong work ethic and ability to stay organized during busy service periods\nAbility to follow recipes, maintain consistency, and uphold food-safety standards\nDependable and punctual\nTeam-oriented attitude with good communication skills\n\n🔧 Responsibilities Include:\nPreparing breakfast and lunch menu items\nSetting up and stocking stations before service\nMaintaining a clean and orderly kitchen\nAssisting with prep work\nFollowing proper food handling and sanitation procedures\nIf you're ready to be part of a supportive, energetic team and start your mornings with purpose, we’d love to meet you!",
+    "application_instructions": "Drop resume off in person or submit here: https://socialhousetahoe.com/\n(Link to apply at the bottom of the homepage)",
     "hourly_rate": "$17 - $19",
     "job_type": "Full-time",
     "posted_date": "2025-12-06T08:00:00.000Z",
@@ -296,17 +295,6 @@
     "id": 28
   },
   {
-    "title": "Veterinary Receptionist/Assistant",
-    "company": "Blue Lake Animal Care Center",
-    "location": "1154 Emerald Bay Rd",
-    "description": "We are looking for a compassionate and enthusiastic veterinary receptionist to join our team in South Lake Tahoe. Working well within a team and developing strong bonds with our dedicated clients are a must. Tasks would be answering phone, checking clients in and out, client communication, ect.",
-    "application_instructions": "Please drop of resume in person or email reception@bluelakevet.com",
-    "hourly_rate": "Competitive with benefits",
-    "job_type": "Full-time",
-    "posted_date": "2025-12-02T08:00:00.000Z",
-    "id": 29
-  },
-  {
     "title": "Shift Lead",
     "company": "Pet Supermarket",
     "location": "960 Emerald Bay Rd",
@@ -315,7 +303,7 @@
     "hourly_rate": "$18.50",
     "job_type": "Full-time, Part-time",
     "posted_date": "2025-12-01T08:00:00.000Z",
-    "id": 30
+    "id": 29
   },
   {
     "title": "Assistant Manager",
@@ -326,7 +314,7 @@
     "hourly_rate": "$22.50",
     "job_type": "Full-time",
     "posted_date": "2025-12-01T08:00:00.000Z",
-    "id": 31
+    "id": 30
   },
   {
     "title": "Cookie Delivery Driver",
@@ -337,7 +325,7 @@
     "hourly_rate": "$20 + tips",
     "job_type": "Part-time",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 32
+    "id": 31
   },
   {
     "title": "Cookie Crew",
@@ -348,7 +336,7 @@
     "hourly_rate": "$20 + tips",
     "job_type": "Part-time",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 33
+    "id": 32
   },
   {
     "title": "Shift Lead",
@@ -359,7 +347,7 @@
     "hourly_rate": "$20 + tips",
     "job_type": "Part-time",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 34
+    "id": 33
   },
   {
     "title": "Store Manager in Training (MIT)",
@@ -370,7 +358,7 @@
     "hourly_rate": "$20 + perks",
     "job_type": "Full-time",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 35
+    "id": 34
   },
   {
     "title": "Shift Lead",
@@ -380,7 +368,7 @@
     "apply_link": "https://docs.google.com/forms/d/e/1FAIpQLSdfkNt_4gpkHNgHTQDoTV-qZeJm0UXCd1T4_e2xfRlMIRsR6g/viewform",
     "job_type": "Full-time",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 36
+    "id": 35
   },
   {
     "title": "Barista/Register/Back of House",
@@ -390,7 +378,7 @@
     "apply_link": "https://docs.google.com/forms/d/e/1FAIpQLSdfkNt_4gpkHNgHTQDoTV-qZeJm0UXCd1T4_e2xfRlMIRsR6g/viewform",
     "job_type": "Part-time",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 37
+    "id": 36
   },
   {
     "title": "Night Cleaner",
@@ -400,7 +388,7 @@
     "apply_link": "https://docs.google.com/forms/d/e/1FAIpQLSdfkNt_4gpkHNgHTQDoTV-qZeJm0UXCd1T4_e2xfRlMIRsR6g/viewform",
     "job_type": "Part-time",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 38
+    "id": 37
   },
   {
     "title": "Barista",
@@ -411,7 +399,7 @@
     "hourly_rate": "DOE + Tips",
     "job_type": "Full-time, Part-time",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 39
+    "id": 38
   },
   {
     "title": "Retail Associate",
@@ -422,7 +410,7 @@
     "hourly_rate": "$16.50 - $18.00",
     "job_type": "Full-time, Part-time",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 40
+    "id": 39
   },
   {
     "title": "Tubing Hill Crew Member",
@@ -433,7 +421,7 @@
     "hourly_rate": "$14.00 - $18.00",
     "job_type": "Full-time, Part-time",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 41
+    "id": 40
   },
   {
     "title": "Retail Associate",
@@ -444,7 +432,7 @@
     "hourly_rate": "$16.50",
     "job_type": "Part-time",
     "posted_date": "2025-12-02T08:00:00.000Z",
-    "id": 42
+    "id": 41
   },
   {
     "title": "Service Clerk",
@@ -455,7 +443,7 @@
     "hourly_rate": "$16.50",
     "job_type": "Unknown",
     "posted_date": "2025-12-02T08:00:00.000Z",
-    "id": 43
+    "id": 42
   },
   {
     "title": "Vacation Rental Cleaner",
@@ -466,7 +454,7 @@
     "hourly_rate": "$25 - $30",
     "job_type": "Part-time",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 44
+    "id": 43
   },
   {
     "title": "Vacation Rental Dispatch Specialist",
@@ -477,7 +465,7 @@
     "hourly_rate": "$24-$30",
     "job_type": "Full-time, Part-time",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 45
+    "id": 44
   },
   {
     "title": "Grocery Clerk- Freight",
@@ -487,7 +475,7 @@
     "apply_link": "https://www.paycomonline.net/v4/ats/web.php/portal/D0EAAF82D2F805FCF6412120F6BF9534/jobs/84699",
     "job_type": "Unknown",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 46
+    "id": 45
   },
   {
     "title": "Produce Clerk",
@@ -497,7 +485,7 @@
     "apply_link": "https://www.paycomonline.net/v4/ats/web.php/portal/D0EAAF82D2F805FCF6412120F6BF9534/jobs/84690",
     "job_type": "Unknown",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 47
+    "id": 46
   },
   {
     "title": "Meat Clerk",
@@ -507,7 +495,7 @@
     "apply_link": "https://www.paycomonline.net/v4/ats/web.php/portal/D0EAAF82D2F805FCF6412120F6BF9534/jobs/84680",
     "job_type": "Unknown",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 48
+    "id": 47
   },
   {
     "title": "Grocery Clerk",
@@ -517,7 +505,7 @@
     "apply_link": "https://www.paycomonline.net/v4/ats/web.php/portal/D0EAAF82D2F805FCF6412120F6BF9534/jobs/84671",
     "job_type": "Unknown",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 49
+    "id": 48
   },
   {
     "title": "Crew Member",
@@ -527,6 +515,6 @@
     "apply_link": "https://tmt.spotapps.co/job-listings?spot_id=135071&callback_url=http%3A%2F%2Fbluedogpizzatahoe.com%2F&_gl=1%2an7rwk9%2a_ga%2aOTI4NDUxMzQ2LjE3NjQ3MTQyNTc.%2a_ga_VG24VK2VKT%2aczE3NjQ3MTQyNTYkbzEkZzAkdDE3NjQ3MTQyNTgkajU4JGwwJGgw%2a_ga_FB6MG7Y9S1%2aczE3NjQ3MTQyNTckbzEkZzAkdDE3NjQ3MTQyNTgkajU5JGwwJGgw",
     "job_type": "Unknown",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 50
+    "id": 49
   }
 ]

@@ -51,7 +51,17 @@ function importCsvToJson() {
 
   console.log("Parsing CSV...");
   const records = parse(csvContent, {
-    columns: true,
+    columns: [
+      "Date Posted",
+      "Company",
+      "Job Title",
+      "Application Link",
+      "Type of work",
+      "Hourly Rate",
+      "Location",
+      "Description",
+      "Job Closes by",
+    ],
     skip_empty_lines: true,
     relax_column_count: true,
     relax_quotes: true,

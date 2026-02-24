@@ -30,7 +30,7 @@ yarn test:ui
 
 ## Data
 
-The application uses a JSON file to store job data. The JSON file (`jobboard.json`) is populated from `slt-jobs.csv`. To import the CSV data into the JSON file, run:
+Job data is managed in a [Google Spreadsheet](https://docs.google.com/spreadsheets/d/16sDYemc_Sn6gRM-cRiT1sEL1U-GJdhqcqmy_k5Z1M3Y/edit?gid=0#gid=0) and exported as `slt-jobs.csv`. The JSON file (`jobboard.json`) is populated from the CSV. To import the CSV data into the JSON file, run:
 
 ```bash
 yarn import-csv

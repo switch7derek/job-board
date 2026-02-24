@@ -1,364 +1,101 @@
 [
   {
-    "title": "Veterinary Receptionist/Assistant",
-    "company": "Blue Lake Animal Care Center",
-    "location": "1154 Emerald Bay Rd",
-    "description": "Busy veterinary hospital seeking friendly, reliable, enthusiastic receptionist. Good communication skills, time management and ability to learn new skills quickly a must.",
-    "application_instructions": "Please drop of resume in person or email reception@bluelakevet.com",
-    "hourly_rate": "DOE",
-    "job_type": "Full-time",
-    "posted_date": "2027-02-01T08:00:00.000Z",
+    "title": "Construction Job Fair - March 12th from 2:00 - 4:00",
+    "company": "Sugar Pine Village and Deacon Construction",
+    "location": "Lake Tahoe Community College Room U112",
+    "description": "Job and Community Fair\r\nDate: March 12, 2026\r\nTime: 2:00 - 4:00\r\nLocation: Lake Tahoe Community College, One College Dr. Room U112\r\n\r\nMeet subcontractors hiring for various trade positions",
+    "hourly_rate": "Varies by role",
+    "job_type": "Unknown",
+    "posted_date": "1970-01-01T00:00:00.000Z",
     "id": 1
   },
   {
-    "title": "Tow Truck Operator",
-    "company": "Welcome's Towing",
-    "location": "948 3rd Street",
-    "description": "We are a Towing company who has been operating in the Lake Tahoe area for 45 plus years. We are contracted with all of the Law Enforcement Agencies in the area both on the CA & NV side as well as with multiple road side service companies. We are a very busy company with many opportunities.\r\n-Looking for individuals who can complete tasks in a timely and efficient manner, who are committed and dependable, as well as a team player.\r\n-At least 25 years of age with a clean driving record.\r\n-Tow truck experience in roadside service/law enforcement calls preferred but not required, will train entry level D.O.E.\r\n-Must pass physical and pre-employment/random drug screening as well as have a clean background.\r\n-Maintain safe operations and clean appearance by complying with operational policies, procedures and standards, as well as state and local driving rules and regulations as well as required paperwork.\r\n-Prefer someone who lives within the Lake Tahoe area. Or relatively close depending on experience.\r\n-Good customer service skills.\r\n-We offer Health Insurance, Dental, Vision, 401k, Paid vacation.",
-    "application_instructions": "Email resume or apply in person welcomesnevada@gmail.com",
-    "job_type": "Full-time",
-    "posted_date": "2025-12-19T08:00:00.000Z",
+    "title": "Food and Beverage Attendant",
+    "company": "The Forest Suites Resort",
+    "location": "1 Lake Pkwy",
+    "description": "Welcome to Forest Suites Resort in the stunning setting of South Lake Tahoe, California, proudly part of the Pyramid Global Hospitality portfolio. Offering 119 comfortable guest rooms and a total of 3,476 sq ft of meeting space across 6 versatile rooms, Forest Suites Resort is not just a place to stay—it's a mountain retreat that seamlessly integrates comfort with career opportunities.   Nestled in the breathtaking beauty of South Lake Tahoe, Forest Suites Resort embodies the work culture fostered by Pyramid Global Hospitality, where professional growth and seizing opportunities take center stage. As a member of the Pyramid Global team, you'll enjoy benefits such as a 401k with a company match and recognition programs tailored to celebrate your achievements.   Join us at Forest Suites Resort, where your pathway to a fulfilling career is guided by an excellent People First Culture. It's about being part of a professional team that understands the unique energy of South Lake Tahoe while supporting your individual career journey. Welcome to a professional environment within Pyramid Global Hospitality that encourages your personal and professional development amidst the majestic mountains of Lake Tahoe!",
+    "apply_link": "https://careers.pyramidglobal.com/us/en/job/R0058627/Food-Beverage-Attendant",
+    "hourly_rate": "$18.00 - $20.50",
+    "job_type": "Unknown",
+    "posted_date": "1970-01-01T00:00:00.000Z",
     "id": 2
   },
   {
-    "title": "Sales Associate",
-    "company": "Sunglass Hut",
-    "location": "1001 Heavenly Village Way",
-    "description": "Our Sales Associates are vital to the success of Sunglass Hut. You will bring an authentic, fun and energic experience to all customers while helping them find premium quality eyewear.",
-    "apply_link": "https://careers.essilorluxottica.com/job/South-Lake-Tahoe-Sales-Associate-CA-96150/1282692901/",
-    "hourly_rate": "$16.90 - $20-68",
-    "job_type": "Part-time",
-    "posted_date": "2026-01-13T08:00:00.000Z",
+    "title": "Assistant Administrator/Occupancy Specialist - Affordable Housing",
+    "company": "HumanGood",
+    "location": "1101 3rd Street",
+    "description": "Under general supervision, the Occupancy Specialist sets up and/maintains resident records and accounts receivable systems utilizing Real Page Software or successor programs; and performs general clerical functions and office duties.  As a representative and team member of the company, this position is expected to present oneself in a manner that reflects professionalism and ensures resident satisfaction.",
+    "apply_link": "https://recruiting2.ultipro.com/AME1033ABHOW/JobBoard/8819f2ba-041d-48c2-9cfe-c854415f43d2/OpportunityDetail?opportunityId=0e316048-26ed-4c3a-8858-e83c05a8e34a",
+    "hourly_rate": "$20 - $22",
+    "job_type": "Full-time",
+    "posted_date": "2026-02-23T08:00:00.000Z",
     "id": 3
   },
   {
-    "title": "Front Desk Agent",
-    "company": "Marriott",
-    "location": "1001 Heavenly Village Way",
-    "description": "Are you looking for a place where meaningful moments are made together?  \r\n\r\n \r\n\r\nAt Marriott Vacations Worldwide (MVW), we make vacation dreams come true for travelers around the world in a supportive, friendly, and beautiful work environment. As a Guest Services Agent at MVW, you will assist in providing our Owners/guests with experiences and events to make memorable vacation memories, where meaningful moments are made together.",
-    "apply_link": "https://mymvw.wd5.myworkdayjobs.com/MVW/job/Marriott-Grand-Residence-Club-Lake-Tahoe/Front-Desk-Agent_JR87058?source=Indeed",
-    "hourly_rate": "$22.30",
-    "job_type": "Full-time",
-    "posted_date": "2026-01-13T08:00:00.000Z",
+    "title": "Multiple Positions Available (Seasonal)",
+    "company": "Camp Richardson",
+    "location": "1900 Jameson Beach Rd",
+    "description": "Multiple seasonal positions available in housekeeping, restaurant, retail, cafe, lodging, shuttles, and more available! Most roles are seasonal from April/May through October/November.",
+    "apply_link": "https://explorusjobs.com/camp-richardson/",
+    "hourly_rate": "Varies by role",
+    "job_type": "Unknown",
+    "posted_date": "1970-01-01T00:00:00.000Z",
     "id": 4
   },
   {
-    "title": "Snowmobile Guide - Lake Tahoe Adventures",
-    "company": "Aramark",
-    "location": "Unknown",
-    "description": "The Recreation Guide III will act as a lead in personal interpretation of cultural, historical, and natural resources while providing support to guests in an outdoor environment. Responsibilities of the position may vary by Aramark location based on client requirements and business needs.",
-    "apply_link": "https://careers.aramark.com/job/?req_id=628866&utm_source=Indeed&utm_medium=AppFeeder&ccuid=68191420176&_ccid=1756757889416ddavmpbw7",
-    "hourly_rate": "$17.75",
-    "job_type": "Unknown",
-    "posted_date": "2026-11-01T07:00:00.000Z",
+    "title": "House Cleaner",
+    "company": "Tahoe Clean",
+    "location": "South Lake Tahoe, CA",
+    "description": "We are looking for motivated and dependable home cleaners to help us provide our top-shelf service to our clients and grow our company.\r\n\r\nWe are based in South Lake Tahoe and would love for you to join us!\r\n\r\nWhy should you work with Tahoe Clean?\r\nBecause we can offer you great pay (more than you would make at the resorts), flexible hours and shifts, the opportunity to grow with our company and you would be working with awesome people.",
+    "application_instructions": "If you are interested in joining our cleaner’s team, please send your resume with 2-3 recent references to: tahoeclean1@gmail.com",
+    "hourly_rate": "$24.02",
+    "job_type": "Full-time, Part-time",
+    "posted_date": "2026-02-21T08:00:00.000Z",
     "id": 5
   },
   {
-    "title": "Housekeeper",
-    "company": "Lake Tahoe Cleaning Services",
-    "location": "Unknown",
-    "description": "Lake Tahoe Cleaning services is looking for an experienced house cleaner. Position starts ASAP. Must have transportation with four-wheel-drive. Looking for someone locally, reliable and honest.",
-    "application_instructions": "Please call or text Dana at 775-221-1454 for more information.",
-    "hourly_rate": "$25 + bonuses",
-    "job_type": "Full-time",
-    "posted_date": "2026-01-02T08:00:00.000Z",
+    "title": "Recreation Leader - Recreation Center Activities (Seasonal)",
+    "company": "City of South Lake Tahoe",
+    "location": "1901 Lisa Maloff Way Suite 205",
+    "description": "Are you energetic, reliable, and passionate about fostering community spirit? The City of South Lake Tahoe's Parks and Recreation Department is looking for individuals to join our team as Seasonal Recreation Leaders for our New Recreation and Aquatics Complex opening Spring 2026. This is an entry-level position designed for those who want to jumpstart a career in public service or recreation while working in one of the most beautiful places on Earth. You will be the face of the facility, ensuring our guests have a safe, fun, and memorable experience. We encourage those with knowledge or experience in special events, climbing, baseball, aquatics, or general recreation programming to apply. Some of the job duties include, facilitating daily activities, guiding youth sports, assisting with community programs and special events as well as supervising participants to ensure safety and adherence to facility rules, set-up and break-down of equipment for programs and maintaining a clean environment. Recreation Leaders also provide exceptional customer service to community members and guests. This is a perfect opportunity to start your career in parks and recreation, offering hands-on experience in a vibrant, new facility in the heart of South Lake Tahoe.",
+    "apply_link": "https://www.governmentjobs.com/careers/slaketahoe/jobs/5243262/recreation-leader-recreation-center-activities-seasonal?pagetype=jobOpportunitiesJobs",
+    "hourly_rate": "$16.90 - $21.56",
+    "job_type": "Unknown",
+    "posted_date": "2026-02-19T08:00:00.000Z",
     "id": 6
   },
   {
-    "title": "Food Service Worker / Line Cook",
-    "company": "LTCC College Cafe (via Pacific Dining",
-    "location": "Lake Tahoe Community College",
-    "description": "Position Responsibilities:\r\nPrepare and serve food/beverages to guests and run POS\r\nSubstitute for or assist other employees during emergencies or rush periods.\r\nMust follow all safety rules and actively prevent accidents.\r\nCommitment to excellent service and ethics!",
-    "apply_link": "https://www.pacific-dining.com/careers",
-    "hourly_rate": "$20 - $22 DOE",
-    "job_type": "Full-time",
-    "posted_date": "2025-12-29T08:00:00.000Z",
+    "title": "Recreation Coordinator - Recreation Center Activities (Seasonal)",
+    "company": "City of South Lake Tahoe",
+    "location": "1901 Lisa Maloff Way Suite 205",
+    "description": "The City of South Lake Tahoe's Parks and Recreation Department is seeking experienced professionals to join our team as Seasonal Recreation Coordinators for our New Recreation and Aquatics Complex opening Spring 2026. As a key player in our facility programming, we need individuals to help plan, execute, and oversee diverse activities ranging from large-scale special events, weddings, rentals, and parties as well as daily operations of our climbing wall, batting cages, aquatics facilities, and other recreation amenities. We are looking to hire up to 6 seasonal coordinators. If you are a natural leader who loves keeping people engaged and safe, have experience in events, marketing, climbing, baseball, aquatics, or general recreation program coordination, we want to hear from you!",
+    "apply_link": "https://www.governmentjobs.com/careers/slaketahoe/jobs/5243155/recreation-coordinator-recreation-center-activities-seasonal?pagetype=jobOpportunitiesJobs",
+    "hourly_rate": "$19.28 - $24.61",
+    "job_type": "Unknown",
+    "posted_date": "2026-02-19T08:00:00.000Z",
     "id": 7
   },
   {
-    "title": "Valet Attendant",
-    "company": "Edgewood Tahoe Resort",
-    "location": "180 Lake Parkway",
-    "description": "The Valet Attendant plays a crucial role in ensuring seamless arrival and departure experiences for guests at Edgewood Tahoe Resort. The Valet Attendant is responsible for providing exceptional guest service by safely parking, retrieving, and handling guest vehicles. As the first and last point of contact for resort guests, the valet represents the resort's brand and must deliver a consistently warm, professional, and anticipatory service experience in a luxury environment. The ideal candidate possesses a strong commitment to guest satisfaction, operational efficiency, and team leadership.",
-    "apply_link": "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883c689b7fbd50189c1277e00060b&id=8a78859e9b137630019b7c2d79b671ad&source=&lang=en",
+    "title": "Maintenance Technician II - Recreation (Seasonal/Temporary)",
+    "company": "City of South Lake Tahoe",
+    "location": "1901 Lisa Maloff Way Suite 205",
+    "description": "The City of South Lake Tahoe is recruiting for Maintenance Technician II positions at the NEW Recreation and Aquatics Center. This position plays a key role in supporting daily operations, program set ups, equipment movement, and maintenance to ensure spaces are safe, clean, functional, and ready for public before, during, and after events. This position coordinates with recreation staff, event organizers, and program instructors to meet setup timelines and needs.  Duties include setting up and breaking down chairs, tables, stages, and equipment for various events, rentals, and programs. In addition, this position provides on-site support during events to assist with unexpected needs, layout changes, and minor adjustments.  Hours vary based on event scheduling and include evenings and week-end shifts.",
+    "apply_link": "https://www.governmentjobs.com/careers/slaketahoe/jobs/5243125/maintenance-technician-ii-recreation-seasonal-temporary?pagetype=jobOpportunitiesJobs",
+    "hourly_rate": "$23.66 - $26.12",
     "job_type": "Unknown",
-    "posted_date": "1970-01-01T00:00:00.000Z",
+    "posted_date": "2026-02-19T08:00:00.000Z",
     "id": 8
   },
   {
-    "title": "Front Desk Agent",
-    "company": "Edgewood Tahoe Resort",
-    "location": "180 Lake Parkway",
-    "description": "As a Front Desk Agent at Edgewood Tahoe Resort, you will be the first point of contact for our guests and an integral part of creating a memorable experience. You will provide exceptional guest service, handle reservations, check-ins and check-outs, and address guest needs in a professional and courteous manner. Your goal is to ensure that each guest feels welcome, valued, and well cared for during their stay.",
-    "apply_link": "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883c689b7fbd50189c1277e00060b&id=8a78839f9abd1871019ac1a0152a11a3&source=&lang=en",
+    "title": "Boat Patrol Officer (Seasonal)",
+    "company": "City of South Lake Tahoe",
+    "location": "1901 Lisa Maloff Way Suite 205",
+    "description": "The City of South Lake Tahoe's Police Department is recruiting for seasonal/temporary Boat Officers. Typical time span of employment is from mid-May until early-September. Work involves patrolling City of South Lake Tahoe waterways and other areas as assigned; enforcing City, County, State and Federal laws, ordinances, rules and regulations including boating laws and boating safety rules; conducting boating safety inspections; making arrests; issuing citations; responding to and assisting at emergencies; administering first aid; and performing related work as required. Workdays and hours will vary and may include working evenings, nights, weekends and holidays.\r\n\r\n\r\n\r\nMust possess a California P.O.S.T. (Peace Officers Standards and Training) Basic Certificate or be certified as a Level I Reserve; must have successfully completed and graduated from a P.O.S.T. certified Basic Course by date of application. Should the applicant have a three (3) year or longer break from the basic course completion date, the applicant must successfully have completed the basic course waiver process as defined by P.O.S.T. by date of application.",
+    "apply_link": "https://www.governmentjobs.com/careers/slaketahoe/jobs/5228336/boat-patrol-officer-seasonal?pagetype=jobOpportunitiesJobs",
+    "hourly_rate": "52.95",
     "job_type": "Unknown",
-    "posted_date": "1970-01-01T00:00:00.000Z",
+    "posted_date": "2026-02-06T08:00:00.000Z",
     "id": 9
-  },
-  {
-    "title": "Activities Ambassador",
-    "company": "Edgewood Tahoe Resort",
-    "location": "180 Lake Parkway",
-    "description": "The Activities Ambassador is a dynamic and enthusiastic member of the Edgewood Resort team, responsible for creating and promoting fun, engaging, and memorable activities for guests. The Activities Ambassador will work closely with the resort experience and guest services teams to ensure a high level of guest satisfaction through interactive entertainment, recreational programs, and wellness activities.",
-    "apply_link": "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883c689b7fbd50189c1277e00060b&id=8a7883ac9ac19e0d019af07214b71a20&source=&lang=en",
-    "job_type": "Unknown",
-    "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 10
-  },
-  {
-    "title": "Host- Bistro",
-    "company": "Edgewood Tahoe Resort",
-    "location": "180 Lake Parkway",
-    "description": "As a Host at Edgewood Tahoe Resort, you will be responsible for greeting and seating guests in a polite, friendly, and professional manner. The Host ensures that the guest experience is pleasant from the moment guests arrive until they are seated. The Host plays an important role in managing reservations, maintaining a smooth flow of guests, and supporting the front-of-house staff.",
-    "apply_link": "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883c689b7fbd50189c1277e00060b&id=8a78859e9b137630019b4da29a1146b6&source=&lang=en",
-    "job_type": "Unknown",
-    "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 11
-  },
-  {
-    "title": "Ski Ambassador - Concierge",
-    "company": "Edgewood Tahoe Resort",
-    "location": "180 Lake Parkway",
-    "description": "The Ski Ambassador/Concierge is responsible for the development and oversight of skier services for Edgewood Tahoe Resort.  Serving as the primary point of contact for all winter ski-related inquiries, this role ensures clear communication, seamless coordination, and exceptional guest experiences. The Ski Ambassador supports the Resort Experiences teams by providing guidance on ski operations and offerings and maintains a collaborative partnership with on-site ski rental and fitting providers. This position exemplifies excellence in luxury hospitality and a commitment to creating memorable guest experiences.",
-    "apply_link": "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883c689b7fbd50189c1277e00060b&id=8a78839f9b1376bd019b449817040b8a&source=&lang=en",
-    "job_type": "Unknown",
-    "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 12
-  },
-  {
-    "title": "Lead Ice Rink Attendant (Seasonal)",
-    "company": "Edgewood Tahoe Resort",
-    "location": "180 Lake Parkway",
-    "description": "As the Lead Ice Rink Attendant at Edgewood Tahoe Resort, you will be responsible for leading and coordinating the Ice Rink operations to ensure a safe, enjoyable, and luxurious skating experience for guests. This role requires a high-level of guest interactions, maintaining ice quality, and fostering a welcoming and festive atmosphere. You will serve as the primary point of contact for both staff and guests during your shift.",
-    "apply_link": "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883c689b7fbd50189c1277e00060b&id=8a78879e9b137690019b5d33e90a2496&source=&lang=en",
-    "job_type": "Unknown",
-    "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 13
-  },
-  {
-    "title": "Sales Associate",
-    "company": "Wildwood Makers Market",
-    "location": "989 Tallac Avenue",
-    "description": "Looking for retirees or anyone who has too much time on their hands, wants to get out of the house, and loves talking with people. Someone who is reliable, competent, can work a day or two on the weekend, and can keep the shop organized, clean and looking pretty!",
-    "application_instructions": "Drop off resume in person",
-    "job_type": "Part-time",
-    "posted_date": "2025-12-30T08:00:00.000Z",
-    "id": 14
-  },
-  {
-    "title": "Trail Crew (Seasonal)",
-    "company": "Tahoe Rim Trail Association",
-    "location": "128 Market Street Suite 3E",
-    "description": "Under the supervision of the Trail Crew Leader, TRTA Trail Crew members will implement trail assessment, maintenance,and construction activities. As needed, crew members will work as an independent unit alongside volunteer and conservation corps crews. This position is scheduled from May 11, 2026 through October 22, 2026",
-    "apply_link": "https://tahoerimtrail.sharepoint.com/Shared%20Documents/Forms/AllItems.aspx?id=%2FShared%20Documents%2FTR%20Public%2FADMINISTRATION%2FPersonnel%2FJob%20Descriptions%2FCurrent%20Job%20Descriptions%2FTrail%20Crew%20Member%20Job%20Description%202026%2Epdf&parent=%2FShared%20Documents%2FTR%20Public%2FADMINISTRATION%2FPersonnel%2FJob%20Descriptions%2FCurrent%20Job%20Descriptions&p=true&ga=1",
-    "hourly_rate": "$20 - $25",
-    "job_type": "Full-time",
-    "posted_date": "2025-12-20T08:00:00.000Z",
-    "id": 15
-  },
-  {
-    "title": "Banquet Cook III",
-    "company": "Golden Nugget",
-    "location": "50 Hwy 50",
-    "description": "It is the responsibility of the Cook to prepare all food items according to menu, recipes, plate specifications, and guest requests. It is also the responsibility of this role to assure food preparation and service is of the highest quality and according to specified prep times.",
-    "apply_link": "https://careers.goldennugget.com/golden-nugget-careers/jobs/36284?lang=en-us&previousLocale=en-US",
-    "hourly_rate": "$19 - $22",
-    "job_type": "Unknown",
-    "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 16
-  },
-  {
-    "title": "Customer Service Rep & Office Assistant",
-    "company": "Greater Sierra Insurance Services",
-    "location": "1233 Ski Run Blvd Suite 1",
-    "description": "*Busy local insurance office is looking for a friendly, organized, and dependable Customer Service Representative & Office Assistant. This is a great opportunity to join a professional team and grow with a stable company.*\r\n\r\nJob Duties include: Answering phones and assisting clients in person, processing payments and basic policy service. scheduling appointments, data entry and file management, general office support\r\n\r\nRequirements:customer service or office experience preferred, must be detail-oriented and able to multitask, good communication and computer skills, insurance experience a plus (not required), bilingual (English/Spanish) a plus\r\n\r\nM–Thurs 9am–5pm & Fri 9am-4pm",
-    "application_instructions": "Please send your resume to nikki@greatersierrainsurance.com and a short message about your experience and availability. You can also apply in person.",
-    "hourly_rate": "$18 - $20 + benefits",
-    "job_type": "Full-time",
-    "posted_date": "2025-12-17T08:00:00.000Z",
-    "id": 17
-  },
-  {
-    "title": "Beverage Shift Supervisor - Graveyeard",
-    "company": "Harrah's",
-    "location": "18 Highway 50",
-    "description": "The incumbent in this position is responsible for developing an environment that creates excitement for guests and Team Members, promoting and retaining a highly skilled work force.  Provides leadership and direction to assigned beverage service personnel to achieve maximum operating results, revenue tracking, and cost of sales control.",
-    "apply_link": "https://edmn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs/preview/77424/?lastSelectedFacet=POSTING_DATES&location=Stateline%2C+NV%2C+United+States&locationId=300000002323814&locationLevel=city&mode=location&radius=25&radiusUnit=MI&selectedPostingDatesFacet=7",
-    "job_type": "Unknown",
-    "posted_date": "2025-12-19T08:00:00.000Z",
-    "id": 18
-  },
-  {
-    "title": "Waitperson",
-    "company": "El Jefe",
-    "location": "18 Highway 50",
-    "description": "Provides prompt, courteous food service to Harrah’s and Caesars Republic guests in accordance with established procedures",
-    "apply_link": "https://edmn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs/preview/77423/?lastSelectedFacet=POSTING_DATES&location=Stateline%2C+NV%2C+United+States&locationId=300000002323814&locationLevel=city&mode=location&radius=25&radiusUnit=MI&selectedPostingDatesFacet=7",
-    "job_type": "Unknown",
-    "posted_date": "2025-12-19T08:00:00.000Z",
-    "id": 19
-  },
-  {
-    "title": "Server - Landshark",
-    "company": "Margaritaville",
-    "location": "4130 Lake Tahoe Blvd",
-    "description": "Are you a passionate and customer-focused individual with a love for hospitality? Join our team as a Server and be an integral part of creating exceptional dining experiences for our guests. With high energy and enthusiasm, you will have the opportunity to showcase your interpersonal skills and provide outstanding service that leaves a lasting impression. From recommending delectable menu items to ensuring a seamless dining journey, you will play a vital role in delivering an unforgettable culinary experience. As part of our dedicated team, you will thrive in a fast-paced environment and have the chance to build meaningful connections with our guests. If you have a genuine passion for hospitality, impeccable attention to detail, and a knack for creating memorable moments, this is your chance to shine in a rewarding and dynamic role!",
-    "apply_link": "https://careers-davidsonhospitality.icims.com/jobs/22046/server---landshark/job?hub=10&_gl=1*usepdz*_ga*MjgwNTgyOTQ1LjE3NTg5MjgzMDE.*_ga_5Y2BYGL910*czE3NjU3NDMyNzMkbzckZzAkdDE3NjU3NDMyNzQkajU5JGwwJGgw&mobile=false&width=1318&height=500&bga=true&needsRedirect=false&jan1offset=-480&jun1offset=-420",
-    "hourly_rate": "$16.50",
-    "job_type": "Part-time",
-    "posted_date": "2025-12-09T08:00:00.000Z",
-    "id": 20
-  },
-  {
-    "title": "Multiple Positions Available",
-    "company": "Powder House",
-    "location": "We have 5 locations in South Lake Tahoe",
-    "description": "Ski Pass Reimbursement with Full Time Commitment\r\nPro Deals from 100s of Brands\r\nExclusive Discounts with Local Partners\r\nFree Tunes and Discounted Rentals for Friends and Family\r\nBonuses based on Performance",
-    "application_instructions": "Please contact Casey Buckley with Powder House HR\r\nhumanresources4045@gmail.com",
-    "hourly_rate": "$18",
-    "job_type": "Full-time, Part-time",
-    "posted_date": "+020205-12-09T08:00:00.000Z",
-    "id": 21
-  },
-  {
-    "title": "FOH (Front of House) Server",
-    "company": "Gastromaniac",
-    "location": "3091 Harrison Ave #120",
-    "description": "Our team at Gastromaniac Pizza & Pasta prides ourselves in providing a great casual dining experience with authentic Italian homemade delicacies to our customers. Looking for motivated individuals who are passionate about customer service, and enjoy working in a fast paced, team oriented, and high volume environment.\r\n\r\nPerks include employee benefits, flexible schedule, and learning about authentic Italian cuisine & wine!\n\nRequirements/Qualifications:\r\n* Previous experience in hospitality/restaurant industry is REQUIRED\r\n* Experience and knowledge of Italian cuisine (Pasta & Pizza) is a PLUS\r\n* Experience and knowledge of Italian wines is a PLUS\r\n* +21 years old\r\n\r\n*WE ARE NOT A J1 authorized employer at this time.*",
-    "application_instructions": "Email resume to gastromaniac.llc@gmail.com",
-    "hourly_rate": "$16.50 + tips",
-    "job_type": "Part-time",
-    "posted_date": "2025-12-09T08:00:00.000Z",
-    "id": 22
-  },
-  {
-    "title": "Server",
-    "company": "Getaway Cafe",
-    "location": "3140 Hwy 50",
-    "description": "Are you:\n-Upbeat, hardworking, dependable?\n-Thrive working in team environments?\n-Want to join one of Tahoe's best restaurants?\n\nPrior experience required and reliable winter transportation a must!",
-    "application_instructions": "Apply in person or email resume to getawaycafetahoe@gmail.com",
-    "job_type": "Unknown",
-    "posted_date": "2025-12-10T08:00:00.000Z",
-    "id": 23
-  },
-  {
-    "title": "General Maintenance Tech",
-    "company": "Lake Village Homeowners Association",
-    "location": "300 Clubhouse Circle",
-    "description": "-Assist with seasonal tasks\n-Basic mechanical or handyman skills preferred, but wil ltrain the right candidate",
-    "application_instructions": "Apply in person 9am - 5pm",
-    "job_type": "Unknown",
-    "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 24
-  },
-  {
-    "title": "Administrative Assistant and Guest Services",
-    "company": "Lake Village Homeowners Association",
-    "location": "300 Clubhouse Circle",
-    "description": "-Proficient with financial tools: Excel, Google Sheets, accounting platforms\n-Analytical skills: ability to identify discrepancies",
-    "application_instructions": "Apply in person 9am - 5pm",
-    "job_type": "Unknown",
-    "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 25
-  },
-  {
-    "title": "Sandwich Artist",
-    "company": "West Coast Sourdough",
-    "location": "2014 Lake Tahoe Blvd",
-    "description": "If you love food and want others to love their food, becoming one of our sandwich artists is exactly for you!\r\nWe have flexible hours, a positive work environment and competitive pay.",
-    "apply_link": "https://www.wcsourdough.com/\n(Click on \"Careers\" to apply)",
-    "hourly_rate": "Competitive",
-    "job_type": "Part-time",
-    "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 26
-  },
-  {
-    "title": "Morning Cook",
-    "company": "Social House",
-    "location": "1001 Heavenly Village Way\nSuite 3",
-    "description": "Social House is looking for a reliable, motivated Morning Cook to join our team! If you’re passionate about good food, enjoy working in a fast-paced environment, and have a positive attitude, we want to hear from you.\n\n🔸 Schedule: 6:30/7:00 AM – 3:00/3:30 PM\n\n✨ What We’re Looking For:\nPrevious kitchen or line-cook experience required\nStrong work ethic and ability to stay organized during busy service periods\nAbility to follow recipes, maintain consistency, and uphold food-safety standards\nDependable and punctual\nTeam-oriented attitude with good communication skills\n\n🔧 Responsibilities Include:\nPreparing breakfast and lunch menu items\nSetting up and stocking stations before service\nMaintaining a clean and orderly kitchen\nAssisting with prep work\nFollowing proper food handling and sanitation procedures\nIf you're ready to be part of a supportive, energetic team and start your mornings with purpose, we’d love to meet you!",
-    "application_instructions": "Drop resume off in person or submit here: https://socialhousetahoe.com/\n(Link to apply at the bottom of the homepage)",
-    "hourly_rate": "$17 - $19",
-    "job_type": "Full-time",
-    "posted_date": "2025-12-06T08:00:00.000Z",
-    "id": 27
-  },
-  {
-    "title": "Retail Sales Associate (Temporary)",
-    "company": "TJ Maxx",
-    "location": "2015 Lake Tahoe Blvd",
-    "description": "Responsible for delivering a highly satisfied customer experience proven by engaging and interacting with all customers, embodying customer experience principles and philosophy, and maintaining a clean and organized store environment. Adheres to all operational, merchandise, and loss prevention standards. May be cross-trained to work in multiple areas of the store in order to support the needs of the business.",
-    "apply_link": "https://jobs.tjx.com/global/en/job/TJCOGLOBALREQ81419EXTERNALENGLOBAL/Retail-Sales-Associate-Temporary?utm_source=INDEED&utm_medium=phenom-feeds&utm_source=Indeed",
-    "hourly_rate": "$16.50 - $17.00",
-    "job_type": "Part-time",
-    "posted_date": "2025-12-02T08:00:00.000Z",
-    "id": 28
-  },
-  {
-    "title": "Shift Lead",
-    "company": "Pet Supermarket",
-    "location": "960 Emerald Bay Rd",
-    "description": "No Description",
-    "application_instructions": "Please hand in your resume to the store directly",
-    "hourly_rate": "$18.50",
-    "job_type": "Full-time, Part-time",
-    "posted_date": "2025-12-01T08:00:00.000Z",
-    "id": 29
-  },
-  {
-    "title": "Assistant Manager",
-    "company": "Pet Supermarket",
-    "location": "960 Emerald Bay Rd",
-    "description": "No Description",
-    "application_instructions": "Please hand in your resume to the store directly",
-    "hourly_rate": "$22.50",
-    "job_type": "Full-time",
-    "posted_date": "2025-12-01T08:00:00.000Z",
-    "id": 30
-  },
-  {
-    "title": "Cookie Delivery Driver",
-    "company": "Insomnia Cookies",
-    "location": "4125 Lake Tahoe Blvd",
-    "description": "As a Delivery Driver, you are our “Boots on the ground!”, and the main face that our Insomniacs see outside of the bakery! You give the word “Delivery” a whole new meaning by delivering the Cookie Magic to our fans wherever they are.",
-    "apply_link": "https://jobs.lever.co/insomniacookies/b2b6aa89-ce50-4ade-b1ad-63a5a0bbaf6e",
-    "hourly_rate": "$20 + tips",
-    "job_type": "Part-time",
-    "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 31
-  },
-  {
-    "title": "Cookie Crew",
-    "company": "Insomnia Cookies",
-    "location": "4125 Lake Tahoe Blvd",
-    "description": "As a member of the Cookie Crew you are the ultimate Insomniac. Not only are you the point person at the front of the store for interacting with our customers, but you also get to bake all of our awesome Warm and Delicious cookies as well!",
-    "apply_link": "https://jobs.lever.co/insomniacookies/319fd2fd-b408-4605-bf5c-db2bacd03503",
-    "hourly_rate": "$20 + tips",
-    "job_type": "Part-time",
-    "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 32
-  },
-  {
-    "title": "Shift Lead",
-    "company": "Insomnia Cookies",
-    "location": "4125 Lake Tahoe Blvd",
-    "description": "As a Shift Leader, you are the captain of our bakery day or night! You understand what it takes to “Own the Night” (and beyond), by predicting the flow of business during a successful shift. Your hands-on leadership style should not only include building orders, suggestive selling, baking, and interacting with customers – it will also mean taking pride in knowing that your prowess as a leading Insomniac attributes to a productive and fun night for your store!",
-    "apply_link": "https://jobs.lever.co/insomniacookies/18d088e1-3490-4ad6-8a09-5c1a5f2c743c",
-    "hourly_rate": "$20 + tips",
-    "job_type": "Part-time",
-    "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 33
-  },
-  {
-    "title": "Store Manager in Training (MIT)",
-    "company": "Insomnia Cookies",
-    "location": "4125 Lake Tahoe Blvd",
-    "description": "No Description",
-    "apply_link": "https://jobs.lever.co/insomniacookies/f3469f01-74e5-4da2-ba96-207818fec340",
-    "hourly_rate": "$20 + perks",
-    "job_type": "Full-time",
-    "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 34
   },
   {
     "title": "Shift Lead",
@@ -368,7 +105,7 @@
     "apply_link": "https://docs.google.com/forms/d/e/1FAIpQLSdfkNt_4gpkHNgHTQDoTV-qZeJm0UXCd1T4_e2xfRlMIRsR6g/viewform",
     "job_type": "Full-time",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 35
+    "id": 10
   },
   {
     "title": "Barista/Register/Back of House",
@@ -378,7 +115,7 @@
     "apply_link": "https://docs.google.com/forms/d/e/1FAIpQLSdfkNt_4gpkHNgHTQDoTV-qZeJm0UXCd1T4_e2xfRlMIRsR6g/viewform",
     "job_type": "Part-time",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 36
+    "id": 11
   },
   {
     "title": "Night Cleaner",
@@ -388,7 +125,7 @@
     "apply_link": "https://docs.google.com/forms/d/e/1FAIpQLSdfkNt_4gpkHNgHTQDoTV-qZeJm0UXCd1T4_e2xfRlMIRsR6g/viewform",
     "job_type": "Part-time",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 37
+    "id": 12
   },
   {
     "title": "Barista",
@@ -399,7 +136,7 @@
     "hourly_rate": "DOE + Tips",
     "job_type": "Full-time, Part-time",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 38
+    "id": 13
   },
   {
     "title": "Retail Associate",
@@ -410,7 +147,7 @@
     "hourly_rate": "$16.50 - $18.00",
     "job_type": "Full-time, Part-time",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 39
+    "id": 14
   },
   {
     "title": "Tubing Hill Crew Member",
@@ -421,29 +158,7 @@
     "hourly_rate": "$14.00 - $18.00",
     "job_type": "Full-time, Part-time",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 40
-  },
-  {
-    "title": "Retail Associate",
-    "company": "Smart and Final",
-    "location": "2061 Lake Tahoe Boulevard",
-    "description": "The Part-time Retail Associate performs management-assigned duties, which may include but may not be limited to, stocking and maintaining a store section, carry-out services and store cleaning.",
-    "apply_link": "https://chedrauiusa.csod.com/ux/ats/careersite/10/home/requisition/25247?c=chedrauiusa",
-    "hourly_rate": "$16.50",
-    "job_type": "Part-time",
-    "posted_date": "2025-12-02T08:00:00.000Z",
-    "id": 41
-  },
-  {
-    "title": "Service Clerk",
-    "company": "Smart and Final",
-    "location": "2061 Lake Tahoe Boulevard",
-    "description": "The Service Clerk reports to the Store Manager/Senior Assistant Manager and is responsible for maintaining carts, assisting customers with purchases and assistance to their cars as requested, checking prices on products, returning merchandise to store shelves, parking lot and store maintenance.",
-    "apply_link": "https://chedrauiusa.csod.com/ux/ats/careersite/10/home/requisition/24993?c=chedrauiusa",
-    "hourly_rate": "$16.50",
-    "job_type": "Unknown",
-    "posted_date": "2025-12-02T08:00:00.000Z",
-    "id": 42
+    "id": 15
   },
   {
     "title": "Vacation Rental Cleaner",
@@ -454,7 +169,7 @@
     "hourly_rate": "$25 - $30",
     "job_type": "Part-time",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 43
+    "id": 16
   },
   {
     "title": "Vacation Rental Dispatch Specialist",
@@ -465,7 +180,7 @@
     "hourly_rate": "$24-$30",
     "job_type": "Full-time, Part-time",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 44
+    "id": 17
   },
   {
     "title": "Grocery Clerk- Freight",
@@ -475,7 +190,7 @@
     "apply_link": "https://www.paycomonline.net/v4/ats/web.php/portal/D0EAAF82D2F805FCF6412120F6BF9534/jobs/84699",
     "job_type": "Unknown",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 45
+    "id": 18
   },
   {
     "title": "Produce Clerk",
@@ -485,7 +200,7 @@
     "apply_link": "https://www.paycomonline.net/v4/ats/web.php/portal/D0EAAF82D2F805FCF6412120F6BF9534/jobs/84690",
     "job_type": "Unknown",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 46
+    "id": 19
   },
   {
     "title": "Meat Clerk",
@@ -495,7 +210,7 @@
     "apply_link": "https://www.paycomonline.net/v4/ats/web.php/portal/D0EAAF82D2F805FCF6412120F6BF9534/jobs/84680",
     "job_type": "Unknown",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 47
+    "id": 20
   },
   {
     "title": "Grocery Clerk",
@@ -505,7 +220,7 @@
     "apply_link": "https://www.paycomonline.net/v4/ats/web.php/portal/D0EAAF82D2F805FCF6412120F6BF9534/jobs/84671",
     "job_type": "Unknown",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 48
+    "id": 21
   },
   {
     "title": "Crew Member",
@@ -515,6 +230,6 @@
     "apply_link": "https://tmt.spotapps.co/job-listings?spot_id=135071&callback_url=http%3A%2F%2Fbluedogpizzatahoe.com%2F&_gl=1%2an7rwk9%2a_ga%2aOTI4NDUxMzQ2LjE3NjQ3MTQyNTc.%2a_ga_VG24VK2VKT%2aczE3NjQ3MTQyNTYkbzEkZzAkdDE3NjQ3MTQyNTgkajU4JGwwJGgw%2a_ga_FB6MG7Y9S1%2aczE3NjQ3MTQyNTckbzEkZzAkdDE3NjQ3MTQyNTgkajU5JGwwJGgw",
     "job_type": "Unknown",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 49
+    "id": 22
   }
 ]

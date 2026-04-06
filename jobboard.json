@@ -1,5 +1,297 @@
 [
   {
+    "title": "Barista / Coffeehouse Team",
+    "company": "Clyde’s Coffee Roasting Co",
+    "location": "292 Kingsbury Grade Road",
+    "description": "High energy morning person needed for customer service, barista and light baking. Shorter shifts available. Dependability, Personality and motivation required.",
+    "application_instructions": "Email resume to Clydescoffee@yahoo.com or drop off resume in-person",
+    "hourly_rate": "Competitive",
+    "job_type": "Part-time",
+    "posted_date": "2026-04-02T07:00:00.000Z",
+    "id": 1
+  },
+  {
+    "title": "Security Officer",
+    "company": "Bally's Tahoe",
+    "location": "Stateline, NV",
+    "description": "Security Officers patrol the property to maintain a safe and secure environment for guests and team members, respond to incidents, enforce property policies, and assist guests with directions and information.",
+    "apply_link": "https://recruiting.ultipro.com/TWI1006TRWH/JobBoard/b9cc79c4-75a2-4800-8508-16504f7a2d90/OpportunityDetail?opportunityId=e1322e81-92d9-4ad2-bfda-4bcbd97ad3d6",
+    "hourly_rate": "$18",
+    "job_type": "Part-time",
+    "posted_date": "2026-04-03T07:00:00.000Z",
+    "id": 2
+  },
+  {
+    "title": "Host Person – Café Del Soul",
+    "company": "Bally's Tahoe",
+    "location": "Stateline, NV",
+    "description": "Host Persons at Café Del Soul greet and seat guests, manage reservations, maintain wait lists, and create a warm and welcoming first impression for all guests entering the restaurant.",
+    "apply_link": "https://recruiting.ultipro.com/TWI1006TRWH/JobBoard/b9cc79c4-75a2-4800-8508-16504f7a2d90/OpportunityDetail?opportunityId=6d3626da-e63b-45f9-b848-f4f93ce0be23",
+    "hourly_rate": "$15",
+    "job_type": "Part-time",
+    "posted_date": "2026-04-02T07:00:00.000Z",
+    "id": 3
+  },
+  {
+    "title": "Lifeguard",
+    "company": "Bally's Tahoe",
+    "location": "Stateline, NV",
+    "description": "Lifeguards monitor the pool area to ensure guest safety, enforce pool rules, and respond to emergencies, providing a welcoming and safe aquatic environment. Paid certifications included.",
+    "apply_link": "https://recruiting.ultipro.com/TWI1006TRWH/JobBoard/b9cc79c4-75a2-4800-8508-16504f7a2d90/OpportunityDetail?opportunityId=72b96e23-eb4d-4449-a4bb-f950a724655e",
+    "hourly_rate": "$25.00",
+    "job_type": "Part-time",
+    "posted_date": "2026-04-02T07:00:00.000Z",
+    "id": 4
+  },
+  {
+    "title": "Front Desk Clerk",
+    "company": "Bally's Tahoe",
+    "location": "Stateline, NV",
+    "description": "Front Desk Clerks welcome hotel guests, manage check-in and check-out, handle reservations, answer inquiries, and ensure a smooth and pleasant arrival and departure experience for all guests.",
+    "apply_link": "https://recruiting.ultipro.com/TWI1006TRWH/JobBoard/b9cc79c4-75a2-4800-8508-16504f7a2d90/OpportunityDetail?opportunityId=dd8785e5-fce0-44d2-bf97-39d9957a7471",
+    "hourly_rate": "$15.25",
+    "job_type": "Full-time",
+    "posted_date": "2026-04-02T07:00:00.000Z",
+    "id": 5
+  },
+  {
+    "title": "Guest Room Attendant / Housekeeper",
+    "company": "The Burks Companies",
+    "location": "Stateline, NV",
+    "description": "The Burks Companies is hiring full-time Guest Room Attendants/Housekeepers at a high-profile hotel facility. Team members clean guest rooms to the highest standards, reporting maintenance issues and replacing amenities while delivering friendly, professional service.",
+    "apply_link": "https://theburkscompanies.applicantpro.com/jobs/3540383",
+    "hourly_rate": "$17.50–$18.50",
+    "job_type": "Full-time",
+    "posted_date": "2026-03-31T07:00:00.000Z",
+    "id": 6
+  },
+  {
+    "title": "Guest Room Attendant / Housekeeper",
+    "company": "The Burks Companies",
+    "location": "Stateline, NV",
+    "description": "The Burks Companies is hiring full-time Guest Room Attendants/Housekeepers at a high-profile hotel facility. Team members clean guest rooms to the highest standards, reporting maintenance issues and replacing amenities while delivering friendly, professional service.",
+    "apply_link": "https://theburkscompanies.applicantpro.com/jobs/3947454",
+    "hourly_rate": "$18.00–$18.50",
+    "job_type": "Full-time",
+    "posted_date": "2026-03-31T07:00:00.000Z",
+    "id": 7
+  },
+  {
+    "title": "Guest Room Attendant / Housekeeper (TAHOE)",
+    "company": "The Burks Companies",
+    "location": "Stateline, NV",
+    "description": "The Burks Companies is hiring full-time Guest Room Attendants/Housekeepers at a Tahoe-area hotel. Team members clean guest rooms to the highest standards, reporting maintenance issues and replacing amenities while delivering friendly, professional service.",
+    "apply_link": "https://theburkscompanies.applicantpro.com/jobs/3176425",
+    "hourly_rate": "$18.00–$18.50",
+    "job_type": "Full-time",
+    "posted_date": "2026-03-31T07:00:00.000Z",
+    "id": 8
+  },
+  {
+    "title": "QA Inspector",
+    "company": "The Burks Companies",
+    "location": "Stateline, NV",
+    "description": "The Burks Companies is hiring full-time Housekeeping Quality Assurance Inspectors. Inspectors review guest rooms after cleaning to verify they meet the highest cleanliness and presentation standards before guests check in.",
+    "apply_link": "https://theburkscompanies.applicantpro.com/jobs/3792794",
+    "hourly_rate": "$18.50–$19.00",
+    "job_type": "Full-time",
+    "posted_date": "2026-03-31T07:00:00.000Z",
+    "id": 9
+  },
+  {
+    "title": "EVS Attendant / Janitor",
+    "company": "The Burks Companies",
+    "location": "Stateline, NV",
+    "description": "The Burks Companies is hiring full-time EVS Attendants/Janitors at a Tahoe-area facility. Team members maintain cleanliness in public areas, restrooms, and common spaces to ensure a welcoming and sanitary environment for all guests.",
+    "apply_link": "https://theburkscompanies.applicantpro.com/jobs/3177112",
+    "hourly_rate": "$16.50–$17.50",
+    "job_type": "Full-time",
+    "posted_date": "2026-03-31T07:00:00.000Z",
+    "id": 10
+  },
+  {
+    "title": "Houseman and Driver",
+    "company": "The Burks Companies",
+    "location": "Stateline, NV",
+    "description": "A hybrid role responsible for both transportation and housekeeping support. Drivers run daily transportation routes while Housemen maintain floor supplies, collect linens, and respond to guest requests in support of the housekeeping department.",
+    "apply_link": "https://theburkscompanies.applicantpro.com/jobs/3831100",
+    "hourly_rate": "$19.00–$19.50",
+    "job_type": "Full-time",
+    "posted_date": "2026-03-31T07:00:00.000Z",
+    "id": 11
+  },
+  {
+    "title": "Maintenance Technician III – Airport",
+    "company": "City of South Lake Tahoe",
+    "location": "South Lake Tahoe, CA",
+    "description": "The City is seeking a skilled Maintenance Technician III for a full-time permanent position supporting safe and efficient operations at the South Lake Tahoe Airport year-round. Responsibilities include airport lighting maintenance and repair, and operating snow removal equipment to keep runways and taxiways clear.",
+    "apply_link": "https://www.governmentjobs.com/careers/slaketahoe/jobs/202600020/maintenance-technician-iii-airport",
+    "hourly_rate": "$27.33–$33.22",
+    "job_type": "Full-time",
+    "posted_date": "2026-03-31T07:00:00.000Z",
+    "id": 12
+  },
+  {
+    "title": "Senior/Principal Building Inspector",
+    "company": "City of South Lake Tahoe",
+    "location": "South Lake Tahoe, CA",
+    "description": "The City is recruiting a Senior/Principal Building Inspector, with position level determined based on candidate experience. Performs inspections of buildings and structures to ensure compliance with applicable codes, ordinances, and regulations.",
+    "apply_link": "https://www.governmentjobs.com/careers/slaketahoe/jobs/202600019/seniorprincipal-building-inspector",
+    "hourly_rate": "$39.48–$52.78",
+    "job_type": "Full-time",
+    "posted_date": "2026-03-31T07:00:00.000Z",
+    "id": 13
+  },
+  {
+    "title": "Maintenance Technician III – Streets (Seasonal)",
+    "company": "City of South Lake Tahoe",
+    "location": "South Lake Tahoe, CA",
+    "description": "The City is recruiting multiple seasonal Maintenance Technician III positions to assist the Streets department with patching, paving, painting, striping, replacing signs, and general street maintenance. CDL preferred but not required. Anticipated start mid-May, end early November 2026.",
+    "apply_link": "https://www.governmentjobs.com/careers/slaketahoe/jobs/202600016/maintenance-technician-iii-streets",
+    "hourly_rate": "$27.33–$33.22",
+    "job_type": "Temporary/Seasonal",
+    "posted_date": "2026-03-31T07:00:00.000Z",
+    "id": 14
+  },
+  {
+    "title": "Bar Attendant",
+    "company": "Caesar's Entertainment",
+    "location": "Harrah's Lake Tahoe - A Caesars Rewards Destination",
+    "description": "The purpose of this position is to work behind the bar to facilitate the smooth flow of service to customers by the Bartender/Beverage Server. Responsible for ensuring that adequate levels of all supplies (perishable and non-perishable) are maintained consistently (front and back) of beverage operations.  Also responsible for maintaining cleanliness and effectiveness of beverage storerooms and Easy Bar liquor system.",
+    "apply_link": "https://edmn.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/jobs/preview/82151/?lastSelectedFacet=WORK_LOCATIONS&location=Stateline%2C+NV%2C+United+States&locationId=300000002323814&locationLevel=city&mode=location&radius=25&radiusUnit=MI&selectedPostingDatesFacet=7&selectedWorkLocationsFacet=300000024806517",
+    "job_type": "Unknown",
+    "posted_date": "2026-03-31T07:00:00.000Z",
+    "id": 15
+  },
+  {
+    "title": "Cedar Bath Attendant (Female only)",
+    "company": "Tahoe Forest Baths",
+    "location": "209 Kingsbury Grade Road",
+    "description": "Overview\r\n\r\nBath Attendant: Opportunity to learn a role as a bath attendant assisting customers as a Cedar Bath Guide. Tips included. (Female only)\r\n\r\nThe Employee shall perform a variety of duties related to manual labor and maintenance tasks, as responsibilities reasonably associated with their position. The duties of the employee include, but are not limited to, the following:\r\n\r\nResponsibilities\r\n\r\nCedar Bath Maintenance: The Employee will ensure proper maintenance of the cedar baths, which consists of manually pushing a 40 pound agitation machine. This task is integral to the day-to-day upkeep of the baths and must be performed with care and consistency.\r\n\r\nCleaning and Laundry: The employee will be responsible for maintaining cleanliness in designated areas and handling laundry services as assigned.\r\n\r\nMaterial Handling: The employee will manage the pick up and delivery of materials as needed for business operations, ensuring that items are handled efficiently and safely.\r\nThis position offers an opportunity for growth within a supportive environment where your skills can be utilized effectively while contributing to the success of our operations.\r\n\r\nBath Attendant: Opportunity to learn a role as a bath attendant assisting customers as a Cedar Bath Guide.",
+    "application_instructions": "Email resume to Tim at tahoeforestbaths@gmail.com",
+    "hourly_rate": "$20 + tips",
+    "job_type": "Part-time",
+    "posted_date": "2026-04-03T07:00:00.000Z",
+    "id": 16
+  },
+  {
+    "title": "Guest Room Attendant/Housekeeper",
+    "company": "The Burks Companies",
+    "location": "Stateline, NV",
+    "description": "As a Guest Room Attendant you are the frontline and are a key component in delivery positive experiences to our clients' guests. As such, when you arrive for your shift, you are energized and ready to get to work. Being proud of the uniform you wear and equipped with the best training, tools and supplies; you are ready to go! This enables you to work efficiently and with a minimum of physical effort - our team members are known for offering friendly, engaging service to all, exceeding guest and client expectations.\r\nResponsible for reporting room discrepancies and maintenance problems to the supervisor.\r\nReplace room amenities, literature and other items as directed by supervisor and prescribed by brand standards.",
+    "apply_link": "https://theburkscompanies.applicantpro.com/jobs/3540383",
+    "hourly_rate": "$17.50 - $18.50",
+    "job_type": "Full-time",
+    "posted_date": "2026-03-31T07:00:00.000Z",
+    "id": 17
+  },
+  {
+    "title": "Maintenance Technician III - Streets",
+    "company": "SLT Parks and Rec",
+    "location": "South Lake Tahoe",
+    "description": "The City of South Lake Tahoe is recruiting for multiple seasonal Maintenance Technician III to assist with our Streets department. This position will assist with patching, paving, painting, striping, replacing signs, and providing general street maintenance services. CDL license is preferred but not required.\r\n\r\nThis position is anticipated to start in mid-May and end in early November 2026.",
+    "apply_link": "https://www.governmentjobs.com/careers/slaketahoe/jobs/5291982/maintenance-technician-iii-streets-seasonal-temporary?sort=PostingDate%7CDescending&pagetype=jobOpportunitiesJobs",
+    "hourly_rate": "$27.33 - $33.22",
+    "job_type": "Temporary/Seasonal",
+    "posted_date": "2026-03-31T07:00:00.000Z",
+    "id": 18
+  },
+  {
+    "title": "Customer Experience Guide",
+    "company": "Embarc",
+    "location": "3008 U.S. 50",
+    "description": "The Customer Experience Guide plays a key role in supporting all Customer Experience and Sales initiatives while ensuring smooth store and inventory operations. This role requires a passion for cannabis, exceptional customer service, and a strong understanding of compliance and product knowledge.",
+    "apply_link": "https://goembarc.discovered.ai/job-details/50440",
+    "hourly_rate": "$18.50 - $19.36",
+    "job_type": "Part-time",
+    "posted_date": "1970-01-01T00:00:00.000Z",
+    "id": 19
+  },
+  {
+    "title": "Sandwich Artist/Cashier/Supervisor",
+    "company": "Yellow Submarine Sandwich Shop",
+    "location": "983 Tallac Ave",
+    "description": "We are seeking a dedicated and enthusiastic Sandwich Maker to join our team in a fast-paced environment. The ideal candidate will have a passion for food preparation and customer service, ensuring that each sandwich is crafted to perfection while maintaining high standards of cleanliness and food safety. This role requires effective time management skills and the ability to work collaboratively within a team.",
+    "apply_link": "https://tmt.spotapps.co/job-listings?spot_id=409020&callback_url=http%3A%2F%2Fyellowsubtahoe.com%2F&_gl=1%2a9kszyy%2a_ga%2aMTMzODkxOTA2MC4xNzc1MTc0MDc4%2a_ga_VG24VK2VKT%2aczE3NzUxNzQwNzgkbzEkZzAkdDE3NzUxNzQwNzkkajU5JGwwJGgw%2a_ga_FZ2ZB8W7TQ%2aczE3NzUxNzQwNzkkbzEkZzAkdDE3NzUxNzQwNzkkajYwJGwwJGgw",
+    "hourly_rate": "$17.50 - $20.00",
+    "job_type": "Full-time, Part-time",
+    "posted_date": "1970-01-01T00:00:00.000Z",
+    "id": 20
+  },
+  {
+    "title": "Retail Attendant",
+    "company": "Edgewood Resort",
+    "location": "180 Lake Parkway",
+    "description": "As a Retail Attendant at Edgewood Tahoe Resort, you will provide an exceptional shopping experience for our guests by delivering top-tier customer service, maintaining an upscale retail environment, and assisting with sales of luxury products. You will act as a brand ambassador, ensuring that each guest enjoys a seamless and memorable shopping experience.",
+    "apply_link": "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883c689b7fbd50189c1277e00060b&id=8a78859f9cd55a16019d01f4e0840def&source=&lang=en",
+    "job_type": "Unknown",
+    "posted_date": "1970-01-01T00:00:00.000Z",
+    "id": 21
+  },
+  {
+    "title": "Server",
+    "company": "Edgewood Resort",
+    "location": "180 Lake Parkway",
+    "description": "As a Restaurant Server at Edgewood Tahoe Resort, you will provide an exceptional dining experience for our esteemed guests, delivering impeccable service with attention to detail. You will be responsible for taking orders, serving food and beverages, and ensuring a seamless and memorable experience that reflects the highest standards of luxury hospitality.",
+    "apply_link": "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883c689b7fbd50189c1277e00060b&id=8a7885a89d02e553019d0863d1cd0eda&source=&lang=en",
+    "job_type": "Unknown",
+    "posted_date": "1970-01-01T00:00:00.000Z",
+    "id": 22
+  },
+  {
+    "title": "Host",
+    "company": "Edgewood Resort",
+    "location": "180 Lake Parkway",
+    "description": "As a Host at Edgewood Tahoe Resort, you will be responsible for greeting and seating guests in a polite, friendly, and professional manner. The Host ensures that the guest experience is pleasant from the moment guests arrive until they are seated. The Host plays an important role in managing reservations, maintaining a smooth flow of guests, and supporting the front-of-house staff.",
+    "apply_link": "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883c689b7fbd50189c1277e00060b&id=8a7885a89d02e553019d4072e97a38eb&source=&lang=en",
+    "job_type": "Unknown",
+    "posted_date": "1970-01-01T00:00:00.000Z",
+    "id": 23
+  },
+  {
+    "title": "Busser / Food Runner",
+    "company": "Edgewood Resort",
+    "location": "180 Lake Parkway",
+    "description": "The Busser/Food Runner is responsible for maintaining a clean and organized dining area, assisting servers with various tasks, and delivering food from the kitchen to customers. This role ensures guests receive exceptional dining experience by helping to keep the restaurant running smoothly, efficiently, and with excellent customer service.",
+    "apply_link": "https://recruitingbypaycor.com/career/JobIntroduction.action?clientId=8a7883c689b7fbd50189c1277e00060b&id=8a7887ac9cbb3522019cc0003e314134&source=&lang=en",
+    "job_type": "Unknown",
+    "posted_date": "1970-01-01T00:00:00.000Z",
+    "id": 24
+  },
+  {
+    "title": "Custodian / Groundskeeper",
+    "company": "LTCC",
+    "location": "Lake Tahoe Community College",
+    "description": "Lake Tahoe Community College (LTCC) announces an opportunity to work in Maintenance and Operations as a part-time Custodian/Groundskeeper during the evening and on the weekend.\r\n\r\nHours are expected to be Tuesday through Friday, 6pm to 11pm; Saturday, 2:00pm to 11pm; hours may vary according to the needs of the program.\r\n\r\nFacilities & Maintenance is committed to providing a safe, secure, healthful environment to all students, staff, and facility occupants. Preference will be given to applicants with experience in floor refinishing (strip/wax) and carpet cleaning",
+    "apply_link": "https://ltcc.peopleadmin.com/postings/2768",
+    "hourly_rate": "$19.70 - $21.75",
+    "job_type": "Part-time",
+    "posted_date": "2026-03-26T07:00:00.000Z",
+    "id": 25
+  },
+  {
+    "title": "Window Cleaning Supervisor",
+    "company": "Sierra Nevada Window Cleaning",
+    "location": "South Lake Tahoe",
+    "description": "Sierra Nevada window cleaning company is in Need of a Supervisor. Applicants with previous experience will be evaluated accordingly.",
+    "application_instructions": "Please contact Luis DeLa Rosa (General manager) at (831) 402-8752\nbetween 9:00 am-12:00 noon",
+    "hourly_rate": "$25",
+    "job_type": "Full-time",
+    "posted_date": "2026-03-30T07:00:00.000Z",
+    "id": 26
+  },
+  {
+    "title": "Janitor / Groundskeeper",
+    "company": "Preferred Talent Solutions",
+    "location": "South Lake Tahoe",
+    "description": "PRIMARY JOB FUNCTIONS\r\nKeep all common areas clean of debris/garbage, including the removal of trash, litter, and animal waste; raking leaves, and removing trash or litter from shrubbery and hedges according to daily schedule\r\nSweep exterior of buildings and carports, remove cobwebs from carports, stairwells, and entryways\r\nUse a leaf/backpack blower in a safe, effective manner\r\nKeep refuse dumpsters (garbage, recycling, and compost) areas clean and free of debris\r\nUse water, hose, and scrub brushes to clean stairwells, carports, and other common areas as needed\r\nUse power washer to effectively and safely clean common areas as needed\r\nRemove and/or report graffiti to appropriate people\r\nMaintain inventory of necessary supplies\r\nMaintain neat, clean, and organized maintenance and storage areas\r\nReport necessary work orders to appropriate staff\r\nAdvise supervisor of equipment and supplies needed\r\nAct as “eyes and ears” and report lease violations, safety hazards, etc. to Site Manager or Property Manager\r\nWater specified areas of open space, as requested by Presidio Trust\r\nWork with the Presidio Trust on periodic planting projects\r\nProvide customer service to residents and park visitors\r\nUnderstand and implement appropriate safety practices\r\nWork within John Stewart Company safety guidelines\r\nAbide by the Inclement Weather Policy\r\nJANITORIAL\r\n\r\nCleans common area floors by sweeping, mopping, scrubbing, or vacuuming\r\nSteam-cleans or shampoos carpets\r\nCleans and polishes furniture and fixtures\r\nCleans windows, glass partitions, and mirrors\r\nDusts furniture, walls, machines, and equipment\r\nServices, cleans, and supplies common area restrooms\r\nUses and stores cleaning products in accordance with manufacturer’s instructions\r\nUses non-toxic cleaning products whenever possible",
+    "application_instructions": "Email resume to jessica@preferredtalentsolutions.net",
+    "hourly_rate": "$22",
+    "job_type": "Full-time",
+    "posted_date": "2026-04-01T07:00:00.000Z",
+    "id": 27
+  },
+  {
     "title": "Sales Associate",
     "company": "Clearly Tahoe",
     "location": "Clearly Tahoe Keys Marina",
@@ -8,7 +300,7 @@
     "hourly_rate": "$16 - $20",
     "job_type": "Part-time, Temporary/Seasonal",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 1
+    "id": 28
   },
   {
     "title": "Clerk",
@@ -19,7 +311,7 @@
     "hourly_rate": "$17.25 - $26.00",
     "job_type": "Part-time",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 2
+    "id": 29
   },
   {
     "title": "Maintenance Technician II/III/IV - Parks",
@@ -30,7 +322,7 @@
     "hourly_rate": "$23.66 - $36.55",
     "job_type": "Temporary/Seasonal",
     "posted_date": "2026-03-09T07:00:00.000Z",
-    "id": 3
+    "id": 30
   },
   {
     "title": "Park Ranger/Park Steward",
@@ -41,7 +333,7 @@
     "hourly_rate": "$16.90 - $24.04",
     "job_type": "Temporary/Seasonal, Part-time, Full-time",
     "posted_date": "2026-03-10T07:00:00.000Z",
-    "id": 4
+    "id": 31
   },
   {
     "title": "Shift Lead",
@@ -52,7 +344,7 @@
     "hourly_rate": "Competitive",
     "job_type": "Part-time",
     "posted_date": "2026-03-05T08:00:00.000Z",
-    "id": 5
+    "id": 32
   },
   {
     "title": "Cafe Manager",
@@ -63,7 +355,7 @@
     "hourly_rate": "$20 - $22 + tips",
     "job_type": "Full-time",
     "posted_date": "2026-06-03T07:00:00.000Z",
-    "id": 6
+    "id": 33
   },
   {
     "title": "Shift Lead",
@@ -74,7 +366,7 @@
     "hourly_rate": "$18 - $25 + tips",
     "job_type": "Temporary/Seasonal",
     "posted_date": "2026-03-09T07:00:00.000Z",
-    "id": 7
+    "id": 34
   },
   {
     "title": "Trails Technician",
@@ -85,18 +377,7 @@
     "hourly_rate": "$21 - $25",
     "job_type": "Temporary/Seasonal",
     "posted_date": "2026-03-09T07:00:00.000Z",
-    "id": 8
-  },
-  {
-    "title": "Cedar Bath Attendant and Laborer",
-    "company": "Tahoe Forest Baths",
-    "location": "209 Kingsbury Grade Road\nSuite 3e",
-    "description": "Bath Attendant: Opportunity to learn a role as a bath attendant assisting customers as a Cedar Bath Guide. Tips included. (Female only)\r\n\r\nThe Employee shall perform a variety of duties related to manual labor and maintenance tasks, as responsibilities reasonably associated with their position. The duties of the employee include, but are not limited to, the following:\r\n\r\nResponsibilities\r\n\r\nCedar Bath Maintenance: The Employee will ensure proper maintenance of the cedar baths, which consists of manually pushing a 40 pound agitation machine. This task is integral to the day-to-day upkeep of the baths and must be performed with care and consistency.\r\n\r\nCleaning and Laundry: The employee will be responsible for maintaining cleanliness in designated areas and handling laundry services as assigned.\r\n\r\nMaterial Handling: The employee will manage the pick up and delivery of materials as needed for business operations, ensuring that items are handled efficiently and safely.\r\nThis position offers an opportunity for growth within a supportive environment where your skills can be utilized effectively while contributing to the success of our operations.\r\n\r\nBath Attendant: Opportunity to learn a role as a bath attendant assisting customers as a Cedar Bath Guide. Tips included. (Female only)",
-    "application_instructions": "Email resume to tahoeforestbaths@gmail.com",
-    "hourly_rate": "$20",
-    "job_type": "Part-time",
-    "posted_date": "2026-03-13T07:00:00.000Z",
-    "id": 9
+    "id": 35
   },
   {
     "title": "Yard/Warehouse Rep",
@@ -107,18 +388,7 @@
     "hourly_rate": "$20.00 - $23.00",
     "job_type": "Full-time",
     "posted_date": "2026-03-11T07:00:00.000Z",
-    "id": 10
-  },
-  {
-    "title": "Bakery Team Member",
-    "company": "Whole Foods",
-    "location": "3600 Lake Tahoe Blvd",
-    "description": "Provides support as a member of the Bakery team to include receiving and preparing product, maintaining the Bakery area and displays, and selling product in support of WFM standards. Performs all functions related to breaking down deliveries and stocking shelves. All Whole Foods Market Retail jobs require ensuring a positive company image by providing courteous, friendly, and efficient service to customers and Team Members at all times. All positions must be performed in accordance with team and store Standard Operating Procedures. Further, Team Members must be prepared and able to perform the duties inherent in other Team Member job descriptions. Team Leaders are required to spend significant time on the floor, engaging with customers, and pitching in to help whenever and wherever needed. All positions must strive to support WFM core values and goals, promote national, regional, and store programs and initiatives, and ensure adherence to all applicable health and safety regulations.",
-    "apply_link": "https://careers.wholefoods.com/bakery-team-member-service-counter-part-time/job/PAF-WFM-427E615D-D7D0-44B9-99C7-7CDD2C5EF150_5308_1741849474_0?source=Indeed&utm_source=indeed&applyId=IND-0HRUUKUE8F",
-    "hourly_rate": "$18.00 - $25.40",
-    "job_type": "Part-time",
-    "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 11
+    "id": 36
   },
   {
     "title": "Housekeeping Associate - Tahoe Keys",
@@ -129,7 +399,7 @@
     "hourly_rate": "$18.00 - $25.00",
     "job_type": "Temporary/Seasonal",
     "posted_date": "2026-03-12T07:00:00.000Z",
-    "id": 12
+    "id": 37
   },
   {
     "title": "Dockhand - Tahoe Keys",
@@ -140,18 +410,7 @@
     "hourly_rate": "$17.00 - $22.00",
     "job_type": "Temporary/Seasonal",
     "posted_date": "2026-03-12T07:00:00.000Z",
-    "id": 13
-  },
-  {
-    "title": "PSE SALES & SVCS/DISTRIBUTION ASSOCIATE",
-    "company": "USPS",
-    "location": "1046 Al Tahoe Blvd",
-    "description": "In this role you will perform a variety of sales and customer support services. The job primarily involves providing services to customers over the counter at postal branches. Benefits may include paid vacation leave and health insurance. If you enjoy working regularly with the public to serve your community this may be an excellent fit for you.",
-    "apply_link": "https://jobs.usps.com/applytohire/JobDetail/CALIFORNIA-PSE-SALES-SVCS-DISTRIBUTION-ASSOCIATE-SOUTH-LAKE-TAHOE-PO-2026-03-13/71767",
-    "hourly_rate": "$21.44",
-    "job_type": "Full-time",
-    "posted_date": "2026-03-13T07:00:00.000Z",
-    "id": 14
+    "id": 38
   },
   {
     "title": "Restaurant Host",
@@ -162,95 +421,7 @@
     "hourly_rate": "$16.00",
     "job_type": "Unknown",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 15
-  },
-  {
-    "title": "PBX Operator",
-    "company": "Holiday Inn Club Vacations",
-    "location": "400 Ridge Club Drive",
-    "description": "This position is responsible for assisting with all inbound information requests to the resort from owners, guests, resort departments, personnel, and guest units. The PBX Guest Services Agent will respond to all inbound owner/guest requests or inquiries, internal service requests, and other information requests to ensure that all inquiries are addressed and resolved immediately to create a sense of urgency and importance to the experience of our owners and guests. This position will have a solid understanding of resort facilities and services, as well as possess a general knowledge of club ownership services, to properly facilitate information requests from club owners and guests to the proper department for the resolution of any concerns, requests, or issues.\r\n\r\nThe PBX Guest Services Agent will efficiently distribute calls to various individuals and departments as needed to ensure a timely response to any information request and guest satisfaction. They will also track all calls and information requests, as well as assist all departments as needed to ensure that timely service requests are met. Additional responsibilities include communicating room anomalies, coordinating all communication between the proper personnel via phone or radio, and providing clerical support for the department. Other activities include monitoring staff assignment completion times for requests. The PBX Services Agent will confer with other departments to coordinate and follow up on all guest-related issues. You may be required to work at the front desk as a front desk agent",
-    "apply_link": "https://recruiting.ultipro.com/ORA1000OLCC/JobBoard/17560d62-b19a-4c09-9909-fe2b9c713df3/Opportunity/OpportunityDetail?opportunityId=35e397b9-30bc-4340-ac67-11651968a7b2&sourceId=0ab8d9d1-a812-4764-80db-25e5c3719f0f",
-    "hourly_rate": "$18-$20/hr Depending on experience",
-    "job_type": "Full-time",
-    "posted_date": "2026-03-04T08:00:00.000Z",
-    "id": 16
-  },
-  {
-    "title": "Outreach and Community Engagement Internship",
-    "company": "Zephyr Point Camp and Conference Center",
-    "location": "660 Hwy 50",
-    "description": "The Outreach and Community Engagement Intern will work collaboratively with the Executive Administrative Assistant and Program Outreach Coordinator, to help implement the community engagement events and outreach efforts for Zephyr Point Presbyterian Conference Center. The Intern will gain broad experience in event planning, recruitment and communication, as well as marketing and content creation for the betterment of this non-profit Camp and Conference Center.\nVisit https://zephyrpoint.org/internship/ to learn more!",
-    "apply_link": "https://forms.office.com/r/md0gYgHGTx",
-    "hourly_rate": "$450 a week with a $1,500 completion bonus at end of contract.",
-    "job_type": "Temporary/Seasonal",
-    "posted_date": "2026-03-06T08:00:00.000Z",
-    "id": 17
-  },
-  {
-    "title": "Guest Services Internship",
-    "company": "Zephyr Point Camp and Conference Center",
-    "location": "660 Hwy 50",
-    "description": "As a member of the Guest Services team, you will gain first-hand experience with both customer service and administrative duties. You will assist with various aspects of the booking process for individual and group reservations, from a customer’s first phone call to their final goodbye. You will gain administrative skills working in an office setting as well as interactive skills communicating with guests and staff via phone, email, and face-to-face. If you are interested in a career in guest services, hospitality, office administration, or event coordination, this is a great opportunity for you.\n\nVisit https://zephyrpoint.org/internship/ to learn more!",
-    "apply_link": "https://forms.office.com/r/md0gYgHGTx",
-    "hourly_rate": "$450 a week with a $1,500 completion bonus at end of contract.",
-    "job_type": "Temporary/Seasonal",
-    "posted_date": "2026-03-06T08:00:00.000Z",
-    "id": 18
-  },
-  {
-    "title": "Youth Program Development Internship",
-    "company": "Zephyr Point Camp and Conference Center",
-    "location": "660 Hwy 50",
-    "description": "As a member of the Program team, you will have the opportunity to grow professionally by experiencing first-hand all phases of developing a successful program. Throughout the year, you will hone skills in program design, learn the ins-and-outs of a booking software, and participate in the implementation of program and activities offerings for Zephyr Point guests of all ages. Program interns will also have the chance to work directly with local children and youth by providing support for our Club Zephyr program. This is a great position for those who are interested in careers in camp administration, outdoor ministry, or education.\n\nVisit https://zephyrpoint.org/internship/ to learn more!",
-    "apply_link": "https://forms.office.com/r/md0gYgHGTx",
-    "hourly_rate": "$450 a week with a $1,500 completion bonus at end of contract.",
-    "job_type": "Temporary/Seasonal",
-    "posted_date": "2026-03-06T08:00:00.000Z",
-    "id": 19
-  },
-  {
-    "title": "Day Camp Lead Counselor",
-    "company": "Zephyr Point Camp and Conference Center",
-    "location": "660 Hwy 50",
-    "description": "Day Camp Lead Counselors (LCs) serve as the leader of a small group of elementary & middle school aged campers in our Camp Zephyr & Beyond Camp Zephyr program. The focus of this position is to provide the conditions for campers to experience outdoor recreation and cultivate new friendships in a nurturing environment. LCs are responsible for interacting with their campers, engaging in all camp activities, as well as facilitating the transitions from activity to activity. Each week, lead counselors are partnered up with a fellow co-counselor — therefore, an understanding of teamwork and willingness to work together is essential. LCs will also work alongside the Seminary Intern to facilitate daily “Trail Talks” with their groups that stem from a faith-based curriculum. As such, LCs must have an open mind to the Christian faith and the ability to teach and communicate what a life of spirituality in various forms looks like. Applicants must be mature, flexible, and able to multitask and focus throughout shifting priorities as well as manage campers of varying ages and maturity.\n\nVisit https://zephyrpoint.org/join-our-team/summer-positions/ to learn more!",
-    "apply_link": "https://forms.office.com/r/uH6DXLWZVw",
-    "hourly_rate": "$3,900 total for summer",
-    "job_type": "Temporary/Seasonal",
-    "posted_date": "2026-03-06T08:00:00.000Z",
-    "id": 20
-  },
-  {
-    "title": "Youth Lead Counselor",
-    "company": "Zephyr Point Camp and Conference Center",
-    "location": "660 Hwy 50",
-    "description": "Youth Lead Counselors (YLCs) will serve as camp counselors for two primary program offerings: Youth Leadership Summit and Summer Basecamp (ages 11-17). During the four weeks of Youth Leadership Summit (YLS), YLCs will act as leadership mentors for participants, create and facilitate leadership workshops, and support general camp operations while YLS participants shadow Day Camp Lead Counselors, acting as Jr. Counselors. During the three weeks of Summer Basecamp, YLCs will serve as the primary counselor through a week full of recreational and social activities in addition to providing spiritual mentorship for youth participants. When neither YLS nor Basecamp is in session, the YLCs will either serve as support staff for Day Camp or be on break. The focus of this position is to provide a space for all campers to experience God in new ways, build meaningful relationships with peers and adults, and experience the fullness of Creation, all in a nurturing environment.\n\nVisit https://zephyrpoint.org/join-our-team/summer-positions/ to learn more!",
-    "apply_link": "https://forms.office.com/r/uH6DXLWZVw",
-    "hourly_rate": "$4,300 total for the summer",
-    "job_type": "Temporary/Seasonal",
-    "posted_date": "2026-03-06T08:00:00.000Z",
-    "id": 21
-  },
-  {
-    "title": "Lifeguard",
-    "company": "Zephyr Point Camp and Conference Center",
-    "location": "660 Hwy 50",
-    "description": "Lifeguards are responsible for maintaining the safety of all guests and campers at the Zephyr Point waterfront. The Waterfront Team provides supervision for the marked-off swimming area, maintains a clean and safe environment on the ZP beachfront area, and oversight of ZP waterfront during camp swim hours. In addition to the safety of swimmers, Lifeguards provide additional support to camp programs such as the Friday Faire, delivering skits for Morning Sing, and more. Lifeguards must be reliable and have good communication skills, as well as have the ability to cope with stressful emergency events.\n\nRed Cross or Ellis Lifeguard Training certificate required. Advanced First Aid and CPR certificates required.\n\nVisit https://zephyrpoint.org/join-our-team/summer-positions/ to learn more!",
-    "apply_link": "https://forms.office.com/r/uH6DXLWZVw",
-    "hourly_rate": "$3,900 total for the summer",
-    "job_type": "Temporary/Seasonal",
-    "posted_date": "2026-03-06T08:00:00.000Z",
-    "id": 22
-  },
-  {
-    "title": "Operations Lead",
-    "company": "Zephyr Point Camp and Conference Center",
-    "location": "660 Hwy 50",
-    "description": "The Summer Operations Lead is a member of the Operations Team which is responsible for ensuring smooth operations of all summer programs. As a member of the operations team, the Operation Leads are responsible for planning and facilitating a variety of program offerings including crafts, games, activities, adult programs, office administrative tasks, music, skits, and media. The Operations team includes 5-6 leads and 1 coordinator who will work closely to accomplish a large variety of program needs.\n\nVisit https://zephyrpoint.org/join-our-team/summer-positions/ to learn more!",
-    "apply_link": "https://forms.office.com/r/uH6DXLWZVw",
-    "hourly_rate": "$3,900 total for the summer",
-    "job_type": "Temporary/Seasonal",
-    "posted_date": "2026-03-06T08:00:00.000Z",
-    "id": 23
+    "id": 39
   },
   {
     "title": "Barista",
@@ -261,7 +432,7 @@
     "hourly_rate": "$17 + tips",
     "job_type": "Unknown",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 24
+    "id": 40
   },
   {
     "title": "Lead Barista",
@@ -272,7 +443,7 @@
     "hourly_rate": "$19 + tips",
     "job_type": "Unknown",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 25
+    "id": 41
   },
   {
     "title": "Department Specialist (Cheese)",
@@ -283,7 +454,7 @@
     "hourly_rate": "$16.75 - 27.00",
     "job_type": "Unknown",
     "posted_date": "2026-03-06T08:00:00.000Z",
-    "id": 26
+    "id": 42
   },
   {
     "title": "Guest Services Associate",
@@ -293,18 +464,7 @@
     "apply_link": "https://careers.travelandleisureco.com/jobs/guest-services-associate-wyndham-south-shore-resort-zephyr-cove-nevada-united-states",
     "job_type": "Full-time",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 27
-  },
-  {
-    "title": "Retail Sales Associate",
-    "company": "Hatley",
-    "location": "The Shops at Heavenly Village",
-    "description": "We are looking for a candidate to provide excellent customer service and meet sales quotas for our business. Candidates with strong communication skills who can make customers feel welcome in our store will stand out. You will help identify client needs, present and answer questions about our products and services and recommend solutions. A positive attitude and a desire to promptly resolve potential customer issues or complaints will make you successful in this role. Ultimately, you will ensure that customers leave our store satisfied and you will contribute to the store’s profitability.",
-    "apply_link": "https://www.indeed.com/cmp/Hatley-2/jobs",
-    "hourly_rate": "$17",
-    "job_type": "Full-time, Part-time",
-    "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 28
+    "id": 43
   },
   {
     "title": "Housekeeping",
@@ -315,148 +475,7 @@
     "hourly_rate": "$20",
     "job_type": "Full-time, Part-time, Temporary/Seasonal",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 29
-  },
-  {
-    "title": "Customer Service",
-    "company": "Chicken in a Barrel",
-    "location": "3600 Lake Tahoe Blvd",
-    "description": "Join the BBQ crew! We are seeking customer service superstars to join our growing team.",
-    "application_instructions": "Email resume to manager: chickeninabarrel@yahoo.com",
-    "hourly_rate": "$17 - $20 plus tips",
-    "job_type": "Unknown",
-    "posted_date": "2026-03-02T08:00:00.000Z",
-    "id": 30
-  },
-  {
-    "title": "BILINGUAL SUPPORT AND FAMILY ENGAGEMENT",
-    "company": "Lake Tahoe Unified School District",
-    "location": "3501 Spruce Ave",
-    "description": "The South Lake Tahoe Family Resource Center, in partnership with Lake Tahoe Unified School District, seeks motivated individuals who can provide bilingual support in the front office, on campus, and in classrooms, working with students, staff, and families. Employment will be through the Family Resource Center, with 1 position located at Bijou Community School.",
-    "apply_link": "https://www.edjoin.org/Home/JobPosting/2189300",
-    "hourly_rate": "$20.24 - $25.84",
-    "job_type": "Full-time",
-    "posted_date": "2026-03-03T08:00:00.000Z",
-    "id": 31
-  },
-  {
-    "title": "New Rec Center Job Fair\nMarch 20th 3pm - 6pm\nMarch 21st 9am - 12pm",
-    "company": "SLT Parks and Rec",
-    "location": "South Lake Tahoe Parks & Recreation Center",
-    "description": "We're hiring:\n-Lifeguards and swim instructors\n-Rec Leaders and Coordinators\n-Cashiers\n-Maintenance Technicians\n\nBring your resume and come see us!",
-    "job_type": "Full-time, Part-time",
-    "posted_date": "2026-02-25T08:00:00.000Z",
-    "id": 32
-  },
-  {
-    "title": "Apprentice Painter",
-    "company": "High Basin Painters",
-    "location": "South Lake Tahoe",
-    "description": "No experience required, but it is helpful. Must be able to follow instructions and come prepared to work, and have a true desire to learn the trade. Must have a vehicle and a smartphone.",
-    "application_instructions": "Email resume and referrals to paulevanspainting@gmail.com",
-    "hourly_rate": "$20 - $30",
-    "job_type": "Full-time",
-    "posted_date": "2026-03-02T08:00:00.000Z",
-    "id": 33
-  },
-  {
-    "title": "Painter",
-    "company": "High Basin Painters",
-    "location": "South Lake Tahoe",
-    "description": "We are looking for an experienced painter with 4+ years of experience.\r\nApplicants for this position should be fully independent and be able to complete a project from start to finish with minimal oversight. Have experience in all phases of prep, paint, and stain. Capable of spraying and cleaning out an airless sprayer. Must have a vehicle, a smartphone, and basic hand tools.",
-    "application_instructions": "Email resume and referrals to paulevanspainting@gmail.com",
-    "hourly_rate": "$30 - $45",
-    "job_type": "Full-time",
-    "posted_date": "2026-03-02T08:00:00.000Z",
-    "id": 34
-  },
-  {
-    "title": "Fuel Station Attendant",
-    "company": "Safeway",
-    "location": "3376 Lake Tahoe Blvd",
-    "description": "As a Fuel Station Attendant, you will be the first point of contact for our fuel station customers.  Whether they are filling up with gas or you are selling our snacks, being friendly and assisting with customers’ needs will be critical to your success. You will meet with our gas distributors/tankers to help ensure they can make a quick delivery and be on their way. When you’re not assisting our customers or delivery teams, you’re completing safety checks, cleaning the building and surrounding areas, and restocking supplies to ensure we are equipped, clean, and a safe place for customers to fuel up.  If you’re looking to fuel your own career, look no further!",
-    "apply_link": "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/jobs/preview/684002/?location=South+Lake+Tahoe%2C+CA%2C+United+States&locationId=300000002779841&locationLevel=city&mode=location&radius=25&radiusUnit=MI",
-    "hourly_rate": "$16.70 - $19.55",
-    "job_type": "Part-time",
-    "posted_date": "2026-03-01T08:00:00.000Z",
-    "id": 35
-  },
-  {
-    "title": "Maintenance Engineer - Painter",
-    "company": "Margaritaville",
-    "location": "Margaritaville Resort Lake Tahoe",
-    "description": "Are you a skilled and passionate maintenance professional with a knack for problem-solving and a strong technical background? Join our team as a Senior Maintenance Engineer and be a part of a dynamic and fast-paced environment where you can showcase your expertise. As a Senior Maintenance Engineer, you will assist the Director of Engineering/Chief Engineer lead our maintenance team, ensuring the smooth operation of our facilities and equipment. With your high energy and enthusiasm, you will contribute to providing an exceptional guest experience by maintaining the highest standards of safety and functionality. If you're ready to take on a challenging role and be part of a team dedicated to excellence, apply now and join us on this exciting journey.",
-    "apply_link": "https://careers-davidsonhospitality.icims.com/jobs/22790/maintenance-engineer---painter/job?hub=10&_gl=1*7zufy9*_ga*MjgwNTgyOTQ1LjE3NTg5MjgzMDE.*_ga_5Y2BYGL910*czE3NzI0OTE5MDYkbzkkZzEkdDE3NzI0OTIyMzEkajYwJGwwJGgw",
-    "hourly_rate": "$22 - $23",
-    "job_type": "Full-time",
-    "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 36
-  },
-  {
-    "title": "Front Desk Agent",
-    "company": "Margaritaville",
-    "location": "Margaritaville Resort Lake Tahoe",
-    "description": "Are you a friendly and outgoing individual with a passion for creating memorable guest experiences? Join our team as a Front Desk Agent and be the welcoming face of our establishment. As a Front Desk Agent, you will play a pivotal role in ensuring our guests feel valued and cared for from the moment they arrive.",
-    "apply_link": "https://careers-davidsonhospitality.icims.com/jobs/23607/part-time-front-desk-agent/job?hub=10&_gl=1*1uygg73*_ga*MjgwNTgyOTQ1LjE3NTg5MjgzMDE.*_ga_5Y2BYGL910*czE3NzI0OTE5MDYkbzkkZzEkdDE3NzI0OTIxNjYkajU4JGwwJGgw",
-    "hourly_rate": "$22 - $22.25",
-    "job_type": "Part-time",
-    "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 37
-  },
-  {
-    "title": "Front Desk Agent",
-    "company": "Margaritaville",
-    "location": "Margaritaville Resort Lake Tahoe",
-    "description": "Are you a friendly and outgoing individual with a passion for creating memorable guest experiences? Join our team as a Front Desk Agent and be the welcoming face of our establishment. As a Front Desk Agent, you will play a pivotal role in ensuring our guests feel valued and cared for from the moment they arrive.",
-    "apply_link": "https://careers-davidsonhospitality.icims.com/jobs/23608/front-desk-agent/job?hub=10&_gl=1*1jpcb4x*_ga*MjgwNTgyOTQ1LjE3NTg5MjgzMDE.*_ga_5Y2BYGL910*czE3NzI0OTE5MDYkbzkkZzEkdDE3NzI0OTIwNTMkajU5JGwwJGgw",
-    "hourly_rate": "$22 - $22.25",
-    "job_type": "Full-time",
-    "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 38
-  },
-  {
-    "title": "Barista",
-    "company": "Margaritaville",
-    "location": "Margaritaville Resort Lake Tahoe",
-    "description": "Are you a coffee enthusiast with a passion for crafting the perfect cup of joe? Join our team as a Barista and showcase your skills in our vibrant and fast-paced coffee shop. We are seeking a talented and customer-focused individual who can provide exceptional service and create delicious coffee beverages that will leave our guests craving for more.",
-    "apply_link": "https://careers-davidsonhospitality.icims.com/jobs/23700/barista/job?hub=10&_gl=1*bzysn*_ga*MjgwNTgyOTQ1LjE3NTg5MjgzMDE.*_ga_5Y2BYGL910*czE3NzI0OTE5MDYkbzkkZzEkdDE3NzI0OTE5ODMkajU5JGwwJGgw",
-    "hourly_rate": "$17",
-    "job_type": "Full-time",
-    "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 39
-  },
-  {
-    "title": "Greeter/Cashier",
-    "company": "Margaritaville",
-    "location": "Margaritaville Resort Lake Tahoe",
-    "description": "Are you a friendly and outgoing individual who enjoys providing excellent customer service? Join our team as a Greeter/Cashier and be the welcoming face of our establishment. We are seeking an enthusiastic candidate who can greet guests with a smile, assist them with inquiries, and handle cashiering duties efficiently. As a Greeter/Cashier, you will play a crucial role in creating a positive first impression and ensuring a smooth check-in/check-out process for our guests.",
-    "apply_link": "https://careers-davidsonhospitality.icims.com/jobs/23816/greeter-cashier/job?hub=10&_gl=1*1java5j*_ga*MjgwNTgyOTQ1LjE3NTg5MjgzMDE.*_ga_5Y2BYGL910*czE3NzI0OTE5MDYkbzkkZzAkdDE3NzI0OTE5MDckajU5JGwwJGgw&mobile=false&width=1318&height=500&bga=true&needsRedirect=false&jan1offset=-480&jun1offset=-420",
-    "hourly_rate": "$17",
-    "job_type": "Part-time",
-    "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 40
-  },
-  {
-    "title": "Line Cook",
-    "company": "Margaritaville",
-    "location": "Margaritaville Resort Lake Tahoe",
-    "description": "Are you passionate about culinary arts and eager to kickstart your career as a Line Cook? Join our dynamic team  and embark on a culinary journey filled with growth and learning opportunities. As an Entry-Level Line Cook, you'll work alongside experienced chefs and contribute to creating unforgettable dining experiences for our guests. Bring your energy, enthusiasm, and dedication, and let us ignite your culinary passion!",
-    "apply_link": "https://careers-davidsonhospitality.icims.com/jobs/23817/line-cook/job?hub=10&_gl=1*1byvy6m*_ga*Mzc1NjQ4NjYwLjE3NzI0OTE2NDk.*_ga_5Y2BYGL910*czE3NzI0OTE2NTQkbzEkZzAkdDE3NzI0OTE2NTQkajYwJGwwJGgw&mobile=false&width=1318&height=500&bga=true&needsRedirect=false&jan1offset=-480&jun1offset=-420",
-    "hourly_rate": "$25 - $26",
-    "job_type": "Full-time",
-    "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 41
-  },
-  {
-    "title": "Food and Beverage Attendant",
-    "company": "The Forest Suites Resort",
-    "location": "1 Lake Pkwy",
-    "description": "Welcome to Forest Suites Resort in the stunning setting of South Lake Tahoe, California, proudly part of the Pyramid Global Hospitality portfolio. Offering 119 comfortable guest rooms and a total of 3,476 sq ft of meeting space across 6 versatile rooms, Forest Suites Resort is not just a place to stay—it's a mountain retreat that seamlessly integrates comfort with career opportunities.   Nestled in the breathtaking beauty of South Lake Tahoe, Forest Suites Resort embodies the work culture fostered by Pyramid Global Hospitality, where professional growth and seizing opportunities take center stage. As a member of the Pyramid Global team, you'll enjoy benefits such as a 401k with a company match and recognition programs tailored to celebrate your achievements.   Join us at Forest Suites Resort, where your pathway to a fulfilling career is guided by an excellent People First Culture. It's about being part of a professional team that understands the unique energy of South Lake Tahoe while supporting your individual career journey. Welcome to a professional environment within Pyramid Global Hospitality that encourages your personal and professional development amidst the majestic mountains of Lake Tahoe!",
-    "apply_link": "https://careers.pyramidglobal.com/us/en/job/R0058627/Food-Beverage-Attendant",
-    "hourly_rate": "$18.00 - $20.50",
-    "job_type": "Unknown",
-    "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 42
+    "id": 44
   },
   {
     "title": "Assistant Administrator/Occupancy Specialist - Affordable Housing",
@@ -467,7 +486,7 @@
     "hourly_rate": "$20 - $22",
     "job_type": "Full-time",
     "posted_date": "2026-02-23T08:00:00.000Z",
-    "id": 43
+    "id": 45
   },
   {
     "title": "Multiple Positions Available (Seasonal)",
@@ -478,28 +497,6 @@
     "hourly_rate": "Varies by role",
     "job_type": "Unknown",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 44
-  },
-  {
-    "title": "House Cleaner",
-    "company": "Tahoe Clean",
-    "location": "South Lake Tahoe, CA",
-    "description": "We are looking for motivated and dependable home cleaners to help us provide our top-shelf service to our clients and grow our company.\r\n\r\nWe are based in South Lake Tahoe and would love for you to join us!\r\n\r\nWhy should you work with Tahoe Clean?\r\nBecause we can offer you great pay (more than you would make at the resorts), flexible hours and shifts, the opportunity to grow with our company and you would be working with awesome people.",
-    "application_instructions": "If you are interested in joining our cleaner’s team, please send your resume with 2-3 recent references to: tahoeclean1@gmail.com",
-    "hourly_rate": "$24.02",
-    "job_type": "Full-time, Part-time",
-    "posted_date": "2026-02-21T08:00:00.000Z",
-    "id": 45
-  },
-  {
-    "title": "Recreation Leader - Recreation Center Activities (Seasonal)",
-    "company": "City of South Lake Tahoe",
-    "location": "1901 Lisa Maloff Way Suite 205",
-    "description": "Are you energetic, reliable, and passionate about fostering community spirit? The City of South Lake Tahoe's Parks and Recreation Department is looking for individuals to join our team as Seasonal Recreation Leaders for our New Recreation and Aquatics Complex opening Spring 2026. This is an entry-level position designed for those who want to jumpstart a career in public service or recreation while working in one of the most beautiful places on Earth. You will be the face of the facility, ensuring our guests have a safe, fun, and memorable experience. We encourage those with knowledge or experience in special events, climbing, baseball, aquatics, or general recreation programming to apply. Some of the job duties include, facilitating daily activities, guiding youth sports, assisting with community programs and special events as well as supervising participants to ensure safety and adherence to facility rules, set-up and break-down of equipment for programs and maintaining a clean environment. Recreation Leaders also provide exceptional customer service to community members and guests. This is a perfect opportunity to start your career in parks and recreation, offering hands-on experience in a vibrant, new facility in the heart of South Lake Tahoe.",
-    "apply_link": "https://www.governmentjobs.com/careers/slaketahoe/jobs/5243262/recreation-leader-recreation-center-activities-seasonal?page=2&pagetype=jobOpportunitiesJobs",
-    "hourly_rate": "$16.90 - $21.56",
-    "job_type": "Unknown",
-    "posted_date": "2026-02-19T08:00:00.000Z",
     "id": 46
   },
   {
@@ -555,39 +552,6 @@
     "id": 51
   },
   {
-    "title": "Barista",
-    "company": "Drink Coffee Do Stuff",
-    "location": "3894 Pioneer Trail",
-    "description": "RESPONSIBILITIES\r\n\r\nPOS and taking orders\r\nMaking coffee and food items on the menu\r\nPouring beautiful coffee drinks (we will train you on latte art)\r\nStocking and prep\r\nOpening, closing and mid-shift tasks\r\nMultitasking during busy days\r\nFriendly and engaging with customers — remembering names and drink orders, giving outdoor activity recommendations\r\nUp-selling retail coffee and merchandise\r\nUnderstanding the DRINK COFFEE DO STUFF brand story and consistently growing in specialty coffee knowledge",
-    "application_instructions": "Email us at jobs@drinkcoffeedostuff.com with subject title \"Barista\" — please include a short introduction, indicating which shop you'd like to call home, with an updated resumé attached",
-    "hourly_rate": "DOE + Tips",
-    "job_type": "Full-time, Part-time",
-    "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 52
-  },
-  {
-    "title": "Retail Associate",
-    "company": "Tube Tahoe",
-    "location": "3021 U.S. 50",
-    "description": "The Retail Staff will be responsible for processing the sale of Tubing Hill tickets, pre packaged foods, and retail items. Staff will lead by providing outstanding customer experience through professionalism, extensive training and a friendly, welcoming demeanor.",
-    "apply_link": "https://tube-tahoe.careerplug.com/jobs/3168046/apps/new",
-    "hourly_rate": "$16.50 - $18.00",
-    "job_type": "Full-time, Part-time",
-    "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 53
-  },
-  {
-    "title": "Tubing Hill Crew Member",
-    "company": "Tube Tahoe",
-    "location": "3021 U.S. 50",
-    "description": "Tubing Hill Crew Members will be responsible for assisting in the daily operations of the Snow Tubing department at Tube Tahoe.\r\nStaff will lead by providing outstanding customer experience through professionalism, extensive training and a friendly, welcoming demeanor.",
-    "apply_link": "https://tube-tahoe.careerplug.com/jobs/3120376/apps/new",
-    "hourly_rate": "$14.00 - $18.00",
-    "job_type": "Full-time, Part-time",
-    "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 54
-  },
-  {
     "title": "Vacation Rental Cleaner",
     "company": "Vacation Rental Assistance",
     "location": "2095 James Ave",
@@ -596,7 +560,7 @@
     "hourly_rate": "$25 - $30",
     "job_type": "Part-time",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 55
+    "id": 52
   },
   {
     "title": "Vacation Rental Dispatch Specialist",
@@ -607,7 +571,7 @@
     "hourly_rate": "$24-$30",
     "job_type": "Full-time, Part-time",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 56
+    "id": 53
   },
   {
     "title": "Grocery Clerk- Freight",
@@ -617,7 +581,7 @@
     "apply_link": "https://www.paycomonline.net/v4/ats/web.php/portal/D0EAAF82D2F805FCF6412120F6BF9534/jobs/84699",
     "job_type": "Unknown",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 57
+    "id": 54
   },
   {
     "title": "Produce Clerk",
@@ -627,7 +591,7 @@
     "apply_link": "https://www.paycomonline.net/v4/ats/web.php/portal/D0EAAF82D2F805FCF6412120F6BF9534/jobs/84690",
     "job_type": "Unknown",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 58
+    "id": 55
   },
   {
     "title": "Meat Clerk",
@@ -637,7 +601,7 @@
     "apply_link": "https://www.paycomonline.net/v4/ats/web.php/portal/D0EAAF82D2F805FCF6412120F6BF9534/jobs/84680",
     "job_type": "Unknown",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 59
+    "id": 56
   },
   {
     "title": "Grocery Clerk",
@@ -647,7 +611,7 @@
     "apply_link": "https://www.paycomonline.net/v4/ats/web.php/portal/D0EAAF82D2F805FCF6412120F6BF9534/jobs/84671",
     "job_type": "Unknown",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 60
+    "id": 57
   },
   {
     "title": "Crew Member",
@@ -657,6 +621,6 @@
     "apply_link": "https://tmt.spotapps.co/job-listings?spot_id=135071&callback_url=http%3A%2F%2Fbluedogpizzatahoe.com%2F&_gl=1%2an7rwk9%2a_ga%2aOTI4NDUxMzQ2LjE3NjQ3MTQyNTc.%2a_ga_VG24VK2VKT%2aczE3NjQ3MTQyNTYkbzEkZzAkdDE3NjQ3MTQyNTgkajU4JGwwJGgw%2a_ga_FB6MG7Y9S1%2aczE3NjQ3MTQyNTckbzEkZzAkdDE3NjQ3MTQyNTgkajU5JGwwJGgw",
     "job_type": "Unknown",
     "posted_date": "1970-01-01T00:00:00.000Z",
-    "id": 61
+    "id": 58
   }
 ]

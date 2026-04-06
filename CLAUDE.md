@@ -39,3 +39,43 @@ Google Sheets → slt-jobs.csv → jobboard.json → src/lib/db.ts → component
 ## Deployment
 
 Deployed to GitHub Pages at `https://slt-mutual-aid.github.io/` (configured in `astro.config.mjs`).
+
+## Contributor Workflow: Updating Jobs
+
+> This section is for contributors who are not @treymo. All job updates require a PR review from Trey before merging.
+
+When a contributor asks to "update the jobs" or similar, follow these steps exactly:
+
+**Step 1 — Import the latest data:**
+```bash
+yarn fetch-csv && yarn import-csv
+```
+
+**Step 2 — Verify with the contributor:**
+Ask them to open `jobboard.json` and confirm they can see the new/updated jobs they expected. Wait for their confirmation before proceeding.
+
+**Step 3 — Confirm they're ready to open a PR:**
+Ask: "Does everything look correct? Ready to open a PR?"
+
+**Step 4 — Branch, commit, push, and open a PR:**
+
+If they have the `gh` CLI set up:
+```bash
+git checkout -b update-jobs-$(date +%Y-%m-%d)
+git add slt-jobs.csv jobboard.json
+git commit -m "update jobs $(date +'%b %-d')"
+git push -u origin HEAD
+gh pr create --title "Update jobs $(date +'%b %-d')" --body "Routine job data update from Google Sheets."
+```
+
+If they do **not** have `gh` CLI, note that they should look into setting it up (https://cli.github.com), but they can also do it manually:
+```bash
+git checkout -b update-jobs-$(date +%Y-%m-%d)
+git add slt-jobs.csv jobboard.json
+git commit -m "update jobs $(date +'%b %-d')"
+git push -u origin HEAD
+```
+Then open a PR manually at: https://github.com/slt-mutual-aid/job-board/compare
+
+**Step 5 — Tell them to reach out to Trey:**
+Let the contributor know the PR is open and they should reach out to Trey ([@treymo](https://github.com/treymo)) to request a review.

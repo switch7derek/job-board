@@ -89,9 +89,11 @@ jobs:
 
           LINK_CHECK_SUMMARY="Link check results: ${{ steps.summary.outputs.active }} active, ${{ steps.summary.outputs.inactive }} inactive (excluded), ${{ steps.summary.outputs.indeterminate }} indeterminate, ${{ steps.summary.outputs.skipped }} skipped (no URL). ${{ steps.summary.outputs.total }} total."
 
+          PR_BODY="${JOB_DATA_SUMMARY}
+
+${LINK_CHECK_SUMMARY}"
+
           gh pr create \
             --title "Update jobs $(date +'%b %-d')" \
-            --body "$JOB_DATA_SUMMARY
-
-$LINK_CHECK_SUMMARY" \
+            --body "$PR_BODY" \
             --reviewer treymo

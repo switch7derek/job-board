@@ -1,0 +1,20 @@
+{
+  "ranAt": "2026-06-30T19:05:28.292Z",
+  "active": 59,
+  "inactive": 0,
+  "indeterminate": 2,
+  "skipped": 8,
+  "total": 69,
+  "indeterminateJobs": [
+    {
+      "company": "Riva Grill",
+      "title": "Valet Attendant",
+      "link": "https://www.indeed.com/viewjob?cmp=Riva-Grill&t=Parking+Attendant&jk=fc954657a71c2331&xpse=SoBE67I3i4pCb5SnBx0LbzkdCdPP&xfps=658a46d8-48ce-4af5-be8a-27a027219d29&xkcb=SoCT67M3i4oSNVwUgp0FbzkdCdPP&vjs=3"
+    },
+    {
+      "company": "Lakeside Beach Patio & Grill",
+      "title": "Dishwasher",
+      "link": "https://www.indeed.com/viewjob?cmp=Lakeside-Beach-Patio-%2526-Grill&t=Dishwasher&jk=e868ddeb60b95094&xpse=SoCd67I3iCWS_ETSwB0LbzkdCdPP&xfps=093a93a4-76c4-42c1-8443-3818313b4dc4&xkcb=SoB267M3iCVeBBSkHB0CbzkdCdPP&vjs=3"
+    }
+  ]
+}

@@ -23,4 +23,14 @@ pnpm-debug.log*
 # jetbrains setting folder
 .idea/
 
-# data files (jobboard.json is committed as it's the source of truth)
+# vim swap files
+*.swp
+
+# LibreOffice lock files
+.~lock.*
+
+# backup/orig files
+*.orig
+
+# data files - slt-jobs.csv and jobboard.json are committed as build artifacts
+# link-check-summary.json is committed to populate the /status page

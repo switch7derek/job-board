@@ -26,14 +26,19 @@ jobs:
       - name: Fetch latest CSV from Google Sheets
         run: yarn fetch-csv
 
+      - name: Check links
+        run: yarn check-links
+
       - name: Import CSV to JSON
         run: yarn import-csv
 
-      - name: Check for changes and job count
+      - name: Check for job data changes and count
         id: changes
         run: |
           if git diff --quiet slt-jobs.csv jobboard.json; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "old_count=0" >> "$GITHUB_OUTPUT"
+            echo "new_count=0" >> "$GITHUB_OUTPUT"
           else
             echo "changed=true" >> "$GITHUB_OUTPUT"
             OLD_COUNT=$(git show HEAD:jobboard.json | jq 'length')
@@ -47,8 +52,21 @@ jobs:
             fi
           fi
 
+      - name: Read link check summary
+        id: summary
+        run: |
+          ACTIVE=$(jq '.active' link-check-summary.json)
+          INACTIVE=$(jq '.inactive' link-check-summary.json)
+          INDETERMINATE=$(jq '.indeterminate' link-check-summary.json)
+          SKIPPED=$(jq '.skipped' link-check-summary.json)
+          TOTAL=$(jq '.total' link-check-summary.json)
+          echo "active=$ACTIVE" >> "$GITHUB_OUTPUT"
+          echo "inactive=$INACTIVE" >> "$GITHUB_OUTPUT"
+          echo "indeterminate=$INDETERMINATE" >> "$GITHUB_OUTPUT"
+          echo "skipped=$SKIPPED" >> "$GITHUB_OUTPUT"
+          echo "total=$TOTAL" >> "$GITHUB_OUTPUT"
+
       - name: Create PR
-        if: steps.changes.outputs.changed == 'true'
         env:
           GH_TOKEN: ${{ secrets.PAT_TOKEN }}
         run: |
@@ -56,16 +74,24 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git checkout -b "$BRANCH"
-          git add slt-jobs.csv jobboard.json
+          git add slt-jobs.csv jobboard.json link-check-summary.json
           git commit -m "update jobs $(date +'%b %-d')"
           git push -u origin "$BRANCH"
-          OLD=${{ steps.changes.outputs.old_count }}
-          NEW=${{ steps.changes.outputs.new_count }}
+
+          # Build PR body
+          if [ "${{ steps.changes.outputs.changed }}" == "true" ]; then
+            OLD=${{ steps.changes.outputs.old_count }}
+            NEW=${{ steps.changes.outputs.new_count }}
+            JOB_DATA_SUMMARY="Job listings updated: $OLD → $NEW."
+          else
+            JOB_DATA_SUMMARY="No changes to job listings this run."
+          fi
+
+          LINK_CHECK_SUMMARY="Link check results: ${{ steps.summary.outputs.active }} active, ${{ steps.summary.outputs.inactive }} inactive (excluded), ${{ steps.summary.outputs.indeterminate }} indeterminate, ${{ steps.summary.outputs.skipped }} skipped (no URL). ${{ steps.summary.outputs.total }} total."
+
           gh pr create \
             --title "Update jobs $(date +'%b %-d')" \
-            --body "Routine job data update from Google Sheets. Job count: $OLD → $NEW." \
-            --reviewer treymo
+            --body "$JOB_DATA_SUMMARY
 
-      - name: No changes
-        if: steps.changes.outputs.changed != 'true'
-        run: echo "No job data changes detected."
+$LINK_CHECK_SUMMARY" \
+            --reviewer treymo

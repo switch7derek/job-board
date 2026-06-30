@@ -2,6 +2,7 @@ import { parse } from "csv-parse/sync";
 import { readFileSync, writeFileSync } from "fs";
 import { join } from "path";
 import type { Job } from "../src/lib/db";
+import { CSV_COLUMNS, isValidUrl } from "./lib/csv-utils";
 
 const jsonPath = join(process.cwd(), "jobboard.json");
 const csvPath = join(process.cwd(), "slt-jobs.csv");
@@ -32,36 +33,16 @@ function parseDate(dateStr: string | undefined): string {
   return UNKNOWN_DATE;
 }
 
-// Check if a string is a valid URL.
-function isValidUrl(urlStr: string): boolean {
-  if (!urlStr || urlStr.trim() === "") {
-    return false;
-  }
-  try {
-    const url = new URL(urlStr.trim());
-    return url.protocol === "http:" || url.protocol === "https:";
-  } catch {
-    return false;
-  }
-}
-
 function importCsvToJson() {
   console.log("Reading CSV file...");
   const csvContent = readFileSync(csvPath, "utf-8");
 
   console.log("Parsing CSV...");
+  // Columns now include Status as a 10th field, written by check-links.ts.
+  // Status is "active" | "inactive" | "indeterminate" | "" (blank for
+  // non-URL / plain-text application instructions).
   const records = parse(csvContent, {
-    columns: [
-      "Date Posted",
-      "Company",
-      "Job Title",
-      "Application Link",
-      "Type of work",
-      "Hourly Rate",
-      "Location",
-      "Description",
-      "Job Closes by",
-    ],
+    columns: [...CSV_COLUMNS, "Status"],
     skip_empty_lines: true,
     relax_column_count: true,
     relax_quotes: true,
@@ -75,12 +56,14 @@ function importCsvToJson() {
     "Hourly Rate": string;
     Location: string;
     Description: string;
+    Status?: string;
   }>;
 
   console.log(`Found ${records.length} job records`);
 
-  // Map CSV records to Job format and filter out invalid records
+  // Map CSV records to Job format and filter out invalid/inactive records
   let invalidCount = 0;
+  let inactiveCount = 0;
   const jobsWithoutIds = records
     .map((record, index): Omit<Job, "id"> | null => {
       const title = record["Job Title"]?.trim() || "";
@@ -88,6 +71,7 @@ function importCsvToJson() {
       const location = record.Location?.trim() || "Unknown";
       const description = record.Description?.trim() || "No Description";
       const applicationLinkValue = record["Application Link"]?.trim() || "";
+      const status = record.Status?.trim().toLowerCase() || "";
 
       // Skip records missing required fields (title and company are required)
       if (!title || !company) {
@@ -95,10 +79,18 @@ function importCsvToJson() {
         const missingFields: string[] = [];
         if (!title) missingFields.push("Job Title");
         if (!company) missingFields.push("Company");
-        
+
         console.error(
           `Invalid record at row ${index + 2} (CSV row ${index + 2}): Missing required fields: ${missingFields.join(", ")}`
         );
+        return null;
+      }
+
+      // Exclude records whose link checker result is definitively inactive.
+      // "active", "indeterminate", and blank (non-URL / plain-text
+      // instructions) all remain on the site.
+      if (status === "inactive") {
+        inactiveCount++;
         return null;
       }
 
@@ -130,6 +122,9 @@ function importCsvToJson() {
   if (invalidCount > 0) {
     console.log(`Skipped ${invalidCount} invalid record(s)`);
   }
+  if (inactiveCount > 0) {
+    console.log(`Excluded ${inactiveCount} inactive record(s)`);
+  }
 
   console.log("Writing jobs to JSON file...");
   writeFileSync(jsonPath, JSON.stringify(jobs, null, 2), "utf-8");
@@ -138,4 +133,3 @@ function importCsvToJson() {
 }
 
 importCsvToJson();
-

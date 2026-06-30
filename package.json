@@ -10,6 +10,7 @@
     "test": "vitest",
     "test:ui": "vitest --ui",
     "import-csv": "tsx scripts/import-csv.ts",
+    "check-links": "tsx scripts/check-links.ts",
     "fetch-csv": "curl -sL 'https://docs.google.com/spreadsheets/d/16sDYemc_Sn6gRM-cRiT1sEL1U-GJdhqcqmy_k5Z1M3Y/export?format=csv&gid=0' | tail -n +4 > slt-jobs.csv"
   },
   "dependencies": {
@@ -20,6 +21,7 @@
     "astro": "^5.16.2",
     "better-sqlite3": "^12.4.6",
     "csv-parse": "^6.1.0",
+    "csv-stringify": "^6.8.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0"
   },
@@ -34,5 +36,6 @@
     "prettier": "^3.7.1",
     "tsx": "^4.19.2",
     "vitest": "^4.0.14"
-  }
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
 }

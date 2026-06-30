@@ -68,7 +68,7 @@ jobs:
 
       - name: Create PR
         env:
-          GH_TOKEN: ${{ secrets.PAT_TOKEN }}
+          GH_TOKEN: ${{ github.token }}
         run: |
           BRANCH="update-jobs-$(date +%Y-%m-%d-%H%M)"
           git config user.name "github-actions[bot]"
